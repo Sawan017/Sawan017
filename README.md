@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- 1. Animated Hero Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,30:1C2541,70:1e3a8a,100:115e59&height=180&section=header&text=Sawan%20Sahani&fontSize=42&fontAlignY=38&desc=%40Sawan017&descAlignY=62&descSize=18&fontColor=67E8F9" width="100%" alt="Sawan Sahani Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1C2541,40:1E3A8A,75:2563EB,100:0891B2&height=180&section=header&text=Sawan%20Sahani&fontSize=42&fontAlignY=38&desc=%40Sawan017&descAlignY=62&descSize=18&fontColor=FFFFFF" width="100%" alt="Sawan Sahani Banner" />
 
   <!-- 2. Typing Animation -->
   <a href="https://github.com/Sawan017">
@@ -52,22 +52,32 @@
   <h3>📈 GitHub Statistics & Activity</h3>
 
   <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=Sawan017&show_icons=true&hide_border=true&bg_color=00000000&title_color=67E8F9&icon_color=2DD4BF&text_color=8B949E&ring_color=3B82F6" height="150" alt="GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Sawan017&show_icons=true&hide_border=true&bg_color=00000000&title_color=67E8F9&icon_color=3B82F6&text_color=8B949E&ring_color=A78BFA" height="150" alt="GitHub Stats" />
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sawan017&layout=compact&hide_border=true&bg_color=00000000&title_color=67E8F9&text_color=8B949E" height="150" alt="Top Languages" />
   </p>
   <p>
-    <img src="https://streak-stats.demolab.com?user=Sawan017&theme=transparent&hide_border=true&ring=3B82F6&fire=2DD4BF&currStreakLabel=67E8F9&sideLabels=8B949E&dates=8B949E" height="145" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com?user=Sawan017&theme=transparent&hide_border=true&ring=3B82F6&fire=67E8F9&currStreakLabel=67E8F9&sideLabels=8B949E&dates=8B949E" height="145" alt="GitHub Streak" />
   </p>
 
 </div>
 
 <hr />
 
-<!-- 6. 3D Contribution Graph -->
+<!-- 6. Contribution Visualizations: Snake & 3D Contribution Graph -->
 <div align="center">
 
-  <h3>🌐 3D Contribution Graph</h3>
+  <h3>🌐 Contribution Journey</h3>
 
+  <!-- Animated Contribution Snake -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sawan017/Sawan017/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sawan017/Sawan017/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/Sawan017/Sawan017/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
+
+  <br /><br />
+
+  <!-- 3D Contribution Graph -->
   <img src="./profile-3d-contrib/profile-night-green.svg" width="75%" alt="3D GitHub Contribution Graph" />
 
 </div>
@@ -78,8 +88,8 @@
 <div align="center">
 
   <p>
-    <sub>Designed with care • <a href="https://github.com/Sawan017">@Sawan017</a></sub>
+    <sub>Crafted with code & curiosity • <a href="https://github.com/Sawan017">@Sawan017</a></sub>
   </p>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,30:1C2541,70:1e3a8a,100:115e59&height=40&section=footer" width="100%" alt="Footer Wave" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1C2541,40:1E3A8A,75:2563EB,100:0891B2&height=40&section=footer" width="100%" alt="Footer Wave" />
 
 </div>
