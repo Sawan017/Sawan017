@@ -4,7 +4,7 @@
   <!-- 1. HERO BANNER & DEVELOPER IDENTITY        -->
   <!-- ========================================== -->
 
-  <img src="./assets/hero-banner.svg" width="100%" alt="Sawan Sahani - Developer Hero Banner" />
+  <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/main/assets/hero-banner.svg" width="100%" alt="Sawan Sahani - Full-Stack Developer &amp; CSE Student" />
 
   <br /><br />
 
@@ -15,20 +15,19 @@
 
   <br /><br />
 
-  <img src="./assets/divider.svg" width="100%" alt="divider" />
+  <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/main/assets/divider.svg" width="100%" alt="divider" />
 
-  <br />
+</div>
 
-  <!-- ========================================== -->
-  <!-- 2. ABOUT & ARCHITECTURAL VISION            -->
-  <!-- ========================================== -->
+<!-- ========================================== -->
+<!-- 2. ABOUT ME & TECHNICAL INTERESTS          -->
+<!-- ========================================== -->
 
-  <img src="./assets/header-about.svg" width="480" alt="About & Architectural Vision" />
+## ⚡ About Me
 
-  <br /><br />
+<div align="center">
 
-  <!-- Editorial Introduction Card -->
-  <img src="./assets/intro-card.svg" width="100%" alt="About Sawan Sahani - Overview & Core Competencies" />
+  <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/main/assets/intro-card.svg" width="100%" alt="About Sawan Sahani - Overview &amp; Core Competencies" />
 
   <br /><br />
 
@@ -65,24 +64,24 @@
 
   <br />
 
-  <img src="./assets/divider.svg" width="100%" alt="divider" />
+  <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/main/assets/divider.svg" width="100%" alt="divider" />
 
-  <br />
+</div>
 
-  <!-- ========================================== -->
-  <!-- 3. TECHNOLOGY STACK & SYSTEMS              -->
-  <!-- ========================================== -->
+<!-- ========================================== -->
+<!-- 3. TECHNOLOGY STACK                        -->
+<!-- ========================================== -->
 
-  <img src="./assets/header-stack.svg" width="480" alt="Technology Stack & Systems" />
+## 🛠️ Technology Stack
 
-  <br /><br />
+<div align="center">
 
   <!-- Handcrafted Full Stack Taxonomy Card -->
-  <img src="./assets/tech-stack.svg" width="100%" alt="Technology Stack Taxonomy" />
+  <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/main/assets/tech-stack.svg" width="100%" alt="Technology Stack Taxonomy" />
 
   <br /><br />
 
-  <!-- Recognized Ecosystem Badges -->
+  <!-- Recognizable Technology Icons -->
   <p>
     <img src="https://skillicons.dev/icons?i=cpp,ts,js,html,css,react,nextjs,tailwind,threejs,supabase,postgres,git,github,vscode,vite,linux&perline=8&theme=dark" alt="Skill Icons Grid" />
   </p>
@@ -92,24 +91,24 @@
 
   <br />
 
-  <img src="./assets/divider.svg" width="100%" alt="divider" />
+  <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/main/assets/divider.svg" width="100%" alt="divider" />
 
-  <br />
+</div>
 
-  <!-- ========================================== -->
-  <!-- 4. FEATURED PLATFORMS & PROJECTS           -->
-  <!-- ========================================== -->
+<!-- ========================================== -->
+<!-- 4. FEATURED PROJECTS                       -->
+<!-- ========================================== -->
 
-  <img src="./assets/header-projects.svg" width="480" alt="Featured Platforms & Projects" />
+## 📂 Featured Projects
 
-  <br /><br />
+<div align="center">
 
   <table align="center" width="100%">
     <tr>
       <!-- Project 1: ARINOVA -->
       <td width="50%" valign="top" align="center">
         <a href="https://github.com/Sawan017/CodeAscend">
-          <img src="./assets/project-arinova.svg" width="100%" alt="ARINOVA Flagship Project" />
+          <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/main/assets/project-arinova.svg" width="100%" alt="ARINOVA Flagship Project" />
         </a>
         <br />
         <p align="left">
@@ -124,7 +123,7 @@
       <!-- Project 2: SourCa -->
       <td width="50%" valign="top" align="center">
         <a href="https://github.com/Sawan017/SourCa">
-          <img src="./assets/project-sourca.svg" width="100%" alt="SourCa Project" />
+          <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/main/assets/project-sourca.svg" width="100%" alt="SourCa Project" />
         </a>
         <br />
         <p align="left">
@@ -141,7 +140,7 @@
       <!-- Project 3: CodeAscend -->
       <td width="50%" valign="top" align="center">
         <a href="https://github.com/Sawan017/CodeAscend">
-          <img src="./assets/project-codeascend.svg" width="100%" alt="CodeAscend Project" />
+          <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/main/assets/project-codeascend.svg" width="100%" alt="CodeAscend Project" />
         </a>
         <br />
         <p align="left">
@@ -156,7 +155,7 @@
       <!-- Project 4: LeetCode & Codeforces DSA -->
       <td width="50%" valign="top" align="center">
         <a href="https://github.com/Sawan017/leetcode-solutions">
-          <img src="./assets/project-dsa.svg" width="100%" alt="Algorithmic Solutions Project" />
+          <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/main/assets/project-dsa.svg" width="100%" alt="Algorithmic Solutions Project" />
         </a>
         <br />
         <p align="left">
@@ -173,19 +172,19 @@
 
   <br />
 
-  <img src="./assets/divider.svg" width="100%" alt="divider" />
+  <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/main/assets/divider.svg" width="100%" alt="divider" />
 
-  <br />
+</div>
 
-  <!-- ========================================== -->
-  <!-- 5. DEVELOPER JOURNEY & HORIZON             -->
-  <!-- ========================================== -->
+<!-- ========================================== -->
+<!-- 5. DEVELOPER JOURNEY & TRAJECTORY          -->
+<!-- ========================================== -->
 
-  <img src="./assets/header-journey.svg" width="480" alt="Developer Journey & Horizon" />
+## 🧭 Developer Journey & Trajectory
 
-  <br /><br />
+<div align="center">
 
-  <img src="./assets/journey-card.svg" width="100%" alt="Engineering Trajectory Roadmap" />
+  <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/main/assets/journey-card.svg" width="100%" alt="Engineering Trajectory Roadmap" />
 
   <br /><br />
 
@@ -212,17 +211,17 @@
 
   <br />
 
-  <img src="./assets/divider.svg" width="100%" alt="divider" />
+  <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/main/assets/divider.svg" width="100%" alt="divider" />
 
-  <br />
+</div>
 
-  <!-- ========================================== -->
-  <!-- 6. GITHUB METRICS & ACTIVITY               -->
-  <!-- ========================================== -->
+<!-- ========================================== -->
+<!-- 6. GITHUB STATISTICS & ACTIVITY            -->
+<!-- ========================================== -->
 
-  <img src="./assets/header-stats.svg" width="480" alt="GitHub Metrics & Activity" />
+## 📈 GitHub Statistics & Activity
 
-  <br /><br />
+<div align="center">
 
   <!-- Stats Cards Themed in Burgundy / Wine / Rose -->
   <p>
@@ -250,24 +249,24 @@
   <!-- 3D Contribution Graph -->
   <h4>🌐 Isometric Contribution Landscape</h4>
 
-  <img src="./profile-3d-contrib/profile-night-view.svg" width="85%" alt="3D GitHub Contribution Graph" />
+  <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/main/profile-3d-contrib/profile-night-view.svg" width="85%" alt="3D GitHub Contribution Graph" />
 
   <br /><br />
 
-  <img src="./assets/divider.svg" width="100%" alt="divider" />
+  <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/main/assets/divider.svg" width="100%" alt="divider" />
 
-  <br />
+</div>
 
-  <!-- ========================================== -->
-  <!-- 7. CONNECT & COLLABORATE                   -->
-  <!-- ========================================== -->
+<!-- ========================================== -->
+<!-- 7. CONNECT & COLLABORATE                   -->
+<!-- ========================================== -->
 
-  <img src="./assets/header-connect.svg" width="480" alt="Connect & Collaborate" />
+## 📫 Connect & Collaborate
 
-  <br /><br />
+<div align="center">
 
   <p>
-    I am always eager to collaborate on ambitious full-stack platforms, interactive web experiences, and algorithmic problem-solving.
+    I am always open to discussing new full-stack opportunities, scalable system architectures, interactive applications, and algorithmic problem-solving.
   </p>
 
   <p>
@@ -290,10 +289,7 @@
 
   <br /><br />
 
-  <!-- ========================================== -->
-  <!-- 8. REFINED EDITORIAL FOOTER                -->
-  <!-- ========================================== -->
-
-  <img src="./assets/footer.svg" width="100%" alt="Sawan Sahani Signature Footer" />
+  <!-- Refined Editorial Footer -->
+  <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/main/assets/footer.svg" width="100%" alt="Sawan Sahani Signature Footer" />
 
 </div>
