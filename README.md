@@ -4,7 +4,7 @@
   <!-- 1. ANIMATED HERO & IDENTITY                -->
   <!-- ========================================== -->
 
-  <img src="assets/hero.svg" width="100%" alt="Sawan Sahani - Developer Hero Graphic" />
+  ![Sawan Sahani - Developer Hero Graphic](./assets/hero.svg)
 
   <br /><br />
 
@@ -15,7 +15,7 @@
 
   <br /><br />
 
-  <img src="assets/divider.svg" width="100%" alt="Divider" />
+  ![Divider](./assets/divider.svg)
 
 </div>
 
@@ -26,7 +26,9 @@
 ## ⚡ About Me
 
 <div align="center">
-  <img src="assets/about-life.svg" width="100%" alt="Sawan Sahani - Background &amp; Core Disciplines" />
+
+  ![Sawan Sahani - Background & Core Disciplines](./assets/about-life.svg)
+
 </div>
 
 <br />
@@ -69,7 +71,9 @@
 <br />
 
 <div align="center">
-  <img src="assets/divider.svg" width="100%" alt="Divider" />
+
+  ![Divider](./assets/divider.svg)
+
 </div>
 
 <!-- ========================================== -->
@@ -80,7 +84,7 @@
 
 <div align="center">
 
-  <img src="assets/id-dashboard.svg" width="460" alt="Hanging Developer ID Badge - Sawan Sahani" />
+  <img src="./assets/id-dashboard.svg" width="460" alt="Hanging Developer ID Badge - Sawan Sahani" />
 
   <p>
     <sub><b>Credential Verification:</b> Active Contributor &bull; GitHub Identity <a href="https://github.com/Sawan017">@Sawan017</a> &bull; CSE Department</sub>
@@ -88,7 +92,7 @@
 
   <br />
 
-  <img src="assets/divider.svg" width="100%" alt="Divider" />
+  ![Divider](./assets/divider.svg)
 
 </div>
 
@@ -105,7 +109,7 @@
 <div align="center">
 
   <!-- Animated Three-Orbit Technology Graphic -->
-  <img src="assets/stack.svg" width="100%" alt="Three Orbital Technology System" />
+  ![Three Orbital Technology System](./assets/stack.svg)
 
   <br /><br />
 
@@ -116,7 +120,7 @@
 
   <br />
 
-  <img src="assets/divider.svg" width="100%" alt="Divider" />
+  ![Divider](./assets/divider.svg)
 
 </div>
 
@@ -133,7 +137,7 @@
 <div align="center">
 
   <!-- Featured Projects Visual Presentation -->
-  <img src="assets/connect.svg" width="100%" alt="Featured Projects Presentation" />
+  ![Featured Projects Presentation](./assets/connect.svg)
 
 </div>
 
@@ -144,7 +148,7 @@
     <!-- Project 1: ARINOVA -->
     <td width="50%" valign="top" align="center">
       <a href="https://github.com/Sawan017/CodeAscend">
-        <img src="assets/project-arinova.svg" width="100%" alt="ARINOVA Flagship Project" />
+        <img src="./assets/project-arinova.svg" width="100%" alt="ARINOVA Flagship Project" />
       </a>
       <br />
       <p align="left">
@@ -159,7 +163,7 @@
     <!-- Project 2: SourCa -->
     <td width="50%" valign="top" align="center">
       <a href="https://github.com/Sawan017/SourCa">
-        <img src="assets/project-sourca.svg" width="100%" alt="SourCa AI Assessment Engine" />
+        <img src="./assets/project-sourca.svg" width="100%" alt="SourCa AI Assessment Engine" />
       </a>
       <br />
       <p align="left">
@@ -176,7 +180,7 @@
     <!-- Project 3: CodeAscend -->
     <td width="50%" valign="top" align="center">
       <a href="https://github.com/Sawan017/CodeAscend">
-        <img src="assets/project-codeascend.svg" width="100%" alt="CodeAscend Progression Tracker" />
+        <img src="./assets/project-codeascend.svg" width="100%" alt="CodeAscend Progression Tracker" />
       </a>
       <br />
       <p align="left">
@@ -191,7 +195,7 @@
     <!-- Project 4: LeetCode & Codeforces DSA -->
     <td width="50%" valign="top" align="center">
       <a href="https://github.com/Sawan017/leetcode-solutions">
-        <img src="assets/project-dsa.svg" width="100%" alt="Algorithmic Solutions Project" />
+        <img src="./assets/project-dsa.svg" width="100%" alt="Algorithmic Solutions Project" />
       </a>
       <br />
       <p align="left">
@@ -209,7 +213,9 @@
 <br />
 
 <div align="center">
-  <img src="assets/divider.svg" width="100%" alt="Divider" />
+
+  ![Divider](./assets/divider.svg)
+
 </div>
 
 <!-- ========================================== -->
@@ -246,7 +252,9 @@
 <br />
 
 <div align="center">
-  <img src="assets/divider.svg" width="100%" alt="Divider" />
+
+  ![Divider](./assets/divider.svg)
+
 </div>
 
 <!-- ========================================== -->
@@ -283,11 +291,11 @@
   <!-- 3D Contribution Graph in Forest Green -->
   <h4>🌐 Isometric Contribution Landscape</h4>
 
-  <img src="profile-3d-contrib/profile-night-green.svg" width="85%" alt="3D GitHub Contribution Graph" />
+  <img src="./profile-3d-contrib/profile-night-green.svg" width="85%" alt="3D GitHub Contribution Graph" />
 
   <br /><br />
 
-  <img src="assets/divider.svg" width="100%" alt="Divider" />
+  ![Divider](./assets/divider.svg)
 
 </div>
 
@@ -323,7 +331,6 @@
 
   <br /><br />
 
-  <!-- Understated Minimal Footer -->
-  <img src="assets/footer.svg" width="100%" alt="Sawan Sahani Signature Footer" />
+  ![Sawan Sahani Signature Footer](./assets/footer.svg)
 
 </div>

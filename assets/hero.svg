@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360">
   <defs>
     <!-- Palettes -->
     <linearGradient id="heroGold" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -131,7 +131,7 @@
       <rect x="-210" y="0" width="420" height="30" rx="4" fill="#1B221E" stroke="#263C31" stroke-width="1" />
       <circle cx="-184" cy="15" r="3.5" fill="#B39A61" class="pulse-dot" />
       <text x="12" y="19" fill="#B39A61" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">
-        COMPUTER SCIENCE &amp; SYSTEMS &bull; DEVELOPER ARCHITECT
+        COMPUTER SCIENCE &amp; SYSTEMS • DEVELOPER ARCHITECT
       </text>
     </g>
 
@@ -145,7 +145,7 @@
     <!-- Handle & Location Metadata -->
     <g transform="translate(600, 164)">
       <text x="0" y="0" fill="#657052" font-family="'Fira Code', 'JetBrains Mono', Consolas, monospace" font-size="16" font-weight="600" letter-spacing="0.8">
-        @Sawan017 <tspan fill="#454C35">&bull;</tspan> <tspan fill="#9FA693">Full-Stack Engineer &amp; Algorithmic Specialist</tspan>
+        @Sawan017 <tspan fill="#454C35">•</tspan> <tspan fill="#9FA693">Full-Stack Engineer &amp; Algorithmic Specialist</tspan>
       </text>
     </g>
 
@@ -185,21 +185,21 @@
       <g transform="translate(-290, 0)">
         <rect x="-130" y="0" width="260" height="38" rx="4" fill="#1A211D" stroke="#263C31" stroke-width="1" />
         <text x="0" y="18" fill="#E5E0D4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700">⚡ Modern Web Ecosystem</text>
-        <text x="0" y="30" fill="#9FA693" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5">Next.js 16 &bull; TypeScript &bull; Supabase</text>
+        <text x="0" y="30" fill="#9FA693" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5">Next.js 16 • TypeScript • Supabase</text>
       </g>
 
       <!-- Pillar 2 -->
       <g transform="translate(0, 0)">
         <rect x="-130" y="0" width="260" height="38" rx="4" fill="#1A211D" stroke="#657052" stroke-width="1" />
         <text x="0" y="18" fill="#B39A61" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700">⚔️ Algorithmic Rigor</text>
-        <text x="0" y="30" fill="#9FA693" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5">C++20 &bull; DSA &bull; LeetCode &amp; Codeforces</text>
+        <text x="0" y="30" fill="#9FA693" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5">C++20 • DSA • LeetCode &amp; Codeforces</text>
       </g>
 
       <!-- Pillar 3 -->
       <g transform="translate(290, 0)">
         <rect x="-130" y="0" width="260" height="38" rx="4" fill="#1A211D" stroke="#263C31" stroke-width="1" />
         <text x="0" y="18" fill="#E5E0D4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700">🎮 Interactive 3D Systems</text>
-        <text x="0" y="30" fill="#9FA693" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5">Three.js / R3F &bull; Monaco Editor</text>
+        <text x="0" y="30" fill="#9FA693" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5">Three.js / R3F • Monaco Editor</text>
       </g>
     </g>
 
