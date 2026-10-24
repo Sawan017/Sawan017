@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 24" width="1200" height="24">
   <defs>
-    <linearGradient id="divGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#24382F" stop-opacity="0" />
-      <stop offset="30%" stop-color="#24382F" stop-opacity="0.6" />
-      <stop offset="48%" stop-color="#454C35" stop-opacity="0.9" />
-      <stop offset="50%" stop-color="#829078" stop-opacity="1" />
-      <stop offset="52%" stop-color="#454C35" stop-opacity="0.9" />
-      <stop offset="70%" stop-color="#24382F" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#24382F" stop-opacity="0" />
+    <linearGradient id="sapphireDiv" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#142441" stop-opacity="0" />
+      <stop offset="30%" stop-color="#1B3155" stop-opacity="0.7" />
+      <stop offset="48%" stop-color="#4169C1" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#6289E8" stop-opacity="1" />
+      <stop offset="52%" stop-color="#4169C1" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#1B3155" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#142441" stop-opacity="0" />
     </linearGradient>
   </defs>
 
-  <line x1="80" y1="12" x2="1120" y2="12" stroke="url(#divGrad)" stroke-width="1" />
+  <line x1="80" y1="12" x2="1120" y2="12" stroke="url(#sapphireDiv)" stroke-width="1.2" />
 
   <g transform="translate(600, 12)">
-    <polygon points="0,-6 6,0 0,6 -6,0" fill="#1C201E" stroke="#69735A" stroke-width="1" />
-    <circle cx="0" cy="0" r="1.8" fill="#829078" />
-    <circle cx="-18" cy="0" r="1.2" fill="#454C35" />
-    <circle cx="18" cy="0" r="1.2" fill="#454C35" />
+    <polygon points="0,-6 6,0 0,6 -6,0" fill="#142441" stroke="#4169C1" stroke-width="1" />
+    <circle cx="0" cy="0" r="1.8" fill="#6289E8" />
+    <circle cx="-18" cy="0" r="1.2" fill="#30486D" />
+    <circle cx="18" cy="0" r="1.2" fill="#30486D" />
   </g>
 </svg>

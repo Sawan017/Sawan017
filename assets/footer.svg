@@ -1,27 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 64" width="1200" height="64">
   <defs>
     <linearGradient id="footerLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#24382F" stop-opacity="0" />
-      <stop offset="30%" stop-color="#24382F" stop-opacity="0.8" />
-      <stop offset="50%" stop-color="#69735A" stop-opacity="1" />
-      <stop offset="70%" stop-color="#24382F" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#24382F" stop-opacity="0" />
+      <stop offset="0%" stop-color="#142441" stop-opacity="0" />
+      <stop offset="30%" stop-color="#30486D" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#6289E8" stop-opacity="1" />
+      <stop offset="70%" stop-color="#30486D" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#142441" stop-opacity="0" />
     </linearGradient>
   </defs>
 
   <!-- Top Accent Line -->
-  <line x1="80" y1="1" x2="1120" y2="1" stroke="url(#footerLine)" stroke-width="1" />
+  <line x1="80" y1="1" x2="1120" y2="1" stroke="url(#footerLine)" stroke-width="1.2" />
 
-  <!-- Charcoal Base -->
-  <rect width="1200" height="63" y="1" fill="#171A18" />
+  <!-- Deep Midnight Blue Base (#101B35) -->
+  <rect width="1200" height="63" y="1" fill="#101B35" />
 
   <!-- Central Editorial Text -->
   <g text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
-    <text x="600" y="30" fill="#C5C5BA" font-size="12.5" font-weight="500" letter-spacing="0.3">
-      Engineered with clean architecture &amp; systems discipline • <tspan fill="#EDECE6" font-weight="700">Sawan Sahani</tspan> (<tspan fill="#829078" font-family="'Fira Code', monospace">@Sawan017</tspan>)
+    <text x="600" y="30" fill="#AAB8CE" font-size="12.5" font-weight="500" letter-spacing="0.3">
+      Engineered with clean architecture &amp; systems discipline • <tspan fill="#DCE4F0" font-weight="700">Sawan Sahani</tspan> (<tspan fill="#6289E8" font-family="'Fira Code', monospace">@Sawan017</tspan>)
     </text>
-    <text x="600" y="48" fill="#69735A" font-size="10.5" font-weight="400" letter-spacing="0.4">
-      CSE Student • Full-Stack Systems • Algorithmic Problem Solving
+    <text x="600" y="48" fill="#6289E8" font-size="10.5" font-weight="500" letter-spacing="0.4">
+      CSE Undergraduate • Full-Stack Systems • Algorithmic Problem Solving
     </text>
   </g>
 </svg>

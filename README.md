@@ -1,16 +1,16 @@
 <div align="center">
 
   <!-- ========================================== -->
-  <!-- 1. ANIMATED HERO & IDENTITY                -->
+  <!-- 1. ANIMATED HERO & IDENTITY (ROYAL SAPPHIRE)-->
   <!-- ========================================== -->
 
   ![Sawan Sahani - Developer Hero Graphic](./assets/hero.svg)
 
   <br /><br />
 
-  <!-- Animated Typing Subtitle -->
+  <!-- Animated Typing Subtitle (Sapphire #6289E8) -->
   <a href="https://github.com/Sawan017">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=1000&color=B39A61&center=true&vCenter=true&width=540&height=35&lines=Computer+Science+Student;Full-Stack+Systems+Developer;Mastering+Data+Structures+%26+Algorithms+in+C%2B%2B;Architecting+ARINOVA+%26+SourCa" alt="Typing Animation - Sawan Sahani" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=1000&color=6289E8&center=true&vCenter=true&width=540&height=35&lines=Computer+Science+Student;Full-Stack+Systems+Developer;Mastering+Data+Structures+%26+Algorithms+in+C%2B%2B;Architecting+ARINOVA+%26+SourCa" alt="Typing Animation - Sawan Sahani" />
   </a>
 
   <br /><br />
@@ -108,7 +108,7 @@
 
 <div align="center">
 
-  <!-- Animated Three-Orbit Technology Graphic -->
+  <!-- Animated Three-Orbit Technology Graphic (Sapphire Orbitals) -->
   ![Three Orbital Technology System](./assets/stack.svg)
 
   <br /><br />
@@ -136,7 +136,7 @@
 
 <div align="center">
 
-  <!-- Featured Projects Visual Presentation -->
+  <!-- Featured Projects Visual Presentation (Royal Sapphire Showcase) -->
   ![Featured Projects Presentation](./assets/connect.svg)
 
 </div>
@@ -265,19 +265,19 @@
 
 <div align="center">
 
-  <!-- Graphite & Antique Gold Themed Stats Cards -->
+  <!-- Royal Sapphire Themed Stats Cards -->
   <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=Sawan017&show_icons=true&hide_border=false&border_color=263C31&bg_color=171B19&title_color=E5E0D4&icon_color=B39A61&text_color=C5C5BA&ring_color=657052" height="155" alt="Sawan Sahani GitHub Stats" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sawan017&layout=compact&hide_border=false&border_color=263C31&bg_color=171B19&title_color=E5E0D4&text_color=C5C5BA" height="155" alt="Top Languages" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Sawan017&show_icons=true&hide_border=false&border_color=30486D&bg_color=101B35&title_color=DCE4F0&icon_color=6289E8&text_color=AAB8CE&ring_color=4169C1" height="155" alt="Sawan Sahani GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sawan017&layout=compact&hide_border=false&border_color=30486D&bg_color=101B35&title_color=DCE4F0&text_color=AAB8CE" height="155" alt="Top Languages" />
   </p>
 
   <p>
-    <img src="https://streak-stats.demolab.com?user=Sawan017&theme=transparent&hide_border=false&border=263C31&background=171B19&ring=657052&fire=B39A61&currStreakLabel=E5E0D4&sideLabels=C5C5BA&dates=B39A61" height="150" alt="GitHub Streak Stats" />
+    <img src="https://streak-stats.demolab.com?user=Sawan017&theme=transparent&hide_border=false&border=30486D&background=101B35&ring=4169C1&fire=6289E8&currStreakLabel=DCE4F0&sideLabels=AAB8CE&dates=6289E8" height="150" alt="GitHub Streak Stats" />
   </p>
 
   <br />
 
-  <!-- Contribution Snake -->
+  <!-- Contribution Snake in Royal Sapphire Palette -->
   <h4>🐍 Contribution Velocity</h4>
 
   <picture>
@@ -288,7 +288,7 @@
 
   <br /><br />
 
-  <!-- 3D Contribution Graph in Forest Green -->
+  <!-- 3D Contribution Graph -->
   <h4>🌐 Isometric Contribution Landscape</h4>
 
   <img src="./profile-3d-contrib/profile-night-green.svg" width="85%" alt="3D GitHub Contribution Graph" />
@@ -311,21 +311,22 @@
     I am always open to discussing full-stack engineering opportunities, scalable system architectures, interactive applications, and algorithmic challenges.
   </p>
 
+  <!-- Royal Sapphire Badges -->
   <p>
     <a href="https://github.com/Sawan017">
-      <img src="https://img.shields.io/badge/GitHub-@Sawan017-263C31?style=for-the-badge&logo=github&logoColor=E5E0D4" alt="GitHub Profile" />
+      <img src="https://img.shields.io/badge/GitHub-@Sawan017-1B3155?style=for-the-badge&logo=github&logoColor=DCE4F0" alt="GitHub Profile" />
     </a>
     &nbsp;
     <a href="mailto:sunnysahny@gmail.com">
-      <img src="https://img.shields.io/badge/Email-Get_In_Touch-354A3E?style=for-the-badge&logo=gmail&logoColor=E5E0D4" alt="Email Sawan" />
+      <img src="https://img.shields.io/badge/Email-Get_In_Touch-223B63?style=for-the-badge&logo=gmail&logoColor=DCE4F0" alt="Email Sawan" />
     </a>
     &nbsp;
     <a href="https://leetcode.com/u/Sawan017/">
-      <img src="https://img.shields.io/badge/LeetCode-Solutions-454C35?style=for-the-badge&logo=leetcode&logoColor=E5E0D4" alt="LeetCode Profile" />
+      <img src="https://img.shields.io/badge/LeetCode-Solutions-142441?style=for-the-badge&logo=leetcode&logoColor=6289E8" alt="LeetCode Profile" />
     </a>
     &nbsp;
     <a href="https://codeforces.com/profile/Sawan017">
-      <img src="https://img.shields.io/badge/Codeforces-Contests-657052?style=for-the-badge&logo=codeforces&logoColor=E5E0D4" alt="Codeforces Profile" />
+      <img src="https://img.shields.io/badge/Codeforces-Contests-30486D?style=for-the-badge&logo=codeforces&logoColor=DCE4F0" alt="Codeforces Profile" />
     </a>
   </p>
 

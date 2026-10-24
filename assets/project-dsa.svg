@@ -1,79 +1,77 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 280" width="580" height="280">
-  <!-- Card Background -->
-  <rect width="580" height="280" fill="#171A18" />
-  <rect width="580" height="280" fill="#1C201E" opacity="0.6" />
-  <rect x="0.5" y="0.5" width="579" height="279" fill="none" stroke="#2C332D" stroke-width="1" />
+  <!-- Deep Midnight Blue Card Background (#101B35 / #142441) -->
+  <rect width="580" height="280" fill="#101B35" />
+  <rect width="580" height="280" fill="#142441" opacity="0.75" />
+  <rect x="0.5" y="0.5" width="579" height="279" fill="none" stroke="#30486D" stroke-width="1.2" rx="6" />
 
-  <!-- Top Accent Bar -->
-  <rect x="0" y="0" width="580" height="2" fill="#24382F" />
-  <rect x="0" y="0" width="140" height="2" fill="#69735A" />
+  <!-- Top Accent Bar (Sapphire Gradient) -->
+  <rect x="0" y="0" width="580" height="3" fill="#1B3155" />
+  <rect x="0" y="0" width="160" height="3" fill="#6289E8" />
 
   <!-- Top Badge -->
   <g transform="translate(24, 22)">
-    <rect width="210" height="22" rx="4" fill="#24382F" stroke="#37453C" stroke-width="1" />
-    <circle cx="12" cy="11" r="3" fill="#829078" />
-    <text x="22" y="15" fill="#C5C5BA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" letter-spacing="1">COMPETITIVE CODING • DSA</text>
+    <rect width="210" height="22" rx="4" fill="#1B3155" stroke="#4169C1" stroke-width="0.8" />
+    <circle cx="12" cy="11" r="3" fill="#6289E8" />
+    <text x="22" y="15" fill="#DCE4F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" letter-spacing="1">C++20 • ALGORITHMS &amp; CP</text>
   </g>
 
-  <!-- Right Geometric Conceptual Illustration: Binary Search Tree / Graph -->
-  <g transform="translate(485, 75)" opacity="0.65">
-    <circle cx="0" cy="-24" r="7" fill="#1C201E" stroke="#829078" stroke-width="1.2" />
-    <text x="0" y="-21" fill="#EDECE6" font-family="'Fira Code', monospace" font-size="7.5" font-weight="700" text-anchor="middle">R</text>
-
-    <line x1="-5" y1="-17" x2="-20" y2="2" stroke="#454C35" stroke-width="1" />
-    <line x1="5" y1="-17" x2="20" y2="2" stroke="#454C35" stroke-width="1" />
-    <line x1="-22" y1="8" x2="-32" y2="22" stroke="#24382F" stroke-width="0.8" />
-    <line x1="-18" y1="8" x2="-8" y2="22" stroke="#24382F" stroke-width="0.8" />
-    <line x1="20" y1="8" x2="30" y2="22" stroke="#24382F" stroke-width="0.8" />
-
-    <circle cx="-20" cy="4" r="6" fill="#1C201E" stroke="#69735A" stroke-width="1" />
-    <circle cx="20" cy="4" r="6" fill="#1C201E" stroke="#69735A" stroke-width="1" />
-    <circle cx="-32" cy="22" r="4.5" fill="#1C201E" stroke="#454C35" stroke-width="0.8" />
-    <circle cx="-8" cy="22" r="4.5" fill="#1C201E" stroke="#454C35" stroke-width="0.8" />
-    <circle cx="30" cy="22" r="4.5" fill="#1C201E" stroke="#454C35" stroke-width="0.8" />
+  <!-- Right Geometric Conceptual Illustration: Binary Search Tree / Graph Graph -->
+  <g transform="translate(485, 75)" opacity="0.75">
+    <ellipse cx="0" cy="0" rx="55" ry="22" fill="none" stroke="#30486D" stroke-width="1" stroke-dasharray="3 3" />
+    <!-- Root Node -->
+    <circle cx="0" cy="-20" r="7" fill="#223B63" stroke="#6289E8" stroke-width="1.2" />
+    <!-- Left Child -->
+    <circle cx="-24" cy="4" r="6" fill="#1B3155" stroke="#4169C1" stroke-width="1.2" />
+    <!-- Right Child -->
+    <circle cx="24" cy="4" r="6" fill="#1B3155" stroke="#4169C1" stroke-width="1.2" />
+    <!-- Sub-child -->
+    <circle cx="-12" cy="24" r="5" fill="#101B35" stroke="#6289E8" stroke-width="1" />
+    <!-- Tree Branches -->
+    <line x1="0" y1="-20" x2="-24" y2="4" stroke="#6289E8" stroke-width="1.2" />
+    <line x1="0" y1="-20" x2="24" y2="4" stroke="#6289E8" stroke-width="1.2" />
+    <line x1="-24" y1="4" x2="-12" y2="24" stroke="#4169C1" stroke-width="1" />
+    <circle cx="0" cy="-20" r="2.5" fill="#DCE4F0" />
+    <circle cx="36" cy="-14" r="2" fill="#6289E8" />
   </g>
 
-  <!-- Title -->
-  <text x="24" y="78" fill="#EDECE6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="23" font-weight="800" letter-spacing="-0.3">
+  <!-- Title (Silver #DCE4F0) -->
+  <text x="24" y="78" fill="#DCE4F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="800" letter-spacing="-0.3">
     Algorithmic Solutions
   </text>
-  <text x="280" y="78" fill="#829078" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">
-    LeetCode &amp; Codeforces
+  <text x="285" y="78" fill="#6289E8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">
+    Competitive Programming in C++20
   </text>
 
-  <!-- Description -->
-  <text x="24" y="108" fill="#C5C5BA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">
-    <tspan x="24" dy="0">Structured, tested solutions in modern C++ spanning dynamic</tspan>
-    <tspan x="24" dy="18">programming, graph theory, trees, binary search, and mathematical</tspan>
-    <tspan x="24" dy="18">modeling with strict focus on runtime and memory optimization.</tspan>
+  <!-- Description (Secondary #AAB8CE) -->
+  <text x="24" y="108" fill="#AAB8CE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" line-height="18">
+    <tspan x="24" dy="0">Structured, tested solutions in modern C++20 spanning dynamic programming,</tspan>
+    <tspan x="24" dy="18">graph theory, trees, binary search, and mathematical modeling with</tspan>
+    <tspan x="24" dy="18">strict focus on asymptotic runtime and memory optimization.</tspan>
   </text>
 
-  <!-- Feature Strip -->
+  <!-- Feature Strip (#1B3155) -->
   <g transform="translate(24, 170)">
-    <rect width="532" height="32" rx="4" fill="#151816" stroke="#262D27" stroke-width="0.8" />
-    <text x="14" y="20" fill="#829078" font-family="'Fira Code', Consolas, monospace" font-size="10.5" font-weight="600">
-      ANALYTICS: Complexity: O(N log N) • Space: O(1) • C++20 Standard
+    <rect width="532" height="32" rx="4" fill="#1B3155" stroke="#30486D" stroke-width="0.8" />
+    <text x="14" y="20" fill="#6289E8" font-family="'Fira Code', Consolas, monospace" font-size="10.5" font-weight="600">
+      CORE: DP State Optimizations • Graph Traversal • Asymptotic Complexity
     </text>
   </g>
 
   <!-- Stack Pills Bar -->
   <g transform="translate(24, 222)">
-    <rect x="0" y="0" width="76" height="24" rx="4" fill="#1C211E" stroke="#2C352F" stroke-width="0.8" />
-    <text x="38" y="16" fill="#C5C5BA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">C++20</text>
+    <rect x="0" y="0" width="70" height="24" rx="4" fill="#223B63" stroke="#4169C1" stroke-width="0.8" />
+    <text x="35" y="16" fill="#6289E8" font-family="'Fira Code', monospace" font-size="10.5" font-weight="700" text-anchor="middle">C++20</text>
 
-    <rect x="84" y="0" width="102" height="24" rx="4" fill="#1C211E" stroke="#2C352F" stroke-width="0.8" />
-    <text x="135" y="16" fill="#C5C5BA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Data Structures</text>
+    <rect x="78" y="0" width="115" height="24" rx="4" fill="#1B3155" stroke="#30486D" stroke-width="0.8" />
+    <text x="135" y="16" fill="#DCE4F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Data Structures</text>
 
-    <rect x="194" y="0" width="100" height="24" rx="4" fill="#1C211E" stroke="#2C352F" stroke-width="0.8" />
-    <text x="244" y="16" fill="#C5C5BA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Dynamic Prog</text>
+    <rect x="201" y="0" width="85" height="24" rx="4" fill="#1B3155" stroke="#30486D" stroke-width="0.8" />
+    <text x="243" y="16" fill="#DCE4F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Algorithms</text>
 
-    <rect x="302" y="0" width="94" height="24" rx="4" fill="#1C211E" stroke="#2C352F" stroke-width="0.8" />
-    <text x="349" y="16" fill="#C5C5BA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Graph Theory</text>
+    <rect x="294" y="0" width="75" height="24" rx="4" fill="#1B3155" stroke="#30486D" stroke-width="0.8" />
+    <text x="331" y="16" fill="#DCE4F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">LeetCode</text>
 
-    <rect x="404" y="0" width="70" height="24" rx="4" fill="#1C211E" stroke="#2C352F" stroke-width="0.8" />
-    <text x="439" y="16" fill="#C5C5BA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">C++ STL</text>
-
-    <rect x="482" y="0" width="76" height="24" rx="4" fill="#1C211E" stroke="#2C352F" stroke-width="0.8" />
-    <text x="520" y="16" fill="#C5C5BA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Math/Logic</text>
+    <rect x="377" y="0" width="85" height="24" rx="4" fill="#1B3155" stroke="#30486D" stroke-width="0.8" />
+    <text x="419" y="16" fill="#DCE4F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Codeforces</text>
   </g>
 </svg>
