@@ -1,29 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 36" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 24" width="100%" height="auto">
   <defs>
-    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#73183B" stop-opacity="0" />
-      <stop offset="25%" stop-color="#73183B" stop-opacity="0.3" />
-      <stop offset="45%" stop-color="#B82E64" stop-opacity="0.8" />
-      <stop offset="50%" stop-color="#ECA8BC" stop-opacity="1" />
-      <stop offset="55%" stop-color="#B82E64" stop-opacity="0.8" />
-      <stop offset="75%" stop-color="#73183B" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#73183B" stop-opacity="0" />
+    <linearGradient id="divGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#24382F" stop-opacity="0" />
+      <stop offset="30%" stop-color="#24382F" stop-opacity="0.6" />
+      <stop offset="48%" stop-color="#454C35" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#829078" stop-opacity="1" />
+      <stop offset="52%" stop-color="#454C35" stop-opacity="0.9" />
+      <stop offset="70%" stop-color="#24382F" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#24382F" stop-opacity="0" />
     </linearGradient>
   </defs>
 
-  <!-- Horizontal Glow Line -->
-  <line x1="100" y1="18" x2="1100" y2="18" stroke="url(#dividerGrad)" stroke-width="1.2" />
+  <line x1="80" y1="12" x2="1120" y2="12" stroke="url(#divGrad)" stroke-width="1" />
 
-  <!-- Center Jewel Motif -->
-  <g transform="translate(600, 18)">
-    <!-- Outer diamond -->
-    <polygon points="0,-9 9,0 0,9 -9,0" fill="#240B19" stroke="#B82E64" stroke-width="1.2" />
-    <!-- Inner diamond -->
-    <polygon points="0,-4.5 4.5,0 0,4.5 -4.5,0" fill="#ECA8BC" />
-    <!-- Flanking beads -->
-    <circle cx="-22" cy="0" r="2" fill="#B82E64" opacity="0.8" />
-    <circle cx="22" cy="0" r="2" fill="#B82E64" opacity="0.8" />
-    <circle cx="-38" cy="0" r="1.2" fill="#73183B" opacity="0.6" />
-    <circle cx="38" cy="0" r="1.2" fill="#73183B" opacity="0.6" />
+  <g transform="translate(600, 12)">
+    <polygon points="0,-6 6,0 0,6 -6,0" fill="#1C201E" stroke="#69735A" stroke-width="1" />
+    <circle cx="0" cy="0" r="1.8" fill="#829078" />
+    <circle cx="-18" cy="0" r="1.2" fill="#454C35" />
+    <circle cx="18" cy="0" r="1.2" fill="#454C35" />
   </g>
 </svg>
