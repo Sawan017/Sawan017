@@ -1,26 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 70" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="100%" height="auto">
   <defs>
-    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0B1220" />
-      <stop offset="50%" stop-color="#111C2E" />
-      <stop offset="100%" stop-color="#17263B" />
+    <linearGradient id="footerBgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#12040B" />
+      <stop offset="35%" stop-color="#1E0715" />
+      <stop offset="65%" stop-color="#240B1A" />
+      <stop offset="100%" stop-color="#12040B" />
     </linearGradient>
-    <linearGradient id="footerAccent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#3B82F6" />
-      <stop offset="50%" stop-color="#22C55E" />
-      <stop offset="100%" stop-color="#6EE7B7" />
+
+    <linearGradient id="footerJewel" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#73183B" stop-opacity="0" />
+      <stop offset="25%" stop-color="#B82E64" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#ECA8BC" stop-opacity="1" />
+      <stop offset="75%" stop-color="#B82E64" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#73183B" stop-opacity="0" />
     </linearGradient>
   </defs>
 
-  <rect width="1200" height="2" y="0" fill="url(#footerAccent)" opacity="0.8" />
-  <rect width="1200" height="68" y="2" fill="url(#footerBg)" />
+  <!-- Top Jewel Accent Line -->
+  <rect width="1200" height="2" y="0" fill="url(#footerJewel)" />
 
+  <!-- Background Base -->
+  <rect width="1200" height="88" y="2" fill="url(#footerBgGrad)" />
+
+  <!-- Flanking subtle lines -->
+  <line x1="120" y1="46" x2="380" y2="46" stroke="#451429" stroke-width="0.8" opacity="0.6" />
+  <line x1="820" y1="46" x2="1080" y2="46" stroke="#451429" stroke-width="0.8" opacity="0.6" />
+
+  <polygon points="400,46 405,43 410,46 405,49" fill="#B82E64" opacity="0.7" />
+  <polygon points="790,46 795,43 800,46 795,49" fill="#B82E64" opacity="0.7" />
+
+  <!-- Central Editorial Text -->
   <g text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">
-    <text x="600" y="36" fill="#94A3B8" font-size="13" font-weight="500">
-      Engineered with clean code &amp; curiosity &bull; Sawan Sahani (<tspan fill="#6EE7B7">@Sawan017</tspan>)
+    <text x="600" y="42" fill="#F2D8E1" font-size="13" font-weight="600" letter-spacing="0.3">
+      Engineered with intentionality, clean architecture &amp; algorithmic precision &bull; <tspan fill="#ECA8BC" font-weight="700">Sawan Sahani</tspan> (<tspan fill="#E8C58D" font-family="'Fira Code', monospace">@Sawan017</tspan>)
     </text>
-    <text x="600" y="54" fill="#64748B" font-size="11" font-weight="400">
-      CSE Student &bull; Full-Stack Development &bull; Algorithmic Problem Solving
+    <text x="600" y="65" fill="#A87A8F" font-size="11" font-weight="400" letter-spacing="0.5">
+      CSE Student &bull; Full-Stack Systems &bull; Algorithmic Problem Solving
     </text>
   </g>
 </svg>

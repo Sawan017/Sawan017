@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 300" width="100%" height="auto">
+  <defs>
+    <linearGradient id="dsaCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#190612" />
+      <stop offset="60%" stop-color="#240B1A" />
+      <stop offset="100%" stop-color="#13040E" />
+    </linearGradient>
+
+    <linearGradient id="dsaGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B82E64" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#7E1944" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="dsaBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5A132C" />
+      <stop offset="50%" stop-color="#B82E64" />
+      <stop offset="100%" stop-color="#ECA8BC" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card Base -->
+  <rect width="580" height="300" rx="14" fill="url(#dsaCardBg)" stroke="#4A142D" stroke-width="1.2" />
+  <rect width="580" height="300" rx="14" fill="url(#dsaGlow)" />
+
+  <!-- Top Right Conceptual Art: Binary Tree / Graph Nodes with Edges -->
+  <g transform="translate(470, 75)">
+    <!-- Root -->
+    <circle cx="0" cy="-28" r="9" fill="#320E22" stroke="#ECA8BC" stroke-width="1.5" />
+    <text x="0" y="-24" fill="#FFF7F9" font-family="'Fira Code', monospace" font-size="9" font-weight="700" text-anchor="middle">R</text>
+
+    <!-- Edges -->
+    <line x1="-5" y1="-20" x2="-22" y2="4" stroke="#7E1944" stroke-width="1.2" />
+    <line x1="5" y1="-20" x2="22" y2="4" stroke="#7E1944" stroke-width="1.2" />
+    <line x1="-25" y1="12" x2="-35" y2="28" stroke="#5A132C" stroke-width="1" />
+    <line x1="-18" y1="12" x2="-8" y2="28" stroke="#5A132C" stroke-width="1" />
+    <line x1="22" y1="12" x2="32" y2="28" stroke="#5A132C" stroke-width="1" />
+
+    <!-- Children -->
+    <circle cx="-22" cy="6" r="7" fill="#240B19" stroke="#B82E64" stroke-width="1.2" />
+    <circle cx="22" cy="6" r="7" fill="#240B19" stroke="#B82E64" stroke-width="1.2" />
+    <circle cx="-35" cy="28" r="5" fill="#1C0614" stroke="#7E1944" stroke-width="1" />
+    <circle cx="-8" cy="28" r="5" fill="#1C0614" stroke="#7E1944" stroke-width="1" />
+    <circle cx="32" cy="28" r="5" fill="#1C0614" stroke="#7E1944" stroke-width="1" />
+  </g>
+
+  <!-- Top Header Pill -->
+  <g transform="translate(24, 24)">
+    <rect width="206" height="22" rx="11" fill="#340E24" stroke="#68193D" stroke-width="1" />
+    <circle cx="12" cy="11" r="3.5" fill="#ECA8BC" />
+    <text x="24" y="15" fill="#ECA8BC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="800" letter-spacing="1">COMPETITIVE CODING &bull; DSA</text>
+  </g>
+
+  <!-- Title -->
+  <text x="24" y="82" fill="#FFF7F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Playfair Display', serif" font-size="25" font-weight="800" letter-spacing="-0.3">
+    Algorithmic Solutions
+  </text>
+  <text x="290" y="82" fill="#D96B8A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">
+    LeetCode &amp; Codeforces
+  </text>
+
+  <!-- Description -->
+  <text x="24" y="112" fill="#DDBCC9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">
+    <tspan x="24" dy="0">Structured, tested solutions in modern C++ spanning complex data</tspan>
+    <tspan x="24" dy="19">structures, graph theory, dynamic programming paradigms, and</tspan>
+    <tspan x="24" dy="19">mathematical optimizations with runtime/memory efficiency analysis.</tspan>
+  </text>
+
+  <!-- Conceptual Metric Strip -->
+  <g transform="translate(24, 180)">
+    <rect width="532" height="38" rx="8" fill="#180512" stroke="#401228" stroke-width="1" />
+    <text x="14" y="24" fill="#ECA8BC" font-family="'Fira Code', Consolas, monospace" font-size="11" font-weight="600">Complexity: O(N log N) &bull; Space: O(1)</text>
+    <rect x="296" y="8" width="112" height="22" rx="4" fill="#2C0A1E" stroke="#5A1633" stroke-width="0.8" />
+    <text x="352" y="22" fill="#FFF7F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" text-anchor="middle">LEETCODE DSA</text>
+    <rect x="415" y="8" width="105" height="22" rx="4" fill="#2C0A1E" stroke="#5A1633" stroke-width="0.8" />
+    <text x="467" y="22" fill="#FFF7F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" text-anchor="middle">CODEFORCES</text>
+  </g>
+
+  <!-- Stack Pills Bar -->
+  <g transform="translate(24, 236)">
+    <rect x="0" y="0" width="76" height="24" rx="12" fill="#290B1E" stroke="#4A142D" stroke-width="0.8" />
+    <text x="38" y="16" fill="#F2D8E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">C++20</text>
+
+    <rect x="82" y="0" width="100" height="24" rx="12" fill="#290B1E" stroke="#4A142D" stroke-width="0.8" />
+    <text x="132" y="16" fill="#F2D8E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Data Structures</text>
+
+    <rect x="188" y="0" width="100" height="24" rx="12" fill="#290B1E" stroke="#4A142D" stroke-width="0.8" />
+    <text x="238" y="16" fill="#F2D8E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Dynamic Prog</text>
+
+    <rect x="294" y="0" width="86" height="24" rx="12" fill="#290B1E" stroke="#4A142D" stroke-width="0.8" />
+    <text x="337" y="16" fill="#F2D8E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Graph Theory</text>
+
+    <rect x="386" y="0" width="70" height="24" rx="12" fill="#290B1E" stroke="#4A142D" stroke-width="0.8" />
+    <text x="421" y="16" fill="#F2D8E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">C++ STL</text>
+
+    <rect x="462" y="0" width="72" height="24" rx="12" fill="#290B1E" stroke="#4A142D" stroke-width="0.8" />
+    <text x="498" y="16" fill="#F2D8E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Math/Logic</text>
+  </g>
+
+  <!-- Bottom Accent Highlight -->
+  <rect x="0" y="297" width="580" height="3" rx="1.5" fill="url(#dsaBar)" />
+</svg>

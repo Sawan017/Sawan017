@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 300" width="100%" height="auto">
+  <defs>
+    <linearGradient id="codeascendCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#190612" />
+      <stop offset="60%" stop-color="#240B1A" />
+      <stop offset="100%" stop-color="#13040E" />
+    </linearGradient>
+
+    <linearGradient id="codeascendGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B82E64" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#7E1944" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="ascendBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5A132C" />
+      <stop offset="50%" stop-color="#B82E64" />
+      <stop offset="100%" stop-color="#ECA8BC" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card Base -->
+  <rect width="580" height="300" rx="14" fill="url(#codeascendCardBg)" stroke="#4A142D" stroke-width="1.2" />
+  <rect width="580" height="300" rx="14" fill="url(#codeascendGlow)" />
+
+  <!-- Top Right Conceptual Art: Ascending Step Graph & Milestone Checkpoints -->
+  <g transform="translate(470, 75)">
+    <!-- Milestone Path -->
+    <path d="M -40,24 L -15,10 L 10,-10 L 35,-30" fill="none" stroke="#7E1944" stroke-width="1.5" stroke-dasharray="3 3" />
+    <!-- Node circles -->
+    <circle cx="-40" cy="24" r="5" fill="#340E24" stroke="#7E1944" stroke-width="1.2" />
+    <circle cx="-15" cy="10" r="5" fill="#340E24" stroke="#B82E64" stroke-width="1.2" />
+    <circle cx="10" cy="-10" r="6" fill="#7E1944" stroke="#ECA8BC" stroke-width="1.5" />
+    <circle cx="35" cy="-30" r="8" fill="#B82E64" stroke="#FFF7F9" stroke-width="1.8" />
+    <polygon points="35,-33 38,-28 32,-28" fill="#FFF7F9" />
+  </g>
+
+  <!-- Top Header Pill -->
+  <g transform="translate(24, 24)">
+    <rect width="210" height="22" rx="11" fill="#340E24" stroke="#68193D" stroke-width="1" />
+    <circle cx="12" cy="11" r="3.5" fill="#ECA8BC" />
+    <text x="24" y="15" fill="#ECA8BC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="800" letter-spacing="1">GROWTH &bull; CAREER PLATFORM</text>
+  </g>
+
+  <!-- Title -->
+  <text x="24" y="82" fill="#FFF7F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Playfair Display', serif" font-size="26" font-weight="800" letter-spacing="-0.3">
+    CodeAscend
+  </text>
+  <text x="185" y="82" fill="#D96B8A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">
+    Progression &amp; Mastery Platform
+  </text>
+
+  <!-- Description -->
+  <text x="24" y="112" fill="#DDBCC9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">
+    <tspan x="24" dy="0">A developer progression and skill trajectory platform featuring</tspan>
+    <tspan x="24" dy="19">interactive goal trees, modular UI architectures, real-time</tspan>
+    <tspan x="24" dy="19">milestone analytics, and reactive cloud persistence.</tspan>
+  </text>
+
+  <!-- Conceptual Metric Strip -->
+  <g transform="translate(24, 180)">
+    <rect width="532" height="38" rx="8" fill="#180512" stroke="#401228" stroke-width="1" />
+    <text x="14" y="24" fill="#ECA8BC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700">🚀 MODULAR ARCHITECTURE</text>
+    <rect x="230" y="8" width="138" height="22" rx="4" fill="#2C0A1E" stroke="#5A1633" stroke-width="0.8" />
+    <text x="299" y="22" fill="#FFF7F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" text-anchor="middle">CLOUD PERSISTENCE</text>
+    <rect x="378" y="8" width="142" height="22" rx="4" fill="#2C0A1E" stroke="#5A1633" stroke-width="0.8" />
+    <text x="449" y="22" fill="#FFF7F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" text-anchor="middle">MILESTONE TRACKER</text>
+  </g>
+
+  <!-- Stack Pills Bar -->
+  <g transform="translate(24, 236)">
+    <rect x="0" y="0" width="86" height="24" rx="12" fill="#290B1E" stroke="#4A142D" stroke-width="0.8" />
+    <text x="43" y="16" fill="#F2D8E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">TypeScript</text>
+
+    <rect x="92" y="0" width="76" height="24" rx="12" fill="#290B1E" stroke="#4A142D" stroke-width="0.8" />
+    <text x="130" y="16" fill="#F2D8E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">React.js</text>
+
+    <rect x="174" y="0" width="86" height="24" rx="12" fill="#290B1E" stroke="#4A142D" stroke-width="0.8" />
+    <text x="217" y="16" fill="#F2D8E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Supabase</text>
+
+    <rect x="266" y="0" width="98" height="24" rx="12" fill="#290B1E" stroke="#4A142D" stroke-width="0.8" />
+    <text x="315" y="16" fill="#F2D8E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Tailwind CSS</text>
+
+    <rect x="370" y="0" width="86" height="24" rx="12" fill="#290B1E" stroke="#4A142D" stroke-width="0.8" />
+    <text x="413" y="16" fill="#F2D8E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">REST APIs</text>
+
+    <rect x="462" y="0" width="90" height="24" rx="12" fill="#290B1E" stroke="#4A142D" stroke-width="0.8" />
+    <text x="507" y="16" fill="#F2D8E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Responsive</text>
+  </g>
+
+  <!-- Bottom Accent Highlight -->
+  <rect x="0" y="297" width="580" height="3" rx="1.5" fill="url(#ascendBar)" />
+</svg>

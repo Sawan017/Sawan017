@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 270" width="100%" height="auto">
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#180612" />
+      <stop offset="50%" stop-color="#220918" />
+      <stop offset="100%" stop-color="#14040F" />
+    </linearGradient>
+    <linearGradient id="pillarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#280C1D" />
+      <stop offset="100%" stop-color="#1C0614" />
+    </linearGradient>
+    <linearGradient id="badgeLine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#B82E64" />
+      <stop offset="100%" stop-color="#5A132C" />
+    </linearGradient>
+  </defs>
+
+  <!-- Container -->
+  <rect width="1200" height="270" rx="14" fill="url(#cardGrad)" stroke="#451429" stroke-width="1.2" />
+
+  <!-- Subtle corner accents -->
+  <path d="M 14 30 L 14 14 L 30 14" fill="none" stroke="#B82E64" stroke-width="1.5" />
+  <path d="M 1186 30 L 1186 14 L 1170 14" fill="none" stroke="#B82E64" stroke-width="1.5" />
+  <path d="M 14 240 L 14 256 L 30 256" fill="none" stroke="#B82E64" stroke-width="1.5" />
+  <path d="M 1186 240 L 1186 256 L 1170 256" fill="none" stroke="#B82E64" stroke-width="1.5" />
+
+  <!-- Left Column: Biography & Philosophy -->
+  <g transform="translate(50, 42)">
+    <!-- Small Section Eyebrow -->
+    <rect x="0" y="0" width="116" height="22" rx="4" fill="#320E22" stroke="#5C1635" stroke-width="1" />
+    <text x="58" y="15" fill="#ECA8BC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2" text-anchor="middle">OVERVIEW</text>
+
+    <!-- Main Heading -->
+    <text x="0" y="52" fill="#FFF7F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Playfair Display', serif" font-size="24" font-weight="800">
+      Engineering with Systems Rigor &amp; Taste
+    </text>
+
+    <!-- Paragraph Text -->
+    <text x="0" y="86" fill="#DDBCC9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="400">
+      <tspan x="0" dy="0">Hello! I am <tspan fill="#FFF7F9" font-weight="700">Sawan Sahani</tspan>, a Computer Science &amp; Engineering student</tspan>
+      <tspan x="0" dy="24">passionate about bridging algorithmic complexity and high-fidelity product</tspan>
+      <tspan x="0" dy="24">engineering. I specialize in scalable full-stack web platforms, gamified</tspan>
+      <tspan x="0" dy="24">interactive applications, and real-time cloud architectures.</tspan>
+    </text>
+
+    <!-- Quote / Motto Pill -->
+    <g transform="translate(0, 168)">
+      <rect x="0" y="0" width="480" height="34" rx="6" fill="#1C0614" stroke="#4A142D" stroke-width="1" />
+      <line x1="0" y1="0" x2="0" y2="34" stroke="#B82E64" stroke-width="3" />
+      <text x="16" y="21" fill="#ECA8BC" font-family="'Fira Code', 'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="500">
+        "Mastering the logic underneath; elevating the experience on top."
+      </text>
+    </g>
+  </g>
+
+  <!-- Vertical Divider Line -->
+  <line x1="570" y1="36" x2="570" y2="234" stroke="#3D1225" stroke-width="1" stroke-dasharray="3 3" />
+
+  <!-- Right Column: 4 Strategic Competencies -->
+  <g transform="translate(610, 42)">
+    <rect x="0" y="0" width="160" height="22" rx="4" fill="#320E22" stroke="#5C1635" stroke-width="1" />
+    <text x="80" y="15" fill="#ECA8BC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2" text-anchor="middle">CORE COMPETENCIES</text>
+
+    <!-- Grid of 4 Cards -->
+    <!-- Card 1: Full-Stack Architecture -->
+    <g transform="translate(0, 38)">
+      <rect x="0" y="0" width="250" height="80" rx="8" fill="url(#pillarGrad)" stroke="#451429" stroke-width="1" />
+      <text x="14" y="26" fill="#FFF7F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700">⚡ Full-Stack Platforms</text>
+      <text x="14" y="46" fill="#C49BAE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Next.js App Router &bull; React 19</text>
+      <text x="14" y="64" fill="#ECA8BC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600">TypeScript &bull; Tailwind CSS</text>
+    </g>
+
+    <!-- Card 2: Cloud & Backend -->
+    <g transform="translate(268, 38)">
+      <rect x="0" y="0" width="250" height="80" rx="8" fill="url(#pillarGrad)" stroke="#451429" stroke-width="1" />
+      <text x="14" y="26" fill="#FFF7F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700">☁️ Cloud &amp; Persistence</text>
+      <text x="14" y="46" fill="#C49BAE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Supabase &bull; PostgreSQL</text>
+      <text x="14" y="64" fill="#ECA8BC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600">Auth, RLS &bull; Realtime WebSockets</text>
+    </g>
+
+    <!-- Card 3: Algorithmic Problem Solving -->
+    <g transform="translate(0, 128)">
+      <rect x="0" y="0" width="250" height="80" rx="8" fill="url(#pillarGrad)" stroke="#451429" stroke-width="1" />
+      <text x="14" y="26" fill="#FFF7F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700">⚔️ Algorithmic Rigor</text>
+      <text x="14" y="46" fill="#C49BAE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Data Structures &amp; Complexity</text>
+      <text x="14" y="64" fill="#ECA8BC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600">C++20 &bull; LeetCode &bull; Codeforces</text>
+    </g>
+
+    <!-- Card 4: Interactive & Gamified Systems -->
+    <g transform="translate(268, 128)">
+      <rect x="0" y="0" width="250" height="80" rx="8" fill="url(#pillarGrad)" stroke="#451429" stroke-width="1" />
+      <text x="14" y="26" fill="#FFF7F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12.5" font-weight="700">🎮 Gamified &amp; 3D Systems</text>
+      <text x="14" y="46" fill="#C49BAE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Three.js &bull; React Three Fiber</text>
+      <text x="14" y="64" fill="#ECA8BC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600">Monaco Editor &bull; Framer Motion</text>
+    </g>
+  </g>
+</svg>

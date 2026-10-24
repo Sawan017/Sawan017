@@ -1,193 +1,299 @@
 <div align="center">
 
-  <!-- A. Hero Banner -->
-  <img src="./assets/banner.svg" width="100%" alt="Sawan Sahani Banner" />
+  <!-- ========================================== -->
+  <!-- 1. HERO BANNER & DEVELOPER IDENTITY        -->
+  <!-- ========================================== -->
+
+  <img src="./assets/hero-banner.svg" width="100%" alt="Sawan Sahani - Developer Hero Banner" />
+
+  <br /><br />
 
   <!-- Animated Typing Subtitle -->
   <a href="https://github.com/Sawan017">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=19&pause=1000&color=6EE7B7&center=true&vCenter=true&width=480&height=35&lines=Computer+Science+Student;Full-Stack+Developer+in+Progress;Building+Real+Projects;Learning+Data+Structures+%26+Algorithms" alt="Typing Animation" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=ECA8BC&center=true&vCenter=true&width=560&height=36&lines=Computer+Science+Student;Full-Stack+Architect+%26+Software+Engineer;Building+ARINOVA+%26+Interactive+Web+Systems;Mastering+Data+Structures+%26+Algorithms+in+C%2B%2B" alt="Typing Animation - Sawan Sahani" />
   </a>
 
-</div>
+  <br /><br />
 
-<hr />
+  <img src="./assets/divider.svg" width="100%" alt="divider" />
 
-<!-- B. About Me -->
-<div align="center">
+  <br />
 
-  <h3>⚡ About Me</h3>
+  <!-- ========================================== -->
+  <!-- 2. ABOUT & ARCHITECTURAL VISION            -->
+  <!-- ========================================== -->
 
-  <p>
-    Hello! I'm <b>Sawan Sahani</b>, a Computer Science & Engineering student passionate about crafting clean, efficient full-stack web applications and mastering algorithmic problem-solving.
-  </p>
+  <img src="./assets/header-about.svg" width="480" alt="About & Architectural Vision" />
 
-  <table align="center" width="100%">
-    <tr>
-      <td width="50%" valign="top">
-        <b>🔭 Currently Building:</b><br />
-        Scalable full-stack platforms with modular architectures, cloud persistence, and reactive UIs.
-      </td>
-      <td width="50%" valign="top">
-        <b>🌱 Currently Learning:</b><br />
-        Advanced full-stack patterns with Next.js App Router, TypeScript, and Supabase cloud services.
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" valign="top">
-        <b>💡 Technical Focus:</b><br />
-        Modern web ecosystem, component engineering, RESTful APIs, and algorithmic complexity optimization.
-      </td>
-      <td width="50%" valign="top">
-        <b>🎯 Problem Solving:</b><br />
-        Active competitive programmer and DSA practitioner solving challenges on LeetCode &amp; Codeforces in C++.
-      </td>
-    </tr>
-  </table>
+  <br /><br />
 
-</div>
+  <!-- Editorial Introduction Card -->
+  <img src="./assets/intro-card.svg" width="100%" alt="About Sawan Sahani - Overview & Core Competencies" />
 
-<hr />
-
-<!-- C. Technology Stack -->
-<div align="center">
-
-  <h3>🛠️ Technology Stack</h3>
+  <br /><br />
 
   <table align="center" width="100%">
     <tr>
       <td width="50%" valign="top">
-        <h4>💻 Languages</h4>
+        <h4>🔭 What I'm Building</h4>
         <p>
-          <img src="https://skillicons.dev/icons?i=cpp,javascript,typescript,html,css&theme=dark" alt="Languages: C++, JS, TS, HTML, CSS" />
+          Architecting production-ready full-stack applications with modular component design, reactive state management, and robust cloud persistence using <b>Next.js App Router</b>, <b>TypeScript</b>, and <b>Supabase</b>.
         </p>
-        <p><sub>C++ • JavaScript • TypeScript • HTML5 • CSS3</sub></p>
       </td>
       <td width="50%" valign="top">
-        <h4>🎨 Frontend Ecosystem</h4>
+        <h4>🌱 What I'm Exploring</h4>
         <p>
-          <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind&theme=dark" alt="Frontend: React, Next.js, Tailwind CSS" />
+          Deepening knowledge in <b>Three.js</b> and <b>WebGL</b> for gamified interactive platforms, distributed cloud architectures, and strict type-level metaprogramming.
         </p>
-        <p><sub>React.js • Next.js • Tailwind CSS</sub></p>
       </td>
     </tr>
     <tr>
       <td width="50%" valign="top">
-        <h4>⚙️ Backend &amp; Cloud</h4>
+        <h4>⚔️ Algorithmic Discipline</h4>
         <p>
-          <img src="https://skillicons.dev/icons?i=supabase&theme=dark" alt="Backend & Cloud: Supabase" />
+          Dedicated competitive programmer and computer science practitioner solving advanced challenges on <b>LeetCode</b> and <b>Codeforces</b> in <b>C++20</b> with optimal time and space complexity.
         </p>
-        <p><sub>Supabase • PostgreSQL • RESTful APIs</sub></p>
       </td>
       <td width="50%" valign="top">
-        <h4>🛠️ Developer Tooling</h4>
+        <h4>💡 Systems Philosophy</h4>
         <p>
-          <img src="https://skillicons.dev/icons?i=git,github,vscode&theme=dark" alt="Developer Tools: Git, GitHub, VS Code" />
+          Clean architecture, rigorous type safety, defensive database security with Row Level Security (RLS), and intentional UI/UX design where aesthetics enhance usability.
         </p>
-        <p><sub>Git • GitHub • VS Code</sub></p>
       </td>
     </tr>
   </table>
 
-</div>
+  <br />
 
-<hr />
+  <img src="./assets/divider.svg" width="100%" alt="divider" />
 
-<!-- D. Featured Projects -->
-<div align="center">
+  <br />
 
-  <h3>📂 Featured Projects</h3>
+  <!-- ========================================== -->
+  <!-- 3. TECHNOLOGY STACK & SYSTEMS              -->
+  <!-- ========================================== -->
 
-  <table align="center" width="100%">
-    <tr>
-      <td width="50%" valign="top">
-        <h4><a href="https://github.com/Sawan017/CodeAscend">🚀 CodeAscend</a></h4>
-        <p>Developer career progression platform featuring real-time tracking, modular architectures, and cloud persistence.</p>
-        <p><sub><b>Stack:</b> TypeScript • React • Supabase • Tailwind CSS</sub></p>
-        <p><a href="https://github.com/Sawan017/CodeAscend"><b>View Repository &rarr;</b></a></p>
-      </td>
-      <td width="50%" valign="top">
-        <h4><a href="https://github.com/Sawan017/leetcode-solutions">💡 LeetCode Solutions</a></h4>
-        <p>Structured repository of algorithmic problem solutions in C++ covering data structures, dynamic programming, and optimization.</p>
-        <p><sub><b>Stack:</b> C++ • Data Structures • Algorithms • Optimization</sub></p>
-        <p><a href="https://github.com/Sawan017/leetcode-solutions"><b>View Repository &rarr;</b></a></p>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%" valign="top">
-        <h4><a href="https://github.com/Sawan017/codeforces-solutions">⚔️ Codeforces Solutions</a></h4>
-        <p>Competitive programming solutions and contest practices focused on mathematical modeling and runtime efficiency.</p>
-        <p><sub><b>Stack:</b> C++ • Competitive Programming • Mathematics</sub></p>
-        <p><a href="https://github.com/Sawan017/codeforces-solutions"><b>View Repository &rarr;</b></a></p>
-      </td>
-      <td width="50%" valign="top">
-        <h4><a href="https://github.com/Sawan017/sawan-demo">🌱 Sawan Demo</a></h4>
-        <p>Foundational Git repository demonstrating version control workflows and initial web development practices.</p>
-        <p><sub><b>Stack:</b> HTML5 • CSS3 • Git Version Control</sub></p>
-        <p><a href="https://github.com/Sawan017/sawan-demo"><b>View Repository &rarr;</b></a></p>
-      </td>
-    </tr>
-  </table>
+  <img src="./assets/header-stack.svg" width="480" alt="Technology Stack & Systems" />
 
-</div>
+  <br /><br />
 
-<hr />
+  <!-- Handcrafted Full Stack Taxonomy Card -->
+  <img src="./assets/tech-stack.svg" width="100%" alt="Technology Stack Taxonomy" />
 
-<!-- E. GitHub Statistics Dashboard -->
-<div align="center">
+  <br /><br />
 
-  <h3>📈 GitHub Statistics &amp; Activity</h3>
-
+  <!-- Recognized Ecosystem Badges -->
   <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=Sawan017&show_icons=true&hide_border=true&bg_color=00000000&title_color=6EE7B7&icon_color=3B82F6&text_color=94A3B8&ring_color=22C55E" height="150" alt="GitHub Stats" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sawan017&layout=compact&hide_border=true&bg_color=00000000&title_color=6EE7B7&text_color=94A3B8" height="150" alt="Top Languages" />
+    <img src="https://skillicons.dev/icons?i=cpp,ts,js,html,css,react,nextjs,tailwind,threejs,supabase,postgres,git,github,vscode,vite,linux&perline=8&theme=dark" alt="Skill Icons Grid" />
   </p>
   <p>
-    <img src="https://streak-stats.demolab.com?user=Sawan017&theme=transparent&hide_border=true&ring=3B82F6&fire=22C55E&currStreakLabel=6EE7B7&sideLabels=94A3B8&dates=94A3B8" height="145" alt="GitHub Streak" />
-  </p>
-
-</div>
-
-<hr />
-
-<!-- F. Contribution Snake -->
-<div align="center">
-
-  <h3>🐍 Contribution Snake</h3>
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sawan017/Sawan017/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sawan017/Sawan017/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/Sawan017/Sawan017/output/github-contribution-grid-snake-dark.svg" width="80%" />
-  </picture>
-
-</div>
-
-<hr />
-
-<!-- G. 3D Contribution Graph -->
-<div align="center">
-
-  <h3>🌐 3D Contribution Graph</h3>
-
-  <img src="./profile-3d-contrib/profile-night-green.svg" width="80%" alt="3D GitHub Contribution Graph" />
-
-</div>
-
-<hr />
-
-<!-- H. Developer Contact & Minimal Footer -->
-<div align="center">
-
-  <h3>📫 Connect With Me</h3>
-
-  <p>
-    <a href="https://github.com/Sawan017">
-      <img src="https://img.shields.io/badge/GitHub-Sawan017-17263B?style=for-the-badge&logo=github&logoColor=6EE7B7" alt="GitHub Profile" />
-    </a>
+    <sub><b>Core Arsenal:</b> C++20 • TypeScript • React 19 • Next.js 16 • Tailwind CSS • Three.js • Supabase • PostgreSQL • Git</sub>
   </p>
 
   <br />
 
-  <img src="./assets/footer.svg" width="100%" alt="Footer Line" />
+  <img src="./assets/divider.svg" width="100%" alt="divider" />
+
+  <br />
+
+  <!-- ========================================== -->
+  <!-- 4. FEATURED PLATFORMS & PROJECTS           -->
+  <!-- ========================================== -->
+
+  <img src="./assets/header-projects.svg" width="480" alt="Featured Platforms & Projects" />
+
+  <br /><br />
+
+  <table align="center" width="100%">
+    <tr>
+      <!-- Project 1: ARINOVA -->
+      <td width="50%" valign="top" align="center">
+        <a href="https://github.com/Sawan017/CodeAscend">
+          <img src="./assets/project-arinova.svg" width="100%" alt="ARINOVA Flagship Project" />
+        </a>
+        <br />
+        <p align="left">
+          <b>👑 ARINOVA — Gamified Developer Career RPG</b><br />
+          A futuristic developer platform transforming real-world learning, projects, quests, and achievements into an interactive progression experience. Features an interactive 3D realm built with Three.js/R3F, Monaco code editor, dynamic skill trees, and real-time social networking.
+        </p>
+        <p align="left">
+          <sub><b>Stack:</b> React 19 • TypeScript • Three.js / R3F • Supabase • Monaco Editor • Framer Motion</sub><br />
+          <a href="https://github.com/Sawan017/CodeAscend"><b>Explore Project Repository &rarr;</b></a>
+        </p>
+      </td>
+      <!-- Project 2: SourCa -->
+      <td width="50%" valign="top" align="center">
+        <a href="https://github.com/Sawan017/SourCa">
+          <img src="./assets/project-sourca.svg" width="100%" alt="SourCa Project" />
+        </a>
+        <br />
+        <p align="left">
+          <b>🧠 SourCa — AI Placement &amp; Assessment Engine</b><br />
+          An intelligent developer evaluation platform featuring dynamic coding puzzles, automated test-suite verification, recruiter benchmarking, and Google GenAI-powered code evaluations with low-latency edge rendering.
+        </p>
+        <p align="left">
+          <sub><b>Stack:</b> Next.js 16 • TypeScript • Google GenAI • Supabase SSR • Monaco • Tailwind CSS v4</sub><br />
+          <a href="https://github.com/Sawan017/SourCa"><b>Explore Project Repository &rarr;</b></a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <!-- Project 3: CodeAscend -->
+      <td width="50%" valign="top" align="center">
+        <a href="https://github.com/Sawan017/CodeAscend">
+          <img src="./assets/project-codeascend.svg" width="100%" alt="CodeAscend Project" />
+        </a>
+        <br />
+        <p align="left">
+          <b>🚀 CodeAscend — Skill &amp; Progression Tracker</b><br />
+          A dedicated developer progression tracking platform providing structured milestone roadmaps, modular component architectures, cloud-synced state, and interactive learning analytics.
+        </p>
+        <p align="left">
+          <sub><b>Stack:</b> TypeScript • React • Supabase • Tailwind CSS • RESTful APIs</sub><br />
+          <a href="https://github.com/Sawan017/CodeAscend"><b>Explore Project Repository &rarr;</b></a>
+        </p>
+      </td>
+      <!-- Project 4: LeetCode & Codeforces DSA -->
+      <td width="50%" valign="top" align="center">
+        <a href="https://github.com/Sawan017/leetcode-solutions">
+          <img src="./assets/project-dsa.svg" width="100%" alt="Algorithmic Solutions Project" />
+        </a>
+        <br />
+        <p align="left">
+          <b>⚔️ Algorithmic Solutions &amp; Competitive Programming</b><br />
+          Structured, tested solutions in modern C++ spanning dynamic programming, graph theory, trees, binary search, and mathematical modeling with strict focus on runtime and memory optimization.
+        </p>
+        <p align="left">
+          <sub><b>Stack:</b> C++20 • Data Structures • Algorithms • Optimization • LeetCode • Codeforces</sub><br />
+          <a href="https://github.com/Sawan017/leetcode-solutions"><b>LeetCode Solutions &rarr;</b></a> &bull; <a href="https://github.com/Sawan017/codeforces-solutions"><b>Codeforces Solutions &rarr;</b></a>
+        </p>
+      </td>
+    </tr>
+  </table>
+
+  <br />
+
+  <img src="./assets/divider.svg" width="100%" alt="divider" />
+
+  <br />
+
+  <!-- ========================================== -->
+  <!-- 5. DEVELOPER JOURNEY & HORIZON             -->
+  <!-- ========================================== -->
+
+  <img src="./assets/header-journey.svg" width="480" alt="Developer Journey & Horizon" />
+
+  <br /><br />
+
+  <img src="./assets/journey-card.svg" width="100%" alt="Engineering Trajectory Roadmap" />
+
+  <br /><br />
+
+  <table align="center" width="100%">
+    <tr>
+      <td width="25%" align="center">
+        <b>🏛️ Foundations</b><br />
+        <sub>Computer Science Degree, Operating Systems, Database Systems, Computer Networks.</sub>
+      </td>
+      <td width="25%" align="center">
+        <b>⚔️ Algorithmic Rigor</b><br />
+        <sub>Active problem-solving and contest participation in C++ on LeetCode &amp; Codeforces.</sub>
+      </td>
+      <td width="25%" align="center">
+        <b>🚀 Flagship Systems</b><br />
+        <sub>Engineering real-time platforms with React 19, Next.js 16, Three.js, and Supabase.</sub>
+      </td>
+      <td width="25%" align="center">
+        <b>🌟 Long-Term Vision</b><br />
+        <sub>Scalable distributed cloud architectures, developer tools, and intelligent systems.</sub>
+      </td>
+    </tr>
+  </table>
+
+  <br />
+
+  <img src="./assets/divider.svg" width="100%" alt="divider" />
+
+  <br />
+
+  <!-- ========================================== -->
+  <!-- 6. GITHUB METRICS & ACTIVITY               -->
+  <!-- ========================================== -->
+
+  <img src="./assets/header-stats.svg" width="480" alt="GitHub Metrics & Activity" />
+
+  <br /><br />
+
+  <!-- Stats Cards Themed in Burgundy / Wine / Rose -->
+  <p>
+    <img src="https://github-readme-stats.vercel.app/api?username=Sawan017&show_icons=true&hide_border=false&border_color=5C1635&bg_color=180612&title_color=ECA8BC&icon_color=B82E64&text_color=F2E6EB&ring_color=ECA8BC" height="155" alt="Sawan Sahani GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sawan017&layout=compact&hide_border=false&border_color=5C1635&bg_color=180612&title_color=ECA8BC&text_color=F2E6EB" height="155" alt="Top Languages" />
+  </p>
+
+  <p>
+    <img src="https://streak-stats.demolab.com?user=Sawan017&theme=transparent&hide_border=false&border=5C1635&background=180612&ring=B82E64&fire=D96B8A&currStreakLabel=ECA8BC&sideLabels=C4A8B4&dates=F2E6EB" height="150" alt="GitHub Streak Stats" />
+  </p>
+
+  <br />
+
+  <!-- Contribution Snake with Burgundy Theme -->
+  <h4>🐍 Contribution Velocity</h4>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sawan017/Sawan017/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sawan017/Sawan017/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/Sawan017/Sawan017/output/github-contribution-grid-snake-dark.svg" width="85%" />
+  </picture>
+
+  <br /><br />
+
+  <!-- 3D Contribution Graph -->
+  <h4>🌐 Isometric Contribution Landscape</h4>
+
+  <img src="./profile-3d-contrib/profile-night-view.svg" width="85%" alt="3D GitHub Contribution Graph" />
+
+  <br /><br />
+
+  <img src="./assets/divider.svg" width="100%" alt="divider" />
+
+  <br />
+
+  <!-- ========================================== -->
+  <!-- 7. CONNECT & COLLABORATE                   -->
+  <!-- ========================================== -->
+
+  <img src="./assets/header-connect.svg" width="480" alt="Connect & Collaborate" />
+
+  <br /><br />
+
+  <p>
+    I am always eager to collaborate on ambitious full-stack platforms, interactive web experiences, and algorithmic problem-solving.
+  </p>
+
+  <p>
+    <a href="https://github.com/Sawan017">
+      <img src="https://img.shields.io/badge/GitHub-@Sawan017-2D0C1E?style=for-the-badge&logo=github&logoColor=FFF7F9" alt="GitHub Profile" />
+    </a>
+    &nbsp;
+    <a href="mailto:sunnysahny@gmail.com">
+      <img src="https://img.shields.io/badge/Email-Get_In_Touch-5A132C?style=for-the-badge&logo=gmail&logoColor=FFF7F9" alt="Email Sawan" />
+    </a>
+    &nbsp;
+    <a href="https://leetcode.com/u/Sawan017/">
+      <img src="https://img.shields.io/badge/LeetCode-Practice-7E1944?style=for-the-badge&logo=leetcode&logoColor=FFF7F9" alt="LeetCode Profile" />
+    </a>
+    &nbsp;
+    <a href="https://codeforces.com/profile/Sawan017">
+      <img src="https://img.shields.io/badge/Codeforces-Contests-B82E64?style=for-the-badge&logo=codeforces&logoColor=FFF7F9" alt="Codeforces Profile" />
+    </a>
+  </p>
+
+  <br /><br />
+
+  <!-- ========================================== -->
+  <!-- 8. REFINED EDITORIAL FOOTER                -->
+  <!-- ========================================== -->
+
+  <img src="./assets/footer.svg" width="100%" alt="Sawan Sahani Signature Footer" />
 
 </div>

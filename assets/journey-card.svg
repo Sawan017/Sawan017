@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" height="auto">
+  <defs>
+    <linearGradient id="journeyBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#160510" />
+      <stop offset="50%" stop-color="#210818" />
+      <stop offset="100%" stop-color="#13030D" />
+    </linearGradient>
+
+    <linearGradient id="pathLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5A132C" />
+      <stop offset="30%" stop-color="#7E1944" />
+      <stop offset="65%" stop-color="#B82E64" />
+      <stop offset="100%" stop-color="#ECA8BC" />
+    </linearGradient>
+  </defs>
+
+  <!-- Container Base -->
+  <rect width="1200" height="240" rx="14" fill="url(#journeyBg)" stroke="#451429" stroke-width="1.2" />
+
+  <!-- Section Header Pill inside SVG -->
+  <g transform="translate(600, 32)" text-anchor="middle">
+    <rect x="-120" y="0" width="240" height="24" rx="12" fill="#2E0C1F" stroke="#5A1633" stroke-width="1" />
+    <text x="0" y="16" fill="#ECA8BC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.5">ENGINEERING TRAJECTORY</text>
+  </g>
+
+  <!-- Horizontal Roadmap Connecting Line -->
+  <line x1="150" y1="92" x2="1050" y2="92" stroke="url(#pathLine)" stroke-width="2" stroke-dasharray="4 3" />
+
+  <!-- Stage 1 -->
+  <g transform="translate(150, 92)" text-anchor="middle">
+    <circle cx="0" cy="0" r="16" fill="#1C0614" stroke="#7E1944" stroke-width="2" />
+    <circle cx="0" cy="0" r="6" fill="#7E1944" />
+    <text x="0" y="32" fill="#FFF7F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">1. Academic Core</text>
+    <text x="0" y="48" fill="#C49BAE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">Computer Science Degree</text>
+    <text x="0" y="62" fill="#916B7E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5">OS &bull; DBMS &bull; Architecture</text>
+  </g>
+
+  <!-- Stage 2 -->
+  <g transform="translate(450, 92)" text-anchor="middle">
+    <circle cx="0" cy="0" r="16" fill="#1C0614" stroke="#9C2255" stroke-width="2" />
+    <circle cx="0" cy="0" r="6" fill="#9C2255" />
+    <text x="0" y="32" fill="#FFF7F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">2. Algorithmic Rigor</text>
+    <text x="0" y="48" fill="#C49BAE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">C++ DSA &amp; Contests</text>
+    <text x="0" y="62" fill="#916B7E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5">LeetCode &bull; Codeforces</text>
+  </g>
+
+  <!-- Stage 3 -->
+  <g transform="translate(750, 92)" text-anchor="middle">
+    <circle cx="0" cy="0" r="16" fill="#1C0614" stroke="#B82E64" stroke-width="2" />
+    <circle cx="0" cy="0" r="7" fill="#B82E64" />
+    <polygon points="0,-10 3,-3 10,-3 4,2 6,9 0,5 -6,9 -4,2 -10,-3 -3,-3" fill="#ECA8BC" />
+    <text x="0" y="32" fill="#FFF7F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">3. Flagship Platforms</text>
+    <text x="0" y="48" fill="#ECA8BC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600">ARINOVA &bull; SourCa</text>
+    <text x="0" y="62" fill="#C49BAE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5">Three.js &bull; Next.js &bull; Supabase</text>
+  </g>
+
+  <!-- Stage 4 -->
+  <g transform="translate(1050, 92)" text-anchor="middle">
+    <circle cx="0" cy="0" r="16" fill="#240B19" stroke="#ECA8BC" stroke-width="2" />
+    <circle cx="0" cy="0" r="6" fill="#ECA8BC">
+      <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="0" y="32" fill="#FFF7F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700">4. Horizon &amp; Scale</text>
+    <text x="0" y="48" fill="#C49BAE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">Distributed Architectures</text>
+    <text x="0" y="62" fill="#916B7E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5">AI Agents &bull; Global Systems</text>
+  </g>
+</svg>

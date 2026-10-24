@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 300" width="100%" height="auto">
+  <defs>
+    <linearGradient id="arinovaCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#190612" />
+      <stop offset="60%" stop-color="#240B1A" />
+      <stop offset="100%" stop-color="#13040E" />
+    </linearGradient>
+
+    <linearGradient id="arinovaGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B82E64" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#7E1944" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="goldRuby" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E8C58D" />
+      <stop offset="50%" stop-color="#ECA8BC" />
+      <stop offset="100%" stop-color="#B82E64" />
+    </linearGradient>
+
+    <linearGradient id="xpBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7E1944" />
+      <stop offset="100%" stop-color="#ECA8BC" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card Frame -->
+  <rect width="580" height="300" rx="14" fill="url(#arinovaCardBg)" stroke="#4A142D" stroke-width="1.2" />
+  <rect width="580" height="300" rx="14" fill="url(#arinovaGlow)" />
+
+  <!-- Top Right Isometric Conceptual Art: 3D RPG Crystal & World Node -->
+  <g transform="translate(470, 75)">
+    <!-- Orbit Ring -->
+    <ellipse cx="0" cy="0" rx="65" ry="24" fill="none" stroke="#7E1944" stroke-width="1" stroke-dasharray="3 3" opacity="0.6" />
+    <!-- Floating Isometric Crystal Diamond -->
+    <polygon points="0,-36 28,-14 0,8 -28,-14" fill="#ECA8BC" opacity="0.85" />
+    <polygon points="0,8 28,-14 28,18 0,38" fill="#B82E64" opacity="0.9" />
+    <polygon points="0,8 -28,-14 -28,18 0,38" fill="#7E1944" opacity="0.95" />
+    <!-- Little Floating Particles -->
+    <circle cx="38" cy="-16" r="2.2" fill="#E8C58D" />
+    <circle cx="-42" cy="10" r="1.8" fill="#ECA8BC" />
+    <circle cx="20" cy="28" r="1.5" fill="#E8C58D" />
+  </g>
+
+  <!-- Top Header Pill: Flagship Badge -->
+  <g transform="translate(24, 24)">
+    <rect width="180" height="22" rx="11" fill="#340E24" stroke="#68193D" stroke-width="1" />
+    <circle cx="12" cy="11" r="3.5" fill="#E8C58D" />
+    <text x="24" y="15" fill="#E8C58D" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="800" letter-spacing="1">FLAGSHIP &bull; CAREER RPG</text>
+  </g>
+
+  <!-- Project Title -->
+  <text x="24" y="82" fill="#FFF7F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Playfair Display', serif" font-size="26" font-weight="800" letter-spacing="-0.3">
+    ARINOVA
+  </text>
+  <text x="165" y="82" fill="#D96B8A" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">
+    Gamified Developer Universe
+  </text>
+
+  <!-- Description -->
+  <text x="24" y="112" fill="#DDBCC9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">
+    <tspan x="24" dy="0">A futuristic developer career RPG transforming learning, projects,</tspan>
+    <tspan x="24" dy="19">and quests into an interactive adventure with a 3D realm, dynamic</tspan>
+    <tspan x="24" dy="19">skill trees, XP progression, and real-time social networking.</tspan>
+  </text>
+
+  <!-- Conceptual RPG HUD Feature Strip -->
+  <g transform="translate(24, 180)">
+    <rect width="532" height="38" rx="8" fill="#180512" stroke="#401228" stroke-width="1" />
+    <text x="14" y="24" fill="#ECA8BC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700">⚔️ XP LEVEL 42</text>
+    <!-- XP Bar Progress -->
+    <rect x="115" y="14" width="160" height="10" rx="5" fill="#2E0B1F" />
+    <rect x="115" y="14" width="128" height="10" rx="5" fill="url(#xpBar)" />
+    <text x="285" y="22" fill="#B38699" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="600">80% TO ARCHITECT</text>
+    <!-- Social Badge -->
+    <rect x="415" y="8" width="105" height="22" rx="4" fill="#2C0A1E" stroke="#5A1633" stroke-width="0.8" />
+    <text x="467" y="22" fill="#FFF7F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" text-anchor="middle">REALTIME CHAT</text>
+  </g>
+
+  <!-- Stack Pills Bar -->
+  <g transform="translate(24, 236)">
+    <rect x="0" y="0" width="70" height="24" rx="12" fill="#290B1E" stroke="#4A142D" stroke-width="0.8" />
+    <text x="35" y="16" fill="#F2D8E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">React 19</text>
+
+    <rect x="76" y="0" width="86" height="24" rx="12" fill="#290B1E" stroke="#4A142D" stroke-width="0.8" />
+    <text x="119" y="16" fill="#F2D8E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">TypeScript</text>
+
+    <rect x="168" y="0" width="94" height="24" rx="12" fill="#290B1E" stroke="#4A142D" stroke-width="0.8" />
+    <text x="215" y="16" fill="#F2D8E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Three.js / R3F</text>
+
+    <rect x="268" y="0" width="82" height="24" rx="12" fill="#290B1E" stroke="#4A142D" stroke-width="0.8" />
+    <text x="309" y="16" fill="#F2D8E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Supabase</text>
+
+    <rect x="356" y="0" width="72" height="24" rx="12" fill="#290B1E" stroke="#4A142D" stroke-width="0.8" />
+    <text x="392" y="16" fill="#F2D8E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Monaco</text>
+
+    <rect x="434" y="0" width="98" height="24" rx="12" fill="#290B1E" stroke="#4A142D" stroke-width="0.8" />
+    <text x="483" y="16" fill="#F2D8E1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Framer Motion</text>
+  </g>
+
+  <!-- Bottom Accent Highlight -->
+  <rect x="0" y="297" width="580" height="3" rx="1.5" fill="url(#goldRuby)" />
+</svg>
