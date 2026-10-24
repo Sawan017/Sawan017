@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="auto">
+  <defs>
+    <!-- Palettes -->
+    <linearGradient id="heroGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#263C31" />
+      <stop offset="35%" stop-color="#657052" />
+      <stop offset="50%" stop-color="#B39A61" />
+      <stop offset="65%" stop-color="#657052" />
+      <stop offset="100%" stop-color="#263C31" />
+    </linearGradient>
+
+    <linearGradient id="goldBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#657052" />
+      <stop offset="50%" stop-color="#B39A61" />
+      <stop offset="100%" stop-color="#E5E0D4" />
+    </linearGradient>
+
+    <!-- Subtle Technical Grid Pattern -->
+    <pattern id="archGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1F2522" stroke-width="0.8" />
+      <circle cx="40" cy="0" r="1" fill="#657052" opacity="0.4" />
+      <circle cx="0" cy="40" r="1" fill="#657052" opacity="0.4" />
+    </pattern>
+
+    <!-- Rising Mask for Name Reveal -->
+    <clipPath id="nameRevealClip">
+      <rect x="0" y="70" width="1200" height="75" />
+    </clipPath>
+
+    <!-- CSS Animations -->
+    <style>
+      @keyframes riseUp {
+        0% { transform: translateY(40px); opacity: 0; }
+        100% { transform: translateY(0); opacity: 1; }
+      }
+      @keyframes roleCycle1 {
+        0%, 20% { opacity: 1; transform: translateY(0); }
+        25%, 95% { opacity: 0; transform: translateY(-8px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes roleCycle2 {
+        0%, 20% { opacity: 0; transform: translateY(8px); }
+        25%, 45% { opacity: 1; transform: translateY(0); }
+        50%, 100% { opacity: 0; transform: translateY(-8px); }
+      }
+      @keyframes roleCycle3 {
+        0%, 45% { opacity: 0; transform: translateY(8px); }
+        50%, 70% { opacity: 1; transform: translateY(0); }
+        75%, 100% { opacity: 0; transform: translateY(-8px); }
+      }
+      @keyframes roleCycle4 {
+        0%, 70% { opacity: 0; transform: translateY(8px); }
+        75%, 95% { opacity: 1; transform: translateY(0); }
+        100% { opacity: 0; transform: translateY(8px); }
+      }
+      @keyframes progressLoop {
+        0% { width: 0%; }
+        100% { width: 100%; }
+      }
+      @keyframes pulseNode {
+        0%, 100% { r: 3.5; opacity: 1; }
+        50% { r: 4.5; opacity: 0.6; }
+      }
+
+      .animated-name {
+        animation: riseUp 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      }
+      .role-1 { animation: roleCycle1 12s infinite; }
+      .role-2 { animation: roleCycle2 12s infinite; }
+      .role-3 { animation: roleCycle3 12s infinite; }
+      .role-4 { animation: roleCycle4 12s infinite; }
+      .progress-line { animation: progressLoop 12s linear infinite; }
+      .pulse-dot { animation: pulseNode 2.5s ease-in-out infinite; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .animated-name { animation: none !important; opacity: 1 !important; transform: none !important; }
+        .role-1 { opacity: 1 !important; transform: none !important; animation: none !important; }
+        .role-2, .role-3, .role-4 { display: none !important; }
+        .progress-line { width: 100% !important; animation: none !important; }
+        .pulse-dot { animation: none !important; }
+      }
+    </style>
+  </defs>
+
+  <!-- Charcoal Background Base -->
+  <rect width="1200" height="360" fill="#171B19" />
+  <rect width="1200" height="360" fill="url(#archGrid)" opacity="0.85" />
+
+  <!-- Outer Architectural Framing Lines -->
+  <rect x="1.5" y="1.5" width="1197" height="357" fill="none" stroke="#263C31" stroke-width="1.2" />
+  <rect x="8" y="8" width="1184" height="344" fill="none" stroke="#212824" stroke-width="0.8" />
+
+  <!-- Corner Precision Brackets (Antique Gold & Olive) -->
+  <g stroke="#B39A61" stroke-width="1.2" opacity="0.85">
+    <path d="M 16 28 L 16 16 L 28 16" fill="none" />
+    <path d="M 1184 28 L 1184 16 L 1172 16" fill="none" />
+    <path d="M 16 332 L 16 344 L 28 344" fill="none" />
+    <path d="M 1184 332 L 1184 344 L 1172 344" fill="none" />
+  </g>
+
+  <!-- Left Technical Coordinate Vector -->
+  <g transform="translate(130, 180)" opacity="0.4">
+    <circle cx="0" cy="0" r="90" fill="none" stroke="#263C31" stroke-width="1" />
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#454C35" stroke-width="0.8" stroke-dasharray="3 3" />
+    <line x1="-100" y1="0" x2="100" y2="0" stroke="#263C31" stroke-width="0.8" />
+    <line x1="0" y1="-100" x2="0" y2="100" stroke="#263C31" stroke-width="0.8" />
+    <polygon points="0,-55 4,-50 0,-45 -4,-50" fill="#B39A61" />
+    <polygon points="55,0 50,4 45,0 50,-4" fill="#657052" />
+    <circle cx="-38" cy="38" r="2.5" fill="#B39A61" />
+    <text x="0" y="75" fill="#657052" font-family="'Fira Code', monospace" font-size="8" text-anchor="middle">SYS.COORD // 017</text>
+  </g>
+
+  <!-- Right Geometric Polyhedron Vector -->
+  <g transform="translate(1070, 180)" opacity="0.4">
+    <polygon points="0,-70 60,-35 60,35 0,70 -60,35 -60,-35" fill="none" stroke="#263C31" stroke-width="1" />
+    <polygon points="0,-40 35,-20 35,20 0,40 -35,20 -35,-20" fill="none" stroke="#657052" stroke-width="0.8" stroke-dasharray="2 3" />
+    <line x1="0" y1="-70" x2="0" y2="70" stroke="#263C31" stroke-width="0.8" />
+    <line x1="-60" y1="-35" x2="60" y2="35" stroke="#263C31" stroke-width="0.8" />
+    <line x1="-60" y1="35" x2="60" y2="-35" stroke="#263C31" stroke-width="0.8" />
+    <circle cx="0" cy="-70" r="2.5" fill="#B39A61" />
+    <circle cx="60" cy="35" r="2.5" fill="#B39A61" />
+    <circle cx="-60" cy="35" r="2.5" fill="#B39A61" />
+    <text x="0" y="85" fill="#657052" font-family="'Fira Code', monospace" font-size="8" text-anchor="middle">ARCH // VERTICES</text>
+  </g>
+
+  <!-- Central Content -->
+  <g text-anchor="middle">
+
+    <!-- Top Identity Pill with Pulsing Gold Indicator -->
+    <g transform="translate(600, 36)">
+      <rect x="-210" y="0" width="420" height="30" rx="4" fill="#1B221E" stroke="#263C31" stroke-width="1" />
+      <circle cx="-184" cy="15" r="3.5" fill="#B39A61" class="pulse-dot" />
+      <text x="12" y="19" fill="#B39A61" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">
+        COMPUTER SCIENCE &amp; SYSTEMS &bull; DEVELOPER ARCHITECT
+      </text>
+    </g>
+
+    <!-- Mask-Revealed Name -->
+    <g clip-path="url(#nameRevealClip)">
+      <text x="600" y="128" fill="#E5E0D4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="800" letter-spacing="-0.5" class="animated-name">
+        Sawan Sahani
+      </text>
+    </g>
+
+    <!-- Handle & Location Metadata -->
+    <g transform="translate(600, 164)">
+      <text x="0" y="0" fill="#657052" font-family="'Fira Code', 'JetBrains Mono', Consolas, monospace" font-size="16" font-weight="600" letter-spacing="0.8">
+        @Sawan017 <tspan fill="#454C35">&bull;</tspan> <tspan fill="#9FA693">Full-Stack Engineer &amp; Algorithmic Specialist</tspan>
+      </text>
+    </g>
+
+    <!-- Four Cycling Developer-Role Labels -->
+    <g transform="translate(600, 206)">
+      <rect x="-180" y="-18" width="360" height="28" rx="3" fill="#1C231F" stroke="#263C31" stroke-width="0.8" />
+      
+      <!-- Role 1 -->
+      <g class="role-1">
+        <text x="0" y="0" fill="#B39A61" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="0.8">
+          &gt; Full-Stack Systems Architect
+        </text>
+      </g>
+      <!-- Role 2 -->
+      <g class="role-2">
+        <text x="0" y="0" fill="#E5E0D4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="0.8">
+          &gt; Algorithmic Engineer (C++20 &amp; DSA)
+        </text>
+      </g>
+      <!-- Role 3 -->
+      <g class="role-3">
+        <text x="0" y="0" fill="#B39A61" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="0.8">
+          &gt; Interactive 3D Web &amp; RPG Builder
+        </text>
+      </g>
+      <!-- Role 4 -->
+      <g class="role-4">
+        <text x="0" y="0" fill="#E5E0D4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="0.8">
+          &gt; CSE Undergraduate &amp; Software Crafter
+        </text>
+      </g>
+    </g>
+
+    <!-- Three Technical Pillars -->
+    <g transform="translate(600, 260)">
+      <!-- Pillar 1 -->
+      <g transform="translate(-290, 0)">
+        <rect x="-130" y="0" width="260" height="38" rx="4" fill="#1A211D" stroke="#263C31" stroke-width="1" />
+        <text x="0" y="18" fill="#E5E0D4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700">⚡ Modern Web Ecosystem</text>
+        <text x="0" y="30" fill="#9FA693" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5">Next.js 16 &bull; TypeScript &bull; Supabase</text>
+      </g>
+
+      <!-- Pillar 2 -->
+      <g transform="translate(0, 0)">
+        <rect x="-130" y="0" width="260" height="38" rx="4" fill="#1A211D" stroke="#657052" stroke-width="1" />
+        <text x="0" y="18" fill="#B39A61" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700">⚔️ Algorithmic Rigor</text>
+        <text x="0" y="30" fill="#9FA693" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5">C++20 &bull; DSA &bull; LeetCode &amp; Codeforces</text>
+      </g>
+
+      <!-- Pillar 3 -->
+      <g transform="translate(290, 0)">
+        <rect x="-130" y="0" width="260" height="38" rx="4" fill="#1A211D" stroke="#263C31" stroke-width="1" />
+        <text x="0" y="18" fill="#E5E0D4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700">🎮 Interactive 3D Systems</text>
+        <text x="0" y="30" fill="#9FA693" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5">Three.js / R3F &bull; Monaco Editor</text>
+      </g>
+    </g>
+
+    <!-- Subtle Animated Timeline Progress Bar (Cycle Sync) -->
+    <g transform="translate(350, 324)">
+      <rect x="0" y="0" width="500" height="4" rx="2" fill="#212824" />
+      <rect x="0" y="0" width="120" height="4" rx="2" fill="url(#goldBar)" class="progress-line" />
+    </g>
+  </g>
+
+  <!-- Bottom Accent Line -->
+  <rect x="0" y="357" width="1200" height="3" fill="url(#heroGold)" />
+</svg>

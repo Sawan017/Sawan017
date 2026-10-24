@@ -1,16 +1,16 @@
 <div align="center">
 
   <!-- ========================================== -->
-  <!-- 1. HERO BANNER                             -->
+  <!-- 1. ANIMATED HERO & IDENTITY                -->
   <!-- ========================================== -->
 
-  <img src="assets/hero-banner.svg" width="100%" alt="Sawan Sahani - Developer Hero Banner" />
+  <img src="assets/hero.svg" width="100%" alt="Sawan Sahani - Developer Hero Graphic" />
 
   <br /><br />
 
   <!-- Animated Typing Subtitle -->
   <a href="https://github.com/Sawan017">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=1000&color=829078&center=true&vCenter=true&width=540&height=35&lines=Computer+Science+Student;Full-Stack+Systems+Developer;Mastering+Data+Structures+%26+Algorithms+in+C%2B%2B;Architecting+ARINOVA+%26+SourCa" alt="Typing Animation - Sawan Sahani" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=1000&color=B39A61&center=true&vCenter=true&width=540&height=35&lines=Computer+Science+Student;Full-Stack+Systems+Developer;Mastering+Data+Structures+%26+Algorithms+in+C%2B%2B;Architecting+ARINOVA+%26+SourCa" alt="Typing Animation - Sawan Sahani" />
   </a>
 
   <br /><br />
@@ -25,8 +25,14 @@
 
 ## ⚡ About Me
 
+<div align="center">
+  <img src="assets/about-life.svg" width="100%" alt="Sawan Sahani - Background &amp; Core Disciplines" />
+</div>
+
+<br />
+
 <p>
-  Hello! I'm <b>Sawan Sahani</b>, a Computer Science &amp; Engineering undergraduate passionate about crafting resilient full-stack systems, interactive web applications, and disciplined algorithmic problem-solving.
+  Hello! I'm <b>Sawan Sahani</b>, a Computer Science &amp; Engineering undergraduate focused on architecting resilient full-stack web platforms, interactive 3D ecosystems, and mastering asymptotic algorithmic problem-solving.
 </p>
 
 <table align="center" width="100%">
@@ -34,27 +40,27 @@
     <td width="50%" valign="top">
       <h4>🔭 Current Engineering Focus</h4>
       <p>
-        Architecting modular full-stack web platforms with reactive state management, strict TypeScript contracts, and scalable cloud persistence using <b>Next.js App Router</b>, <b>TypeScript</b>, and <b>Supabase</b>.
+        Building modular full-stack web platforms with reactive state trees, strict TypeScript typing contracts, and scalable cloud persistence using <b>Next.js App Router</b>, <b>TypeScript</b>, and <b>Supabase</b>.
       </p>
     </td>
     <td width="50%" valign="top">
       <h4>🌱 Active Technical Exploration</h4>
       <p>
-        Exploring interactive 3D web environments via <b>Three.js</b> and <b>React Three Fiber</b>, distributed cloud architectures, and type-level metaprogramming for scalable systems.
+        Exploring interactive 3D web environments via <b>Three.js</b> and <b>React Three Fiber</b>, distributed cloud database architectures, and type-level metaprogramming.
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>⚔️ Algorithmic Discipline</h4>
+      <h4>⚔️ Algorithmic Rigor</h4>
       <p>
-        Dedicated competitive programmer and DSA practitioner solving complex challenges on <b>LeetCode</b> and <b>Codeforces</b> in <b>C++20</b> with optimal runtime and memory complexity.
+        Dedicated competitive programmer and computer science practitioner solving challenges on <b>LeetCode</b> and <b>Codeforces</b> in <b>C++20</b> with optimal runtime and space complexity.
       </p>
     </td>
     <td width="50%" valign="top">
       <h4>💡 Systems Philosophy</h4>
       <p>
-        Prioritizing clean separation of concerns, defensive database security via Row Level Security (RLS), comprehensive typing, and understated, intentional user experiences.
+        Prioritizing clean separation of concerns, defensive database security with Row Level Security (RLS), comprehensive static analysis, and understated, intentional user experiences.
       </p>
     </td>
   </tr>
@@ -67,41 +73,18 @@
 </div>
 
 <!-- ========================================== -->
-<!-- 3. TECHNOLOGY STACK                        -->
+<!-- 3. HANGING DEVELOPER ID                    -->
 <!-- ========================================== -->
 
-## 🛠️ Technology Stack
-
-<p>
-  A curated overview of languages, frameworks, and developer tooling actively used across my projects:
-</p>
+## 🪪 Verified Developer Credential
 
 <div align="center">
 
-  <p>
-    <img src="https://skillicons.dev/icons?i=cpp,ts,js,html,css,react,nextjs,tailwind,threejs,supabase,postgres,git,github,vscode,vite,linux&perline=8&theme=dark" alt="Technology Arsenal Grid" />
-  </p>
+  <img src="assets/id-dashboard.svg" width="460" alt="Hanging Developer ID Badge - Sawan Sahani" />
 
-  <table align="center" width="100%">
-    <tr>
-      <td width="25%" valign="top">
-        <b>💻 Languages</b><br />
-        <sub>C++ (C++20) • TypeScript • JavaScript (ES6+) • HTML5 • CSS3</sub>
-      </td>
-      <td width="25%" valign="top">
-        <b>🎨 Frontend &amp; Web</b><br />
-        <sub>React 19 • Next.js 16 (App Router) • Tailwind CSS • Three.js / R3F • Monaco Editor</sub>
-      </td>
-      <td width="25%" valign="top">
-        <b>☁️ Backend &amp; Cloud</b><br />
-        <sub>Supabase BaaS • PostgreSQL &amp; RLS • RESTful APIs • Google GenAI SDK</sub>
-      </td>
-      <td width="25%" valign="top">
-        <b>🛠️ Tooling &amp; Workflow</b><br />
-        <sub>Git Version Control • GitHub Actions • VS Code • Vite • Linux / Bash</sub>
-      </td>
-    </tr>
-  </table>
+  <p>
+    <sub><b>Credential Verification:</b> Active Contributor &bull; GitHub Identity <a href="https://github.com/Sawan017">@Sawan017</a> &bull; CSE Department</sub>
+  </p>
 
   <br />
 
@@ -110,14 +93,51 @@
 </div>
 
 <!-- ========================================== -->
-<!-- 4. FEATURED PROJECTS                       -->
+<!-- 4. TECHNOLOGY STACK                        -->
+<!-- ========================================== -->
+
+## 🛠️ Technology Stack &amp; Systems
+
+<p>
+  A structured taxonomy of languages, frameworks, and developer tooling actively utilized across my systems:
+</p>
+
+<div align="center">
+
+  <!-- Animated Three-Orbit Technology Graphic -->
+  <img src="assets/stack.svg" width="100%" alt="Three Orbital Technology System" />
+
+  <br /><br />
+
+  <!-- Recognizable Brand Logos -->
+  <p>
+    <img src="https://skillicons.dev/icons?i=cpp,ts,js,html,css,react,nextjs,tailwind,threejs,supabase,postgres,git,github,vscode,vite,linux&perline=8&theme=dark" alt="Technology Arsenal Grid" />
+  </p>
+
+  <br />
+
+  <img src="assets/divider.svg" width="100%" alt="Divider" />
+
+</div>
+
+<!-- ========================================== -->
+<!-- 5. FEATURED PROJECTS                       -->
 <!-- ========================================== -->
 
 ## 📂 Featured Projects
 
 <p>
-  Production applications, gamified developer platforms, and algorithmic repositories:
+  Flagship applications, AI evaluation platforms, and algorithmic repositories:
 </p>
+
+<div align="center">
+
+  <!-- Featured Projects Visual Presentation -->
+  <img src="assets/connect.svg" width="100%" alt="Featured Projects Presentation" />
+
+</div>
+
+<br />
 
 <table align="center" width="100%">
   <tr>
@@ -193,13 +213,13 @@
 </div>
 
 <!-- ========================================== -->
-<!-- 5. DEVELOPER JOURNEY                       -->
+<!-- 6. DEVELOPER JOURNEY                       -->
 <!-- ========================================== -->
 
 ## 🧭 Developer Journey &amp; Horizons
 
 <p>
-  My progression path bridging undergraduate computer science fundamentals with modern software engineering:
+  My progression path bridging undergraduate computer science fundamentals with production software engineering:
 </p>
 
 <table align="center" width="100%">
@@ -230,21 +250,21 @@
 </div>
 
 <!-- ========================================== -->
-<!-- 6. GITHUB ACTIVITY & STATISTICS            -->
+<!-- 7. GITHUB STATISTICS & ACTIVITY            -->
 <!-- ========================================== -->
 
 ## 📈 GitHub Statistics &amp; Activity
 
 <div align="center">
 
-  <!-- Forest Green Themed Stats Cards -->
+  <!-- Graphite & Antique Gold Themed Stats Cards -->
   <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=Sawan017&show_icons=true&hide_border=false&border_color=2C332D&bg_color=171A18&title_color=EDECE6&icon_color=829078&text_color=C5C5BA&ring_color=69735A" height="155" alt="Sawan Sahani GitHub Stats" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sawan017&layout=compact&hide_border=false&border_color=2C332D&bg_color=171A18&title_color=EDECE6&text_color=C5C5BA" height="155" alt="Top Languages" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Sawan017&show_icons=true&hide_border=false&border_color=263C31&bg_color=171B19&title_color=E5E0D4&icon_color=B39A61&text_color=C5C5BA&ring_color=657052" height="155" alt="Sawan Sahani GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sawan017&layout=compact&hide_border=false&border_color=263C31&bg_color=171B19&title_color=E5E0D4&text_color=C5C5BA" height="155" alt="Top Languages" />
   </p>
 
   <p>
-    <img src="https://streak-stats.demolab.com?user=Sawan017&theme=transparent&hide_border=false&border=2C332D&background=171A18&ring=69735A&fire=829078&currStreakLabel=EDECE6&sideLabels=C5C5BA&dates=829078" height="150" alt="GitHub Streak Stats" />
+    <img src="https://streak-stats.demolab.com?user=Sawan017&theme=transparent&hide_border=false&border=263C31&background=171B19&ring=657052&fire=B39A61&currStreakLabel=E5E0D4&sideLabels=C5C5BA&dates=B39A61" height="150" alt="GitHub Streak Stats" />
   </p>
 
   <br />
@@ -272,7 +292,7 @@
 </div>
 
 <!-- ========================================== -->
-<!-- 7. CONTACT & COLLABORATION                 -->
+<!-- 8. CONTACT & COLLABORATION                 -->
 <!-- ========================================== -->
 
 ## 📫 Connect &amp; Collaborate
@@ -285,19 +305,19 @@
 
   <p>
     <a href="https://github.com/Sawan017">
-      <img src="https://img.shields.io/badge/GitHub-@Sawan017-24382F?style=for-the-badge&logo=github&logoColor=EDECE6" alt="GitHub Profile" />
+      <img src="https://img.shields.io/badge/GitHub-@Sawan017-263C31?style=for-the-badge&logo=github&logoColor=E5E0D4" alt="GitHub Profile" />
     </a>
     &nbsp;
     <a href="mailto:sunnysahny@gmail.com">
-      <img src="https://img.shields.io/badge/Email-Get_In_Touch-354339?style=for-the-badge&logo=gmail&logoColor=EDECE6" alt="Email Sawan" />
+      <img src="https://img.shields.io/badge/Email-Get_In_Touch-354A3E?style=for-the-badge&logo=gmail&logoColor=E5E0D4" alt="Email Sawan" />
     </a>
     &nbsp;
     <a href="https://leetcode.com/u/Sawan017/">
-      <img src="https://img.shields.io/badge/LeetCode-Solutions-454C35?style=for-the-badge&logo=leetcode&logoColor=EDECE6" alt="LeetCode Profile" />
+      <img src="https://img.shields.io/badge/LeetCode-Solutions-454C35?style=for-the-badge&logo=leetcode&logoColor=E5E0D4" alt="LeetCode Profile" />
     </a>
     &nbsp;
     <a href="https://codeforces.com/profile/Sawan017">
-      <img src="https://img.shields.io/badge/Codeforces-Contests-69735A?style=for-the-badge&logo=codeforces&logoColor=EDECE6" alt="Codeforces Profile" />
+      <img src="https://img.shields.io/badge/Codeforces-Contests-657052?style=for-the-badge&logo=codeforces&logoColor=E5E0D4" alt="Codeforces Profile" />
     </a>
   </p>
 

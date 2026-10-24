@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 430" width="100%" height="auto">
+  <defs>
+    <!-- Metallic Clasp Gradient -->
+    <linearGradient id="metalClasp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#454F48" />
+      <stop offset="30%" stop-color="#727E76" />
+      <stop offset="50%" stop-color="#B39A61" />
+      <stop offset="70%" stop-color="#454F48" />
+      <stop offset="100%" stop-color="#263C31" />
+    </linearGradient>
+
+    <!-- Card Subtle Ambient Gradient -->
+    <linearGradient id="idCardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E2420" />
+      <stop offset="40%" stop-color="#171B19" />
+      <stop offset="100%" stop-color="#141816" />
+    </linearGradient>
+
+    <linearGradient id="photoFrame" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#263C31" />
+      <stop offset="100%" stop-color="#1A221E" />
+    </linearGradient>
+
+    <!-- Barcode Pattern Mockup -->
+    <pattern id="barcodeLines" width="24" height="20" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="2" height="20" fill="#E5E0D4" />
+      <rect x="4" y="0" width="1" height="20" fill="#E5E0D4" />
+      <rect x="7" y="0" width="3" height="20" fill="#E5E0D4" />
+      <rect x="12" y="0" width="1.5" height="20" fill="#E5E0D4" />
+      <rect x="16" y="0" width="2" height="20" fill="#E5E0D4" />
+      <rect x="20" y="0" width="1" height="20" fill="#E5E0D4" />
+    </pattern>
+
+    <style>
+      @keyframes pendulumMotion {
+        0% { transform: rotate(-1.7deg); }
+        50% { transform: rotate(1.7deg); }
+        100% { transform: rotate(-1.7deg); }
+      }
+      .pendulum-assembly {
+        transform-origin: 270px 15px;
+        animation: pendulumMotion 6.5s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .pendulum-assembly { animation: none !important; transform: none !important; }
+      }
+    </style>
+  </defs>
+
+  <!-- Lanyard Fixed Top Anchor (Does Not Move) -->
+  <g transform="translate(270, 0)">
+    <!-- Top Strap Loop -->
+    <path d="M -16 0 L -12 40 L 12 40 L 16 0 Z" fill="#263C31" stroke="#1F2E26" stroke-width="1" />
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#657052" stroke-width="1" stroke-dasharray="2 3" />
+  </g>
+
+  <!-- Hanging Swinging Assembly -->
+  <g class="pendulum-assembly">
+
+    <!-- Clasp Mechanism -->
+    <g transform="translate(270, 40)">
+      <!-- Swivel Ring -->
+      <circle cx="0" cy="8" r="8" fill="none" stroke="url(#metalClasp)" stroke-width="2.5" />
+      <!-- Metal Clip Body -->
+      <rect x="-8" y="16" width="16" height="18" rx="2" fill="url(#metalClasp)" />
+      <rect x="-5" y="32" width="10" height="12" rx="1" fill="#454F48" />
+      <!-- Rivet pin -->
+      <circle cx="0" cy="24" r="2" fill="#B39A61" />
+    </g>
+
+    <!-- Main ID Card Body -->
+    <g transform="translate(130, 80)">
+      <!-- Card Outer Shadow / Border -->
+      <rect x="0" y="0" width="280" height="340" rx="10" fill="url(#idCardGrad)" stroke="#263C31" stroke-width="1.5" />
+      <rect x="5" y="5" width="270" height="330" rx="8" fill="none" stroke="#212824" stroke-width="0.8" />
+
+      <!-- Lanyard Slot Cutout at Top of Card -->
+      <rect x="110" y="10" width="60" height="8" rx="4" fill="#141816" stroke="#263C31" stroke-width="1" />
+
+      <!-- Corner Antique Gold Accents -->
+      <path d="M 10 24 L 10 14 L 20 14" fill="none" stroke="#B39A61" stroke-width="1" />
+      <path d="M 270 24 L 270 14 L 260 14" fill="none" stroke="#B39A61" stroke-width="1" />
+      <path d="M 10 316 L 10 326 L 20 326" fill="none" stroke="#B39A61" stroke-width="1" />
+      <path d="M 270 316 L 270 326 L 260 326" fill="none" stroke="#B39A61" stroke-width="1" />
+
+      <!-- Top Header Brand Strip -->
+      <g transform="translate(140, 36)" text-anchor="middle">
+        <text x="0" y="0" fill="#B39A61" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="800" letter-spacing="1.8">
+          DEVELOPER CREDENTIAL &bull; VERIFIED
+        </text>
+        <line x1="-115" y1="8" x2="115" y2="8" stroke="#263C31" stroke-width="1" />
+      </g>
+
+      <!-- Portrait Frame & Avatar Illustration -->
+      <g transform="translate(85, 54)">
+        <rect width="110" height="110" rx="8" fill="url(#photoFrame)" stroke="#3A4E42" stroke-width="1.2" />
+        
+        <!-- Vector Avatar Fallback / Integrated Silhouette -->
+        <g transform="translate(55, 55)" text-anchor="middle">
+          <!-- Head / Hair -->
+          <circle cx="0" cy="-14" r="18" fill="#454F48" />
+          <path d="M -18 -18 Q 0 -30 18 -18 Q 14 -32 -6 -28 Z" fill="#263C31" />
+          <!-- Glasses bridge -->
+          <rect x="-14" y="-16" width="11" height="8" rx="2" fill="none" stroke="#B39A61" stroke-width="1.5" />
+          <rect x="3" y="-16" width="11" height="8" rx="2" fill="none" stroke="#B39A61" stroke-width="1.5" />
+          <line x1="-3" y1="-12" x2="3" y2="-12" stroke="#B39A61" stroke-width="1.2" />
+          <!-- Shoulders / Torso -->
+          <path d="M -35 38 C -30 12 30 12 35 38 Z" fill="#263C31" stroke="#3A4E42" stroke-width="1" />
+          <polygon points="0,18 -8,38 8,38" fill="#1E2621" />
+          <!-- Small Verified Jewel Badge on photo -->
+          <circle cx="36" cy="36" r="8" fill="#171B19" stroke="#B39A61" stroke-width="1" />
+          <text x="36" y="39.5" fill="#B39A61" font-family="'Fira Code', monospace" font-size="8" font-weight="800">&gt;</text>
+        </g>
+
+        <!-- Optional Image Overlay (loads if id.png exists) -->
+        <image href="assets/id.png" width="110" height="110" preserveAspectRatio="xMidYMid slice" opacity="0.95" />
+      </g>
+
+      <!-- Developer Credentials Info -->
+      <g transform="translate(140, 186)" text-anchor="middle">
+        <!-- Name -->
+        <text x="0" y="0" fill="#E5E0D4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="800" letter-spacing="-0.3">
+          Sawan Sahani
+        </text>
+
+        <!-- Handle -->
+        <text x="0" y="18" fill="#B39A61" font-family="'Fira Code', 'JetBrains Mono', Consolas, monospace" font-size="12" font-weight="600">
+          @Sawan017
+        </text>
+
+        <!-- Role Capsule -->
+        <g transform="translate(0, 30)">
+          <rect x="-95" y="0" width="190" height="22" rx="3" fill="#1E2621" stroke="#263C31" stroke-width="0.8" />
+          <text x="0" y="14" fill="#C5C5BA" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="700" letter-spacing="0.8">
+            FULL-STACK &bull; ALGORITHMS
+          </text>
+        </g>
+
+        <!-- Details Grid -->
+        <g transform="translate(-100, 68)" text-anchor="start" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9">
+          <text x="0" y="0" fill="#657052" font-weight="600">DEPT:</text>
+          <text x="38" y="0" fill="#E5E0D4" font-weight="500">Computer Science &amp; Eng.</text>
+
+          <text x="0" y="14" fill="#657052" font-weight="600">ROLE:</text>
+          <text x="38" y="14" fill="#E5E0D4" font-weight="500">Systems &amp; Platform Dev</text>
+
+          <text x="0" y="28" fill="#657052" font-weight="600">STATUS:</text>
+          <text x="38" y="28" fill="#B39A61" font-weight="700">ACTIVE CONTRIBUTOR</text>
+        </g>
+      </g>
+
+      <!-- Barcode Section -->
+      <g transform="translate(30, 298)">
+        <line x1="0" y1="0" x2="220" y2="0" stroke="#263C31" stroke-width="0.8" />
+        <rect x="15" y="8" width="190" height="18" fill="url(#barcodeLines)" opacity="0.75" />
+        <text x="110" y="32" fill="#657052" font-family="'Fira Code', monospace" font-size="7.5" font-weight="600" text-anchor="middle" letter-spacing="1.5">
+          DEV-017-SAWAN-VERIFIED
+        </text>
+      </g>
+    </g>
+
+  </g>
+</svg>
