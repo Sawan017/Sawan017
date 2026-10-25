@@ -1,118 +1,119 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 270" width="1200" height="270">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="1200" height="260">
   <defs>
     <linearGradient id="p1-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#142E25" />
-      <stop offset="100%" stop-color="#10251F" />
+      <stop offset="0%" stop-color="#11182B" />
+      <stop offset="100%" stop-color="#0A0E18" />
     </linearGradient>
-    <linearGradient id="p1-node-glow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#68A786" />
-      <stop offset="100%" stop-color="#32805B" />
-    </linearGradient>
+    <style>
+      @keyframes floatCrystal {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-7px); }
+      }
+      @keyframes spinOrbit {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      .floating-node {
+        animation: floatCrystal 4s ease-in-out infinite;
+      }
+      .orbit-ring {
+        transform-origin: 980px 125px;
+        animation: spinOrbit 14s linear infinite;
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .floating-node, .orbit-ring { animation: none !important; }
+      }
+    </style>
   </defs>
 
   <!-- Container -->
-  <rect x="0.5" y="0.5" width="1199" height="269" rx="14" fill="url(#p1-bg)" stroke="#315544" stroke-width="1.2" />
-  <!-- Top hairline -->
-  <line x1="14" y1="1" x2="1186" y2="1" stroke="#315544" stroke-width="1" />
-  <line x1="14" y1="1" x2="220" y2="1" stroke="#68A786" stroke-width="1.5" />
+  <rect x="0.5" y="0.5" width="1199" height="259" rx="14" fill="url(#p1-bg)" stroke="#233455" stroke-width="1.2" />
+  <line x1="16" y1="1" x2="240" y2="1" stroke="#3B82F6" stroke-width="2" />
 
   <!-- Metadata Top Line -->
-  <text x="44" y="38" fill="#68A786" font-family="'Fira Code', Consolas, monospace" font-size="11.5" font-weight="700" letter-spacing="1.5">01 • 3D WEB REALM • GAMIFIED RPG • 2025</text>
+  <text x="44" y="38" fill="#60A5FA" font-family="'Fira Code', Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.5">01 • 3D WEB REALM • GAMIFIED DEVELOPER RPG • 2025</text>
 
   <!-- Title + Italic Subtitle -->
-  <text x="44" y="78" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" letter-spacing="-0.3">ARINOVA</text>
-  <text x="200" y="77" fill="#68A786" font-family="Georgia, serif" font-size="16" font-style="italic">Gamified Developer Universe</text>
+  <text x="44" y="76" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" letter-spacing="-0.3">ARINOVA</text>
+  <text x="195" y="75" fill="#60A5FA" font-family="Georgia, serif" font-size="16" font-style="italic">Gamified Developer Universe</text>
 
-  <!-- Subtitle Description -->
-  <text x="44" y="105" fill="#A8BCAF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13">An interactive 3D developer career RPG transforming real coding quests and milestones into an epic journey.</text>
+  <!-- Concise Description -->
+  <text x="44" y="103" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5">
+    An interactive 3D developer career RPG transforming real coding roadmaps, quests, and milestones into an immersive universe.
+  </text>
 
-  <!-- Built Line -->
-  <text x="44" y="128" fill="#68A786" font-family="'Fira Code', Consolas, monospace" font-size="11" font-weight="600">BUILT &gt; 3D Realm (Three.js/R3F) • Dynamic Quest Engine • Monaco Code Sandbox • Supabase Realtime Sync</text>
+  <!-- Architecture / Built Line -->
+  <text x="44" y="128" fill="#60A5FA" font-family="'Fira Code', Consolas, monospace" font-size="11" font-weight="600">
+    BUILT &gt; Three.js 3D Canvas • Dynamic Quest Engine • Monaco In-Browser IDE • Supabase Cloud State
+  </text>
 
-  <!-- 3 Metric Boxes -->
-  <g transform="translate(44, 146)">
-    <!-- Metric 1 -->
-    <rect x="0" y="0" width="160" height="48" rx="6" fill="#19392D" stroke="#315544" stroke-width="1" />
-    <text x="14" y="22" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">3D Realm</text>
-    <text x="14" y="38" fill="#A8BCAF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">Three.js &amp; R3F Canvas</text>
+  <!-- 3 Authentic Architecture Pillars -->
+  <g transform="translate(44, 144)">
+    <rect x="0" y="0" width="165" height="46" rx="6" fill="#131D33" stroke="#253555" stroke-width="1" />
+    <text x="14" y="21" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">3D Interactive Realm</text>
+    <text x="14" y="36" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">Three.js &amp; R3F Scene</text>
 
-    <!-- Metric 2 -->
-    <rect x="175" y="0" width="160" height="48" rx="6" fill="#19392D" stroke="#315544" stroke-width="1" />
-    <text x="189" y="22" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Sub-50ms</text>
-    <text x="189" y="38" fill="#A8BCAF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">Quest State Sync</text>
+    <rect x="180" y="0" width="165" height="46" rx="6" fill="#131D33" stroke="#253555" stroke-width="1" />
+    <text x="194" y="21" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">Real-Time Progression</text>
+    <text x="194" y="36" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">Supabase Cloud Sync</text>
 
-    <!-- Metric 3 -->
-    <rect x="350" y="0" width="160" height="48" rx="6" fill="#19392D" stroke="#315544" stroke-width="1" />
-    <text x="364" y="22" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Monaco IDE</text>
-    <text x="364" y="38" fill="#A8BCAF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">In-Browser Code Sandbox</text>
+    <rect x="360" y="0" width="165" height="46" rx="6" fill="#131D33" stroke="#253555" stroke-width="1" />
+    <text x="374" y="21" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">Monaco Code IDE</text>
+    <text x="374" y="36" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5">Live Quest Evaluation</text>
   </g>
 
   <!-- Tech Pills Row -->
-  <g transform="translate(44, 212)">
-    <!-- React 19 -->
-    <rect x="0" y="0" width="76" height="24" rx="4" fill="#19392D" stroke="#315544" stroke-width="0.8" />
-    <text x="38" y="16" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">React 19</text>
+  <g transform="translate(44, 206)">
+    <rect x="0" y="0" width="76" height="24" rx="4" fill="#131D33" stroke="#253555" stroke-width="0.8" />
+    <text x="38" y="16" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">React 19</text>
 
-    <!-- TypeScript -->
-    <rect x="84" y="0" width="86" height="24" rx="4" fill="#19392D" stroke="#315544" stroke-width="0.8" />
-    <text x="127" y="16" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">TypeScript</text>
+    <rect x="84" y="0" width="86" height="24" rx="4" fill="#131D33" stroke="#253555" stroke-width="0.8" />
+    <text x="127" y="16" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">TypeScript</text>
 
-    <!-- Three.js -->
-    <rect x="178" y="0" width="76" height="24" rx="4" fill="#19392D" stroke="#315544" stroke-width="0.8" />
-    <text x="216" y="16" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">Three.js</text>
+    <rect x="178" y="0" width="76" height="24" rx="4" fill="#131D33" stroke="#253555" stroke-width="0.8" />
+    <text x="216" y="16" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">Three.js</text>
 
-    <!-- R3F -->
-    <rect x="262" y="0" width="56" height="24" rx="4" fill="#19392D" stroke="#315544" stroke-width="0.8" />
-    <text x="290" y="16" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">R3F</text>
+    <rect x="262" y="0" width="56" height="24" rx="4" fill="#131D33" stroke="#253555" stroke-width="0.8" />
+    <text x="290" y="16" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">R3F</text>
 
-    <!-- Supabase -->
-    <rect x="326" y="0" width="80" height="24" rx="4" fill="#19392D" stroke="#315544" stroke-width="0.8" />
-    <text x="366" y="16" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">Supabase</text>
+    <rect x="326" y="0" width="80" height="24" rx="4" fill="#131D33" stroke="#253555" stroke-width="0.8" />
+    <text x="366" y="16" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">Supabase</text>
 
-    <!-- Monaco Editor -->
-    <rect x="414" y="0" width="104" height="24" rx="4" fill="#19392D" stroke="#315544" stroke-width="0.8" />
-    <text x="466" y="16" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">Monaco Editor</text>
+    <rect x="414" y="0" width="104" height="24" rx="4" fill="#131D33" stroke="#253555" stroke-width="0.8" />
+    <text x="466" y="16" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">Monaco Editor</text>
 
-    <!-- Tailwind CSS -->
-    <rect x="526" y="0" width="96" height="24" rx="4" fill="#19392D" stroke="#315544" stroke-width="0.8" />
-    <text x="574" y="16" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">Tailwind CSS</text>
+    <rect x="526" y="0" width="96" height="24" rx="4" fill="#131D33" stroke="#253555" stroke-width="0.8" />
+    <text x="574" y="16" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" text-anchor="middle">Tailwind CSS</text>
   </g>
 
-  <!-- Right Schematic: Isometric 3D World Node Illustration -->
-  <g transform="translate(800, 24)">
-    <!-- Illustration Card Container -->
-    <rect x="0" y="0" width="356" height="222" rx="10" fill="#10251F" stroke="#315544" stroke-width="1" />
+  <!-- Right: Animated Isometric Crystal Illustration -->
+  <g transform="translate(800, 20)">
+    <rect x="0" y="0" width="356" height="218" rx="10" fill="#0A0E18" stroke="#233455" stroke-width="1" />
     
     <!-- Coordinate Grid Lines -->
-    <line x1="20" y1="170" x2="336" y2="170" stroke="#315544" stroke-width="0.8" stroke-dasharray="3 3" />
-    <line x1="20" y1="130" x2="336" y2="130" stroke="#315544" stroke-width="0.6" stroke-dasharray="2 4" />
-    <line x1="20" y1="90" x2="336" y2="90" stroke="#315544" stroke-width="0.6" stroke-dasharray="2 4" />
-    
-    <!-- Orbital Rings -->
-    <ellipse cx="178" cy="110" rx="110" ry="42" fill="none" stroke="#315544" stroke-width="1" stroke-dasharray="4 4" />
-    <ellipse cx="178" cy="110" rx="75" ry="28" fill="none" stroke="#68A786" stroke-width="1" opacity="0.4" />
-    
-    <!-- Central Isometric Crystal Core -->
-    <!-- Top Face -->
-    <polygon points="178,65 218,85 178,105 138,85" fill="#68A786" opacity="0.9" />
-    <!-- Left Face -->
-    <polygon points="138,85 178,105 178,155 138,135" fill="#32805B" opacity="0.95" />
-    <!-- Right Face -->
-    <polygon points="178,105 218,85 218,135 178,155" fill="#214635" opacity="0.9" />
-    <!-- Core highlights -->
-    <line x1="178" y1="65" x2="178" y2="155" stroke="#E1EAE3" stroke-width="0.8" opacity="0.7" />
-    
-    <!-- Floating Orbit Nodes -->
-    <circle cx="85" cy="116" r="4.5" fill="#68A786" />
-    <circle cx="265" cy="102" r="4" fill="#32805B" />
-    <circle cx="218" cy="55" r="3.5" fill="#E1EAE3" />
-    <line x1="178" y1="65" x2="218" y2="55" stroke="#68A786" stroke-width="0.8" stroke-dasharray="2 2" />
+    <line x1="20" y1="160" x2="336" y2="160" stroke="#1E2A44" stroke-width="0.8" stroke-dasharray="3 3" />
+    <line x1="20" y1="120" x2="336" y2="120" stroke="#1E2A44" stroke-width="0.6" stroke-dasharray="2 4" />
 
-    <!-- Terminal Coordinate HUD -->
-    <rect x="20" y="18" width="168" height="22" rx="4" fill="#19392D" stroke="#315544" stroke-width="0.8" />
-    <text x="28" y="33" fill="#68A786" font-family="'Fira Code', Consolas, monospace" font-size="9" font-weight="600">NODE: [x: 42.8, y: 19.4, z: 0.0]</text>
+    <!-- Orbit Ring (Animated) -->
+    <g class="orbit-ring">
+      <ellipse cx="178" cy="110" rx="90" ry="34" fill="none" stroke="#3B82F6" stroke-width="1" stroke-dasharray="6 6" opacity="0.6" />
+      <circle cx="268" cy="110" r="3.5" fill="#60A5FA" />
+      <circle cx="88" cy="110" r="2.5" fill="#3B82F6" />
+    </g>
 
-    <!-- Bottom HUD Line -->
-    <text x="178" y="202" fill="#A8BCAF" font-family="'Fira Code', Consolas, monospace" font-size="9" text-anchor="middle">REALM: ACTIVE • 60 FPS • THREE.JS CORE</text>
+    <!-- Floating Isometric Node (Animated) -->
+    <g class="floating-node">
+      <!-- Isometric Crystal Core -->
+      <polygon points="178,65 218,85 178,105 138,85" fill="#60A5FA" opacity="0.85" />
+      <polygon points="138,85 178,105 178,155 138,135" fill="#2563EB" opacity="0.9" />
+      <polygon points="178,105 218,85 218,135 178,155" fill="#1D4ED8" opacity="0.8" />
+      <line x1="178" y1="65" x2="178" y2="155" stroke="#F8FAFC" stroke-width="0.8" opacity="0.7" />
+    </g>
+
+    <!-- HUD Label -->
+    <rect x="20" y="16" width="154" height="20" rx="4" fill="#131D33" stroke="#253555" stroke-width="0.8" />
+    <text x="28" y="30" fill="#60A5FA" font-family="'Fira Code', Consolas, monospace" font-size="8.5" font-weight="600">WORLD_NODE: [3D REALM]</text>
+
+    <text x="178" y="198" fill="#94A3B8" font-family="'Fira Code', Consolas, monospace" font-size="9" text-anchor="middle">STATUS: ACTIVE • THREE.JS / R3F</text>
   </g>
 </svg>

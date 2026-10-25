@@ -1,29 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 32" width="220" height="32">
   <defs>
     <clipPath id="btn-clip">
-      <rect x="0" y="0" width="220" height="32" rx="4" />
+      <rect x="0" y="0" width="220" height="32" rx="5" />
     </clipPath>
   </defs>
   <g clip-path="url(#btn-clip)">
-    <!-- Left segment -->
-    <rect x="0" y="0" width="105" height="32" fill="#19392D" />
-    <!-- Right segment -->
-    <rect x="105" y="0" width="115" height="32" fill="#32805B" />
+    <!-- Left segment (Deep Slate Navy) -->
+    <rect x="0" y="0" width="105" height="32" fill="#131B2E" />
+    <!-- Right segment (Royal Sapphire Accent) -->
+    <rect x="105" y="0" width="115" height="32" fill="#2563EB" />
     <!-- Divider line -->
-    <line x1="105" y1="0" x2="105" y2="32" stroke="#315544" stroke-width="1.2" />
+    <line x1="105" y1="0" x2="105" y2="32" stroke="#253553" stroke-width="1.2" />
     
     <!-- Outer border -->
-    <rect x="0.5" y="0.5" width="219" height="31" fill="none" stroke="#315544" stroke-width="1" rx="4" />
+    <rect x="0.5" y="0.5" width="219" height="31" fill="none" stroke="#253553" stroke-width="1" rx="5" />
 
     <!-- Icon -->
     <g transform="translate(12, 8)">
-      <path fill="#A8BCAF" d="M2 3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H2zm2.5 3.5l2 1.5-2 1.5-.6-.8 1-0.7-1-0.7.6-.8zm3 3h3v1h-3v-1z"/>
+      <path fill="#94A3B8" d="M2 3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H2zm2.5 3.5l2 1.5-2 1.5-.6-.8 1-0.7-1-0.7.6-.8zm3 3h3v1h-3v-1z"/>
     </g>
 
     <!-- Left Text -->
-    <text x="34" y="20" fill="#A8BCAF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1">LEETCODE</text>
+    <text x="34" y="20" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1">LEETCODE</text>
 
     <!-- Right Text -->
-    <text x="162.5" y="20" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.8" text-anchor="middle">@SAWAN017</text>
+    <text x="162.5" y="20" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.8" text-anchor="middle">@SAWAN017</text>
   </g>
 </svg>

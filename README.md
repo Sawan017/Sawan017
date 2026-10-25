@@ -1,16 +1,16 @@
 <div align="center">
 
   <!-- ========================================== -->
-  <!-- HERO BANNER & VERIFIED IDENTITY           -->
+  <!-- 1. ANIMATED HERO & IDENTITY                -->
   <!-- ========================================== -->
 
   <p align="center">
     <img src="./assets/hero.svg" alt="Sawan Sahani - Systems Architect &amp; Full-Stack Engineer" width="100%" />
   </p>
 
-  <!-- Hero Quick Action Buttons -->
+  <!-- Quick Action Buttons -->
   <p align="center">
-    <a href="https://github.com/Sawan017"><img src="./assets/btn-hero-portfolio.svg" alt="Portfolio" height="32" /></a>
+    <a href="https://github.com/Sawan017"><img src="./assets/btn-hero-portfolio.svg" alt="GitHub Profile" height="32" /></a>
     &nbsp;
     <a href="https://leetcode.com/u/Sawan017/"><img src="./assets/btn-hero-leetcode.svg" alt="LeetCode" height="32" /></a>
     &nbsp;
@@ -26,31 +26,17 @@
 </div>
 
 <!-- ========================================== -->
-<!-- 01 ABOUT                                   -->
+<!-- 2. ABOUT ME                                -->
 <!-- ========================================== -->
 
-<p align="left">
-  <img src="./assets/header-about.svg" alt="01 ABOUT | WHO I AM" width="100%" />
-</p>
+## 👨‍💻 About Me
 
 <p align="center">
-  <img src="./assets/about.svg" alt="About Sawan Sahani - Interactive Terminal &amp; Focus" width="100%" />
+  <img src="./assets/about.svg" alt="About Sawan Sahani - Terminal Session &amp; Core Disciplines" width="100%" />
 </p>
 
-<p align="center">
-  <img src="./assets/divider.svg" alt="Divider" width="100%" />
-</p>
-
-<!-- ========================================== -->
-<!-- 02 RECOGNITION & TRACK RECORD              -->
-<!-- ========================================== -->
-
-<p align="left">
-  <img src="./assets/header-journey.svg" alt="02 RECOGNITION | ACADEMICS • PROBLEM SOLVING • PLATFORMS" width="100%" />
-</p>
-
-<p align="center">
-  <img src="./assets/journey.svg" alt="Recognition &amp; Milestones - Sawan Sahani" width="100%" />
+<p>
+  Hello! I am <b>Sawan Sahani</b> (<a href="https://github.com/Sawan017">@Sawan017</a>), a Computer Science &amp; Engineering undergraduate focused on architecting resilient full-stack web platforms, interactive 3D web environments, and mastering asymptotic algorithmic problem-solving in <b>C++20</b>.
 </p>
 
 <p align="center">
@@ -58,11 +44,13 @@
 </p>
 
 <!-- ========================================== -->
-<!-- 03 SELECTED WORK                           -->
+<!-- 3. FEATURED PROJECTS                       -->
 <!-- ========================================== -->
 
-<p align="left">
-  <img src="./assets/header-projects.svg" alt="03 SELECTED WORK | > 04 SYSTEMS • REAL CONSTRAINTS" width="100%" />
+## 🚀 Featured Projects
+
+<p>
+  Flagship software systems, architectural prototypes, and algorithmic solutions with verified repositories.
 </p>
 
 <!-- Project 1: ARINOVA -->
@@ -84,14 +72,14 @@
 <p align="center">
   <a href="https://github.com/Sawan017/SourCa"><img src="./assets/btn-sourca-repo.svg" alt="SourCa Repository" height="30" /></a>
   &nbsp;&nbsp;
-  <a href="https://github.com/Sawan017/SourCa"><img src="./assets/btn-sourca-demo.svg" alt="SourCa Engine" height="30" /></a>
+  <a href="https://github.com/Sawan017/SourCa"><img src="./assets/btn-sourca-demo.svg" alt="SourCa Demo" height="30" /></a>
 </p>
 
 <br />
 
 <!-- Project 3: CodeAscend -->
 <p align="center">
-  <img src="./assets/project-3-codeascend.svg" alt="CodeAscend - Milestone &amp; Trajectory Tracker" width="100%" />
+  <img src="./assets/project-3-codeascend.svg" alt="CodeAscend - Skill Roadmap &amp; Trajectory Tracker" width="100%" />
 </p>
 <p align="center">
   <a href="https://github.com/Sawan017/CodeAscend"><img src="./assets/btn-codeascend-repo.svg" alt="CodeAscend Repository" height="30" /></a>
@@ -112,20 +100,14 @@
 </p>
 
 <!-- ========================================== -->
-<!-- 04 TOOLKIT & COMPETENCIES                  -->
+<!-- 4. TECHNOLOGY STACK                        -->
 <!-- ========================================== -->
 
-<p align="left">
-  <img src="./assets/header-toolkit.svg" alt="04 TOOLKIT | LANGUAGES • FRONTEND • BACKEND • DATA • INFRA" width="100%" />
-</p>
-
-<p align="center">
-  <img src="./assets/toolkit.svg" alt="Toolkit - 6 Categorized Disciplines" width="100%" />
-</p>
+## 🛠️ Technology Stack
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cpp,ts,js,react,nextjs,threejs,nodejs,postgres,supabase,tailwind,git,linux,postman,docker,python&theme=dark" alt="Curated Skill Icons" />
+    <img src="https://skillicons.dev/icons?i=cpp,ts,js,react,nextjs,threejs,nodejs,postgres,supabase,tailwind,git,linux,postman,docker,python&theme=dark" alt="Technology Stack Icons" />
   </a>
 </p>
 
@@ -134,30 +116,33 @@
 </p>
 
 <!-- ========================================== -->
-<!-- 05 COMMIT LOG & REAL ACTIVITY              -->
+<!-- 5. AUTHENTIC GITHUB ACTIVITY               -->
 <!-- ========================================== -->
 
-<p align="left">
-  <img src="./assets/header-activity.svg" alt="05 COMMIT LOG | REAL DATA • REFRESHED DAILY" width="100%" />
+## 📊 Authentic GitHub Activity
+
+<p align="center">
+  <!-- Exactly ONE Authentic Contribution Graph: Animated GitHub Snake eating real contributions -->
+  <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/output/github-contribution-grid-snake-dark.svg" alt="Sawan Sahani's Authentic Contribution Snake" width="100%" />
 </p>
 
 <p align="center">
-  <img src="./assets/commit-log.svg" alt="Commit Log &amp; Heatmap Activity" width="100%" />
+  <img src="./assets/divider.svg" alt="Divider" width="100%" />
 </p>
 
-<!-- Dynamic GitHub Snake Eating Contributions -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake Animation" width="100%" />
-</p>
+<!-- ========================================== -->
+<!-- 6. GITHUB STATISTICS                       -->
+<!-- ========================================== -->
 
-<!-- Midnight Emerald GitHub Statistics -->
+## 📈 GitHub Statistics
+
 <p align="center">
   <a href="https://github.com/Sawan017">
-    <img src="https://github-readme-stats.vercel.app/api?username=Sawan017&show_icons=true&bg_color=142E25&title_color=E1EAE3&icon_color=68A786&text_color=A8BCAF&border_color=315544&hide_border=false" alt="Sawan Sahani's GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Sawan017&show_icons=true&bg_color=0F172A&title_color=F8FAFC&icon_color=38BDF8&text_color=94A3B8&border_color=22304A&hide_border=false" alt="Sawan Sahani's GitHub Stats" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/Sawan017">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sawan017&background=142E25&stroke=315544&border=315544&ring=32805B&fire=68A786&currStreakNum=E1EAE3&sideNums=E1EAE3&currStreakLabel=68A786&sideLabels=A8BCAF&dates=A8BCAF" alt="Sawan Sahani's Streak Stats" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sawan017&background=0F172A&stroke=22304A&border=22304A&ring=2563EB&fire=38BDF8&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=94A3B8" alt="Sawan Sahani's Streak Stats" />
   </a>
 </p>
 
@@ -166,27 +151,25 @@
 </p>
 
 <!-- ========================================== -->
-<!-- 06 HORIZONS & CONTACT                      -->
+<!-- 7. GET IN TOUCH                            -->
 <!-- ========================================== -->
 
-<p align="left">
-  <img src="./assets/header-footer.svg" alt="06 HORIZONS | ENGINEERING • PERSISTENCE • IMPACT" width="100%" />
+## 📬 Get in Touch
+
+<p align="center">
+  <img src="./assets/footer.svg" alt="Get in Touch with Sawan Sahani" width="100%" />
 </p>
 
 <p align="center">
-  <img src="./assets/footer.svg" alt="Architecting What's Next - Sawan Sahani" width="100%" />
+  <a href="https://github.com/Sawan017"><img src="https://img.shields.io/badge/GitHub-Sawan017-131B2E?style=for-the-badge&logo=github&logoColor=F8FAFC&labelColor=0F172A" alt="GitHub" /></a>
+  &nbsp;
+  <a href="https://leetcode.com/u/Sawan017/"><img src="https://img.shields.io/badge/LeetCode-Sawan017-131B2E?style=for-the-badge&logo=leetcode&logoColor=F8FAFC&labelColor=0F172A" alt="LeetCode" /></a>
+  &nbsp;
+  <a href="https://codeforces.com/profile/Sawan017"><img src="https://img.shields.io/badge/Codeforces-Sawan017-131B2E?style=for-the-badge&logo=codeforces&logoColor=F8FAFC&labelColor=0F172A" alt="Codeforces" /></a>
+  &nbsp;
+  <a href="mailto:sawansahani017@gmail.com"><img src="https://img.shields.io/badge/Email-sawansahani017%40gmail.com-131B2E?style=for-the-badge&logo=gmail&logoColor=F8FAFC&labelColor=0F172A" alt="Email" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Sawan017"><img src="https://img.shields.io/badge/GitHub-Sawan017-19392D?style=for-the-badge&logo=github&logoColor=E1EAE3&labelColor=142E25" alt="GitHub" /></a>
-  &nbsp;
-  <a href="https://leetcode.com/u/Sawan017/"><img src="https://img.shields.io/badge/LeetCode-Sawan017-19392D?style=for-the-badge&logo=leetcode&logoColor=E1EAE3&labelColor=142E25" alt="LeetCode" /></a>
-  &nbsp;
-  <a href="https://codeforces.com/profile/Sawan017"><img src="https://img.shields.io/badge/Codeforces-Sawan017-19392D?style=for-the-badge&logo=codeforces&logoColor=E1EAE3&labelColor=142E25" alt="Codeforces" /></a>
-  &nbsp;
-  <a href="mailto:sawansahani017@gmail.com"><img src="https://img.shields.io/badge/Email-sawansahani017%40gmail.com-19392D?style=for-the-badge&logo=gmail&logoColor=E1EAE3&labelColor=142E25" alt="Email" /></a>
-</p>
-
-<p align="center">
-  <sub>© 2026 Sawan Sahani • Engineered with Midnight Emerald Rigor • Resilient Systems Architecture</sub>
+  <sub>© 2026 Sawan Sahani • Handcrafted Royal Dark Systems Architecture</sub>
 </p>

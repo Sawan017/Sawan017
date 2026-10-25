@@ -1,29 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 32" width="230" height="32">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 32" width="220" height="32">
   <defs>
     <clipPath id="btn-clip">
-      <rect x="0" y="0" width="230" height="32" rx="4" />
+      <rect x="0" y="0" width="220" height="32" rx="5" />
     </clipPath>
   </defs>
   <g clip-path="url(#btn-clip)">
-    <!-- Left segment -->
-    <rect x="0" y="0" width="110" height="32" fill="#19392D" />
-    <!-- Right segment -->
-    <rect x="110" y="0" width="120" height="32" fill="#32805B" />
+    <!-- Left segment (Deep Slate Navy) -->
+    <rect x="0" y="0" width="105" height="32" fill="#131B2E" />
+    <!-- Right segment (Royal Sapphire Accent) -->
+    <rect x="105" y="0" width="115" height="32" fill="#2563EB" />
     <!-- Divider line -->
-    <line x1="110" y1="0" x2="110" y2="32" stroke="#315544" stroke-width="1.2" />
+    <line x1="105" y1="0" x2="105" y2="32" stroke="#253553" stroke-width="1.2" />
     
     <!-- Outer border -->
-    <rect x="0.5" y="0.5" width="229" height="31" fill="none" stroke="#315544" stroke-width="1" rx="4" />
+    <rect x="0.5" y="0.5" width="219" height="31" fill="none" stroke="#253553" stroke-width="1" rx="5" />
 
     <!-- Icon -->
     <g transform="translate(12, 8)">
-      <polygon points="3,2 13,8 3,14" fill="#A8BCAF"/>
+      <polygon points="3,2 13,8 3,14" fill="#94A3B8"/>
     </g>
 
     <!-- Left Text -->
-    <text x="34" y="20" fill="#A8BCAF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1">LIVE DEMO</text>
+    <text x="34" y="20" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1">LIVE REALM</text>
 
     <!-- Right Text -->
-    <text x="170" y="20" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.8" text-anchor="middle">ARINOVA RPG</text>
+    <text x="162.5" y="20" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.8" text-anchor="middle">ARINOVA RPG</text>
   </g>
 </svg>
