@@ -1,22 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 24" width="1200" height="24">
-  <defs>
-    <linearGradient id="sapphireDiv" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#142441" stop-opacity="0" />
-      <stop offset="30%" stop-color="#1B3155" stop-opacity="0.7" />
-      <stop offset="48%" stop-color="#4169C1" stop-opacity="0.9" />
-      <stop offset="50%" stop-color="#6289E8" stop-opacity="1" />
-      <stop offset="52%" stop-color="#4169C1" stop-opacity="0.9" />
-      <stop offset="70%" stop-color="#1B3155" stop-opacity="0.7" />
-      <stop offset="100%" stop-color="#142441" stop-opacity="0" />
-    </linearGradient>
-  </defs>
-
-  <line x1="80" y1="12" x2="1120" y2="12" stroke="url(#sapphireDiv)" stroke-width="1.2" />
-
-  <g transform="translate(600, 12)">
-    <polygon points="0,-6 6,0 0,6 -6,0" fill="#142441" stroke="#4169C1" stroke-width="1" />
-    <circle cx="0" cy="0" r="1.8" fill="#6289E8" />
-    <circle cx="-18" cy="0" r="1.2" fill="#30486D" />
-    <circle cx="18" cy="0" r="1.2" fill="#30486D" />
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 16" width="1200" height="16">
+  <line x1="0" y1="8" x2="520" y2="8" stroke="#315544" stroke-width="1" />
+  <circle cx="560" cy="8" r="3" fill="#68A786" />
+  <polygon points="600,4 604,8 600,12 596,8" fill="#32805B" />
+  <circle cx="640" cy="8" r="3" fill="#68A786" />
+  <line x1="680" y1="8" x2="1200" y2="8" stroke="#315544" stroke-width="1" />
 </svg>

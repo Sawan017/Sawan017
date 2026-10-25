@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 230 32" width="230" height="32">
+  <defs>
+    <clipPath id="btn-clip">
+      <rect x="0" y="0" width="230" height="32" rx="4" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#btn-clip)">
+    <!-- Left segment -->
+    <rect x="0" y="0" width="115" height="32" fill="#19392D" />
+    <!-- Right segment -->
+    <rect x="115" y="0" width="115" height="32" fill="#32805B" />
+    <!-- Divider line -->
+    <line x1="115" y1="0" x2="115" y2="32" stroke="#315544" stroke-width="1.2" />
+    
+    <!-- Outer border -->
+    <rect x="0.5" y="0.5" width="229" height="31" fill="none" stroke="#315544" stroke-width="1" rx="4" />
+
+    <!-- Icon -->
+    <g transform="translate(12, 8)">
+      <path fill="#A8BCAF" d="M2 3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H2zm2.5 3.5l2 1.5-2 1.5-.6-.8 1-0.7-1-0.7.6-.8zm3 3h3v1h-3v-1z"/>
+    </g>
+
+    <!-- Left Text -->
+    <text x="34" y="20" fill="#A8BCAF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1">CODEFORCES</text>
+
+    <!-- Right Text -->
+    <text x="172.5" y="20" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.8" text-anchor="middle">@SAWAN017</text>
+  </g>
+</svg>

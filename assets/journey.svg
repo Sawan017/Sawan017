@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
+  <defs>
+    <pattern id="journeyGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#16382C" stroke-width="0.6" />
+    </pattern>
+  </defs>
+
+  <!-- Midnight Emerald Canvas (#10251F) -->
+  <rect width="1200" height="320" rx="8" fill="#10251F" />
+  <rect width="1200" height="320" rx="8" fill="url(#journeyGrid)" opacity="0.6" />
+  <rect x="1" y="1" width="1198" height="318" rx="8" fill="none" stroke="#315544" stroke-width="1.2" />
+
+  <!-- ============================================== -->
+  <!-- TOP: DUAL WATERMARKED HIGHLIGHT CARDS          -->
+  <!-- ============================================== -->
+  <g transform="translate(24, 20)">
+
+    <!-- Card 1: Algorithmic Problem Solving (Width: 566px) -->
+    <g transform="translate(0, 0)">
+      <rect width="566" height="180" rx="6" fill="#142E25" stroke="#315544" stroke-width="1" />
+
+      <!-- Faint Giant Watermark: DSA -->
+      <text x="540" y="145" fill="#19392D" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="120" font-weight="900" text-anchor="end" letter-spacing="-4">
+        DSA
+      </text>
+
+      <!-- Content -->
+      <g transform="translate(26, 26)">
+        <text x="0" y="12" fill="#68A786" font-family="'Fira Code', monospace" font-size="10" font-weight="700" letter-spacing="1.5">
+          ALGORITHMIC COMPETITION • ASYMPTOTIC RIGOR
+        </text>
+
+        <text x="0" y="48" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.3">
+          Continuous Problem Solving
+        </text>
+
+        <text x="0" y="80" fill="#A8BCAF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" line-height="1.6">
+          <tspan x="0" dy="0">Practicing asymptotic runtime and memory optimization on LeetCode</tspan>
+          <tspan x="0" dy="18">and Codeforces in modern C++20, focusing on Dynamic Programming,</tspan>
+          <tspan x="0" dy="18">Graph Theory, Binary Trees, and mathematical modeling.</tspan>
+        </text>
+      </g>
+    </g>
+
+    <!-- Card 2: Architectural Platforms (Width: 566px) -->
+    <g transform="translate(586, 0)">
+      <rect width="566" height="180" rx="6" fill="#142E25" stroke="#315544" stroke-width="1" />
+
+      <!-- Faint Giant Watermark: ARCH -->
+      <text x="540" y="145" fill="#19392D" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="120" font-weight="900" text-anchor="end" letter-spacing="-4">
+        ARCH
+      </text>
+
+      <!-- Content -->
+      <g transform="translate(26, 26)">
+        <text x="0" y="12" fill="#68A786" font-family="'Fira Code', monospace" font-size="10" font-weight="700" letter-spacing="1.5">
+          FLAGSHIP PLATFORMS • 3D WEB &amp; AI
+        </text>
+
+        <text x="0" y="48" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.3">
+          Production Architecture
+        </text>
+
+        <text x="0" y="80" fill="#A8BCAF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" line-height="1.6">
+          <tspan x="0" dy="0">Engineering full-stack architectures including ARINOVA (3D developer</tspan>
+          <tspan x="0" dy="18">career RPG with Three.js/R3F) and SourCa (automated assessment engine</tspan>
+          <tspan x="0" dy="18">with Google GenAI evaluation and recruiter analytics).</tspan>
+        </text>
+      </g>
+    </g>
+
+  </g>
+
+  <!-- ============================================== -->
+  <!-- BOTTOM: 5-METRIC STAT STRIP (Matching Ref!)     -->
+  <!-- ============================================== -->
+  <g transform="translate(24, 218)">
+    <rect width="1152" height="82" rx="6" fill="#142E25" stroke="#315544" stroke-width="1" />
+
+    <!-- Metric 1: ACADEMICS -->
+    <g transform="translate(30, 20)">
+      <text x="0" y="10" fill="#32805B" font-family="'Fira Code', monospace" font-size="9" font-weight="700" letter-spacing="1.2">ACADEMICS</text>
+      <text x="0" y="36" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800">B.Tech CSE</text>
+      <text x="0" y="52" fill="#A8BCAF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">Computer Science • Undergrad</text>
+    </g>
+    <line x1="240" y1="15" x2="240" y2="67" stroke="#315544" stroke-width="0.8" />
+
+    <!-- Metric 2: LEETCODE -->
+    <g transform="translate(265, 20)">
+      <text x="0" y="10" fill="#32805B" font-family="'Fira Code', monospace" font-size="9" font-weight="700" letter-spacing="1.2">LEETCODE</text>
+      <text x="0" y="36" fill="#68A786" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800">C++20</text>
+      <text x="0" y="52" fill="#A8BCAF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">Asymptotic Space &amp; Time</text>
+    </g>
+    <line x1="470" y1="15" x2="470" y2="67" stroke="#315544" stroke-width="0.8" />
+
+    <!-- Metric 3: CODEFORCES -->
+    <g transform="translate(495, 20)">
+      <text x="0" y="10" fill="#32805B" font-family="'Fira Code', monospace" font-size="9" font-weight="700" letter-spacing="1.2">CODEFORCES</text>
+      <text x="0" y="36" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800">Active</text>
+      <text x="0" y="52" fill="#A8BCAF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">Contest Problem Solving</text>
+    </g>
+    <line x1="700" y1="15" x2="700" y2="67" stroke="#315544" stroke-width="0.8" />
+
+    <!-- Metric 4: FLAGSHIPS -->
+    <g transform="translate(725, 20)">
+      <text x="0" y="10" fill="#32805B" font-family="'Fira Code', monospace" font-size="9" font-weight="700" letter-spacing="1.2">FLAGSHIPS</text>
+      <text x="0" y="36" fill="#68A786" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800">04 Built</text>
+      <text x="0" y="52" fill="#A8BCAF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">Real Production Systems</text>
+    </g>
+    <line x1="930" y1="15" x2="930" y2="67" stroke="#315544" stroke-width="0.8" />
+
+    <!-- Metric 5: STACK -->
+    <g transform="translate(955, 20)">
+      <text x="0" y="10" fill="#32805B" font-family="'Fira Code', monospace" font-size="9" font-weight="700" letter-spacing="1.2">TECH STACK</text>
+      <text x="0" y="36" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800">Modern</text>
+      <text x="0" y="52" fill="#A8BCAF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">Next.js 16 • TS • Supabase</text>
+    </g>
+  </g>
+</svg>

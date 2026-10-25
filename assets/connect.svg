@@ -1,195 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" width="1200" height="540">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120">
   <defs>
-    <!-- Sapphire Gradients -->
-    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#4169C1" />
-      <stop offset="50%" stop-color="#6289E8" />
-      <stop offset="100%" stop-color="#DCE4F0" />
+    <linearGradient id="conn-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142E25" />
+      <stop offset="100%" stop-color="#10251F" />
     </linearGradient>
-
-    <!-- Deep Midnight Grid -->
-    <pattern id="connectGrid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#162746" stroke-width="0.6" />
-    </pattern>
   </defs>
 
-  <!-- Deep Midnight Blue Base (#101B35) -->
-  <rect width="1200" height="540" fill="#101B35" />
-  <rect width="1200" height="540" fill="url(#connectGrid)" opacity="0.85" />
-  <rect x="1" y="1" width="1198" height="538" fill="none" stroke="#30486D" stroke-width="1.2" rx="6" />
+  <rect x="0.5" y="0.5" width="1199" height="119" rx="12" fill="url(#conn-bg)" stroke="#315544" stroke-width="1.2" />
+  <line x1="12" y1="1" x2="200" y2="1" stroke="#68A786" stroke-width="1.5" />
 
-  <!-- Corner Precision Accents -->
-  <g stroke="#6289E8" stroke-width="1.2" opacity="0.85">
-    <path d="M 12 24 L 12 12 L 24 12" fill="none" />
-    <path d="M 1188 24 L 1188 12 L 1176 12" fill="none" />
-    <path d="M 12 516 L 12 528 L 24 528" fill="none" />
-    <path d="M 1188 516 L 1188 528 L 1176 528" fill="none" />
-  </g>
+  <text x="36" y="44" fill="#68A786" font-family="'Fira Code', Consolas, monospace" font-size="10.5" font-weight="700" letter-spacing="1.5">CONNECT • VERIFIED CHANNELS</text>
+  <text x="36" y="78" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700">Reach out for systems engineering, competitive coding, or collaborations.</text>
 
-  <!-- Title Header -->
-  <g transform="translate(40, 32)">
-    <rect width="170" height="22" rx="3" fill="#142441" stroke="#4169C1" stroke-width="0.8" />
-    <text x="85" y="15" fill="#6289E8" font-family="'Fira Code', monospace" font-size="9.5" font-weight="700" text-anchor="middle" letter-spacing="1">
-      FLAGSHIP ECOSYSTEM
-    </text>
-    <text x="185" y="16" fill="#DCE4F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800">
-      Production Systems, AI Engines &amp; Algorithmic Solutions
-    </text>
-  </g>
-
-  <!-- ============================================== -->
-  <!-- 2x2 PROJECT SHOWCASE CARDS                     -->
-  <!-- ============================================== -->
-
-  <!-- CARD 1: ARINOVA (Top-Left) -->
-  <g transform="translate(40, 75)">
-    <rect width="545" height="205" rx="6" fill="#142441" stroke="#30486D" stroke-width="1" />
-    <rect x="0" y="0" width="5" height="205" rx="2" fill="#6289E8" />
-    
-    <!-- Header -->
-    <g transform="translate(24, 24)">
-      <text x="0" y="14" fill="#DCE4F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="800">
-        👑 ARINOVA — Developer Career RPG
-      </text>
-      <text x="500" y="14" fill="#6289E8" font-family="'Fira Code', monospace" font-size="10" font-weight="700" text-anchor="end">
-        FLAGSHIP // 3D WEB
-      </text>
-    </g>
-
-    <!-- Narrative Description -->
-    <text x="24" y="68" fill="#AAB8CE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="400">
-      <tspan x="24" dy="0">Futuristic developer RPG turning real-world coding quests into an</tspan>
-      <tspan x="24" dy="17">interactive adventure. Combines a 3D Three.js/R3F world with Monaco</tspan>
-      <tspan x="24" dy="17">code editor, dynamic skill trees, and real-time social networking.</tspan>
-    </text>
-
-    <!-- Subsystem Highlights -->
-    <g transform="translate(24, 132)">
-      <rect width="497" height="30" rx="3" fill="#1B3155" stroke="#30486D" stroke-width="0.8" />
-      <text x="12" y="19" fill="#6289E8" font-family="'Fira Code', monospace" font-size="10" font-weight="600">
-        SUBSYSTEMS: 3D SceneGraph • Monaco IDE • Dynamic RPG Quest Engine
-      </text>
-    </g>
-
-    <!-- Tech Badges -->
-    <g transform="translate(24, 172)">
-      <text x="0" y="14" fill="#6289E8" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600">
-        React 19 • TypeScript • Three.js • Supabase • Monaco • Framer Motion
-      </text>
-    </g>
-  </g>
-
-  <!-- CARD 2: SourCa (Top-Right) -->
-  <g transform="translate(615, 75)">
-    <rect width="545" height="205" rx="6" fill="#142441" stroke="#30486D" stroke-width="1" />
-    <rect x="0" y="0" width="5" height="205" rx="2" fill="#4169C1" />
-
-    <!-- Header -->
-    <g transform="translate(24, 24)">
-      <text x="0" y="14" fill="#DCE4F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="800">
-        🧠 SourCa — AI Placement &amp; Assessment
-      </text>
-      <text x="500" y="14" fill="#6289E8" font-family="'Fira Code', monospace" font-size="10" font-weight="700" text-anchor="end">
-        AI PLATFORM // EVALUATION
-      </text>
-    </g>
-
-    <!-- Narrative Description -->
-    <text x="24" y="68" fill="#AAB8CE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="400">
-      <tspan x="24" dy="0">Campus recruitment &amp; technical assessment platform delivering dynamic</tspan>
-      <tspan x="24" dy="17">coding puzzles, automated test-suite verification, recruiter benchmarking,</tspan>
-      <tspan x="24" dy="17">and Google GenAI-powered code evaluations with strict scoring criteria.</tspan>
-    </text>
-
-    <!-- Subsystem Highlights -->
-    <g transform="translate(24, 132)">
-      <rect width="497" height="30" rx="3" fill="#1B3155" stroke="#30486D" stroke-width="0.8" />
-      <text x="12" y="19" fill="#6289E8" font-family="'Fira Code', monospace" font-size="10" font-weight="600">
-        SUBSYSTEMS: Google GenAI Evaluator • Sandbox Test Runner • Recruiter Portal
-      </text>
-    </g>
-
-    <!-- Tech Badges -->
-    <g transform="translate(24, 172)">
-      <text x="0" y="14" fill="#6289E8" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600">
-        Next.js 16 • TypeScript • Google GenAI • Supabase SSR • Monaco • Tailwind
-      </text>
-    </g>
-  </g>
-
-  <!-- CARD 3: CodeAscend (Bottom-Left) -->
-  <g transform="translate(40, 295)">
-    <rect width="545" height="205" rx="6" fill="#142441" stroke="#30486D" stroke-width="1" />
-    <rect x="0" y="0" width="5" height="205" rx="2" fill="#4169C1" />
-
-    <!-- Header -->
-    <g transform="translate(24, 24)">
-      <text x="0" y="14" fill="#DCE4F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="800">
-        🚀 CodeAscend — Skill &amp; Milestone Tracker
-      </text>
-      <text x="500" y="14" fill="#6289E8" font-family="'Fira Code', monospace" font-size="10" font-weight="700" text-anchor="end">
-        ROADMAP // TRACKER
-      </text>
-    </g>
-
-    <!-- Narrative Description -->
-    <text x="24" y="68" fill="#AAB8CE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="400">
-      <tspan x="24" dy="0">Developer progression tracking ecosystem featuring structured career</tspan>
-      <tspan x="24" dy="17">roadmaps, milestone verification, and modular full-stack component</tspan>
-      <tspan x="24" dy="17">architecture with cloud synchronization across learning workflows.</tspan>
-    </text>
-
-    <!-- Subsystem Highlights -->
-    <g transform="translate(24, 132)">
-      <rect width="497" height="30" rx="3" fill="#1B3155" stroke="#30486D" stroke-width="0.8" />
-      <text x="12" y="19" fill="#6289E8" font-family="'Fira Code', monospace" font-size="10" font-weight="600">
-        SUBSYSTEMS: Milestone Tree • Analytics Engine • Cloud State Synchronization
-      </text>
-    </g>
-
-    <!-- Tech Badges -->
-    <g transform="translate(24, 172)">
-      <text x="0" y="14" fill="#6289E8" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600">
-        TypeScript • React 19 • Supabase • Tailwind CSS • RESTful APIs
-      </text>
-    </g>
-  </g>
-
-  <!-- CARD 4: Algorithmic Solutions & CP (Bottom-Right) -->
-  <g transform="translate(615, 295)">
-    <rect width="545" height="205" rx="6" fill="#142441" stroke="#30486D" stroke-width="1" />
-    <rect x="0" y="0" width="5" height="205" rx="2" fill="#6289E8" />
-
-    <!-- Header -->
-    <g transform="translate(24, 24)">
-      <text x="0" y="14" fill="#DCE4F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="800">
-        ⚔️ Algorithmic Solutions &amp; CP
-      </text>
-      <text x="500" y="14" fill="#6289E8" font-family="'Fira Code', monospace" font-size="10" font-weight="700" text-anchor="end">
-        C++20 // RIGOR
-      </text>
-    </g>
-
-    <!-- Narrative Description -->
-    <text x="24" y="68" fill="#AAB8CE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="400">
-      <tspan x="24" dy="0">High-performance solutions in modern C++20 for competitive contests</tspan>
-      <tspan x="24" dy="17">and asymptotic algorithmic challenges on LeetCode and Codeforces.</tspan>
-      <tspan x="24" dy="17">Focusing on Dynamic Programming, Graph Theory, and Memory Optimization.</tspan>
-    </text>
-
-    <!-- Subsystem Highlights -->
-    <g transform="translate(24, 132)">
-      <rect width="497" height="30" rx="3" fill="#223B63" stroke="#4169C1" stroke-width="0.8" />
-      <text x="12" y="19" fill="#6289E8" font-family="'Fira Code', monospace" font-size="10" font-weight="600">
-        SUBSYSTEMS: DP Optimization • Graph Algorithms • Asymptotic Verification
-      </text>
-    </g>
-
-    <!-- Tech Badges -->
-    <g transform="translate(24, 172)">
-      <text x="0" y="14" fill="#6289E8" font-family="'Fira Code', monospace" font-size="9.5" font-weight="600">
-        C++20 • STL • Graphs • Dynamic Programming • LeetCode • Codeforces
-      </text>
-    </g>
+  <!-- Right Links / Details -->
+  <g transform="translate(800, 32)">
+    <text x="360" y="24" fill="#68A786" font-family="'Fira Code', Consolas, monospace" font-size="11" font-weight="600" text-anchor="end">github.com/Sawan017</text>
+    <text x="360" y="44" fill="#A8BCAF" font-family="'Fira Code', Consolas, monospace" font-size="10.5" text-anchor="end">sawansahani017@gmail.com</text>
   </g>
 </svg>

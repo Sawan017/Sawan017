@@ -1,0 +1,4 @@
+.temp_render/
+*.tmp
+Thumbs.db
+.DS_Store

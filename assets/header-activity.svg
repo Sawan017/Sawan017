@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="1200" height="90">
+  <defs>
+    <linearGradient id="lineGrad5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#315544" stop-opacity="0.8" />
+      <stop offset="30%" stop-color="#32805B" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#10251F" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Top Tracker Line -->
+  <text x="0" y="22" fill="#68A786" font-family="'Fira Code', 'JetBrains Mono', Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.5">
+    05 COMMIT LOG
+  </text>
+  <text x="1200" y="22" fill="#68A786" font-family="'Fira Code', 'JetBrains Mono', Consolas, monospace" font-size="10" font-weight="600" letter-spacing="2" text-anchor="end" opacity="0.8">
+    REAL DATA • REFRESHED DAILY
+  </text>
+
+  <!-- Main Headline: A year of building. -->
+  <text x="0" y="65">
+    <tspan fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="-0.5">A year of </tspan>
+    <tspan fill="#68A786" font-family="'Playfair Display', Georgia, 'Times New Roman', serif" font-size="36" font-weight="600" font-style="italic">building.</tspan>
+  </text>
+
+  <!-- Bottom Accent Underline -->
+  <line x1="0" y1="82" x2="1200" y2="82" stroke="url(#lineGrad5)" stroke-width="1" />
+</svg>
