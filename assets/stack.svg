@@ -1,153 +1,240 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380">
   <defs>
-    <linearGradient id="tk-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#10251F" />
-      <stop offset="100%" stop-color="#0E1F1A" />
+    <linearGradient id="stack-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B16" />
+      <stop offset="100%" stop-color="#0A1020" />
     </linearGradient>
+
+    <style>
+      @keyframes orbitOuter {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes orbitMiddle {
+        from { transform: rotate(360deg); }
+        to { transform: rotate(0deg); }
+      }
+      @keyframes orbitInner {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes counterOuter {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(-360deg); }
+      }
+      @keyframes counterMiddle {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes counterInner {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(-360deg); }
+      }
+
+      .orbit-3 {
+        transform-origin: 270px 190px;
+        animation: orbitOuter 26s linear infinite;
+      }
+      .orbit-2 {
+        transform-origin: 270px 190px;
+        animation: orbitMiddle 18s linear infinite;
+      }
+      .orbit-1 {
+        transform-origin: 270px 190px;
+        animation: orbitInner 12s linear infinite;
+      }
+      .counter-3 { animation: counterOuter 26s linear infinite; }
+      .counter-2 { animation: counterMiddle 18s linear infinite; }
+      .counter-1 { animation: counterInner 12s linear infinite; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .orbit-1, .orbit-2, .orbit-3, .counter-1, .counter-2, .counter-3 {
+          animation: none !important;
+        }
+      }
+    </style>
   </defs>
 
-  <rect width="1200" height="320" rx="14" fill="url(#tk-bg)" stroke="#315544" stroke-width="1.2" />
+  <rect x="0.5" y="0.5" width="1199" height="379" rx="16" fill="url(#stack-bg)" stroke="#1C2B4B" stroke-width="1.2" />
+  <line x1="20" y1="1" x2="260" y2="1" stroke="#247BFF" stroke-width="2" />
 
-  
-    <g transform="translate(20, 14)">
-      <rect x="0" y="0" width="372" height="138" rx="8" fill="#142E25" stroke="#315544" stroke-width="1" />
-      <line x1="8" y1="1" x2="60" y2="1" stroke="#68A786" stroke-width="1.2" />
+  <g transform="translate(0, 0)">
+    <text x="270" y="38" fill="#247BFF" font-family="'Fira Code', Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.5" text-anchor="middle">
+      HARMONIC ORBITAL ARCHITECTURE
+    </text>
 
-      <!-- Tag -->
-      <text x="16" y="24" fill="#68A786" font-family="'Fira Code', Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="1">01 LANGUAGES</text>
+    <circle cx="270" cy="190" r="32" fill="#0D1322" stroke="#247BFF" stroke-width="1.5" />
+    <circle cx="270" cy="190" r="28" fill="#070B16" />
+    <text x="270" y="186" fill="#F0F6FC" font-family="-apple-system, sans-serif" font-size="11" font-weight="800" text-anchor="middle">SAWAN</text>
+    <text x="270" y="198" fill="#247BFF" font-family="'Fira Code', monospace" font-size="8.5" font-weight="700" text-anchor="middle">DEV CORE</text>
 
-      <!-- Primary Title -->
-      <text x="16" y="44" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700">C++20</text>
-      
-        <rect x="74" y="27" width="56" height="18" rx="3" fill="#214635" stroke="#68A786" stroke-width="0.8" />
-        <text x="102" y="39.5" fill="#E1EAE3" font-family="'Fira Code', Consolas, monospace" font-size="8.5" font-weight="700" text-anchor="middle">PRIMARY</text>
-      
-
-      <!-- Line 2 -->
-      <text x="16" y="68" fill="#A8BCAF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">TypeScript • JavaScript</text>
-
-      <!-- Line 3 -->
-      <text x="16" y="88" fill="#68A786" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="400">Python • SQL • Bash</text>
-
-      <!-- Divider -->
-      <line x1="16" y1="102" x2="356" y2="102" stroke="#315544" stroke-width="0.8" stroke-dasharray="2 3" />
-
-      <!-- Footnote -->
-      <text x="16" y="120" fill="#A8BCAF" font-family="'Fira Code', Consolas, monospace" font-size="8.5" letter-spacing="0.5">STRICT ASYMPTOTICS • MODERN STANDARDS</text>
+    <!-- Orbit 1: Inner (Radius 75) -->
+    <circle cx="270" cy="190" r="75" fill="none" stroke="#1C2B4B" stroke-width="1" stroke-dasharray="3 3" />
+    <g class="orbit-1">
+      <g transform="translate(345, 190)">
+        <g class="counter-1">
+          <circle cx="0" cy="0" r="15" fill="#0D1322" stroke="#247BFF" stroke-width="1.2" />
+          <text x="0" y="4" fill="#F0F6FC" font-family="'Fira Code', monospace" font-size="8.5" font-weight="700" text-anchor="middle">C++</text>
+        </g>
+      </g>
+      <g transform="translate(232, 255)">
+        <g class="counter-1">
+          <circle cx="0" cy="0" r="15" fill="#0D1322" stroke="#247BFF" stroke-width="1.2" />
+          <text x="0" y="4" fill="#F0F6FC" font-family="'Fira Code', monospace" font-size="8.5" font-weight="700" text-anchor="middle">TS</text>
+        </g>
+      </g>
+      <g transform="translate(232, 125)">
+        <g class="counter-1">
+          <circle cx="0" cy="0" r="15" fill="#0D1322" stroke="#247BFF" stroke-width="1.2" />
+          <text x="0" y="4" fill="#F0F6FC" font-family="'Fira Code', monospace" font-size="8.5" font-weight="700" text-anchor="middle">JS</text>
+        </g>
+      </g>
     </g>
-    <g transform="translate(414, 14)">
-      <rect x="0" y="0" width="372" height="138" rx="8" fill="#142E25" stroke="#315544" stroke-width="1" />
-      <line x1="8" y1="1" x2="60" y2="1" stroke="#68A786" stroke-width="1.2" />
 
-      <!-- Tag -->
-      <text x="16" y="24" fill="#68A786" font-family="'Fira Code', Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="1">02 FRONTEND &amp; 3D</text>
-
-      <!-- Primary Title -->
-      <text x="16" y="44" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700">React 19 • Next.js 16</text>
-      
-
-      <!-- Line 2 -->
-      <text x="16" y="68" fill="#A8BCAF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">Three.js • React Three Fiber</text>
-
-      <!-- Line 3 -->
-      <text x="16" y="88" fill="#68A786" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="400">Tailwind CSS v4 • Framer Motion</text>
-
-      <!-- Divider -->
-      <line x1="16" y1="102" x2="356" y2="102" stroke="#315544" stroke-width="0.8" stroke-dasharray="2 3" />
-
-      <!-- Footnote -->
-      <text x="16" y="120" fill="#A8BCAF" font-family="'Fira Code', Consolas, monospace" font-size="8.5" letter-spacing="0.5">INTERACTIVE SHADERS • RESPONSIVE UX</text>
+    <!-- Orbit 2: Middle (Radius 130) -->
+    <circle cx="270" cy="190" r="130" fill="none" stroke="#1C2B4B" stroke-width="1" stroke-dasharray="4 4" />
+    <g class="orbit-2">
+      <g transform="translate(335, 302)">
+        <g class="counter-2">
+          <circle cx="0" cy="0" r="16" fill="#0D1322" stroke="#247BFF" stroke-width="1.2" />
+          <text x="0" y="4" fill="#F0F6FC" font-family="'Fira Code', monospace" font-size="8" font-weight="700" text-anchor="middle">REACT</text>
+        </g>
+      </g>
+      <g transform="translate(140, 190)">
+        <g class="counter-2">
+          <circle cx="0" cy="0" r="16" fill="#0D1322" stroke="#247BFF" stroke-width="1.2" />
+          <text x="0" y="4" fill="#F0F6FC" font-family="'Fira Code', monospace" font-size="8" font-weight="700" text-anchor="middle">NEXT</text>
+        </g>
+      </g>
+      <g transform="translate(335, 78)">
+        <g class="counter-2">
+          <circle cx="0" cy="0" r="16" fill="#0D1322" stroke="#247BFF" stroke-width="1.2" />
+          <text x="0" y="4" fill="#F0F6FC" font-family="'Fira Code', monospace" font-size="8" font-weight="700" text-anchor="middle">THREE</text>
+        </g>
+      </g>
     </g>
-    <g transform="translate(808, 14)">
-      <rect x="0" y="0" width="372" height="138" rx="8" fill="#142E25" stroke="#315544" stroke-width="1" />
-      <line x1="8" y1="1" x2="60" y2="1" stroke="#68A786" stroke-width="1.2" />
 
-      <!-- Tag -->
-      <text x="16" y="24" fill="#68A786" font-family="'Fira Code', Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="1">03 BACKEND &amp; APIS</text>
-
-      <!-- Primary Title -->
-      <text x="16" y="44" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700">Node.js • Express</text>
-      
-
-      <!-- Line 2 -->
-      <text x="16" y="68" fill="#A8BCAF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">REST APIs • Microservices</text>
-
-      <!-- Line 3 -->
-      <text x="16" y="88" fill="#68A786" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="400">Supabase • SSR Endpoints</text>
-
-      <!-- Divider -->
-      <line x1="16" y1="102" x2="356" y2="102" stroke="#315544" stroke-width="0.8" stroke-dasharray="2 3" />
-
-      <!-- Footnote -->
-      <text x="16" y="120" fill="#A8BCAF" font-family="'Fira Code', Consolas, monospace" font-size="8.5" letter-spacing="0.5">HIGH THROUGHPUT • LOW LATENCY</text>
+    <!-- Orbit 3: Outer (Radius 180) -->
+    <circle cx="270" cy="190" r="180" fill="none" stroke="#1C2B4B" stroke-width="1" stroke-dasharray="5 5" opacity="0.8" />
+    <g class="orbit-3">
+      <g transform="translate(425, 280)">
+        <g class="counter-3">
+          <circle cx="0" cy="0" r="16" fill="#0D1322" stroke="#FF354F" stroke-width="1.2" />
+          <text x="0" y="4" fill="#F0F6FC" font-family="'Fira Code', monospace" font-size="7.5" font-weight="700" text-anchor="middle">SUPA</text>
+        </g>
+      </g>
+      <g transform="translate(115, 280)">
+        <g class="counter-3">
+          <circle cx="0" cy="0" r="16" fill="#0D1322" stroke="#FF354F" stroke-width="1.2" />
+          <text x="0" y="4" fill="#F0F6FC" font-family="'Fira Code', monospace" font-size="7.5" font-weight="700" text-anchor="middle">POSTG</text>
+        </g>
+      </g>
+      <g transform="translate(270, 10)">
+        <g class="counter-3">
+          <circle cx="0" cy="0" r="16" fill="#0D1322" stroke="#FF354F" stroke-width="1.2" />
+          <text x="0" y="4" fill="#F0F6FC" font-family="'Fira Code', monospace" font-size="8" font-weight="700" text-anchor="middle">GIT</text>
+        </g>
+      </g>
     </g>
-    <g transform="translate(20, 168)">
-      <rect x="0" y="0" width="372" height="138" rx="8" fill="#142E25" stroke="#315544" stroke-width="1" />
-      <line x1="8" y1="1" x2="60" y2="1" stroke="#68A786" stroke-width="1.2" />
+  </g>
 
-      <!-- Tag -->
-      <text x="16" y="24" fill="#68A786" font-family="'Fira Code', Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="1">04 DATA &amp; STORAGE</text>
+  <line x1="560" y1="36" x2="560" y2="340" stroke="#1C2B4B" stroke-width="1" stroke-dasharray="3 3" />
 
-      <!-- Primary Title -->
-      <text x="16" y="44" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700">PostgreSQL • Supabase DB</text>
-      
+  <!-- RIGHT: Grouped Stack Chips -->
+  <g transform="translate(600, 36)">
+    <text x="0" y="0" fill="#247BFF" font-family="'Fira Code', Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.5">VERIFIED TECHNOLOGY STACK</text>
+    <text x="0" y="26" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="800">
+      Production Tools &amp; Core Disciplines
+    </text>
 
-      <!-- Line 2 -->
-      <text x="16" y="68" fill="#A8BCAF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">Redis • Vector Embeddings</text>
+    <!-- Group 1: Languages and Core CS -->
+    <g transform="translate(0, 48)">
+      <text x="0" y="0" fill="#8B949E" font-family="'Fira Code', monospace" font-size="10" font-weight="700">01 / LANGUAGES &amp; CORE</text>
+      <g transform="translate(0, 8)">
+        <rect x="0" y="0" width="70" height="26" rx="4" fill="#0D1322" stroke="#247BFF" stroke-width="1" />
+        <text x="35" y="17" fill="#F0F6FC" font-family="'Fira Code', monospace" font-size="11" font-weight="700" text-anchor="middle">C++20</text>
 
-      <!-- Line 3 -->
-      <text x="16" y="88" fill="#68A786" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="400">ACID Transactions • Relational Schema</text>
+        <rect x="78" y="0" width="96" height="26" rx="4" fill="#0D1322" stroke="#1C2B4B" stroke-width="0.8" />
+        <text x="126" y="17" fill="#E6EDF3" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="middle">TypeScript</text>
 
-      <!-- Divider -->
-      <line x1="16" y1="102" x2="356" y2="102" stroke="#315544" stroke-width="0.8" stroke-dasharray="2 3" />
+        <rect x="182" y="0" width="96" height="26" rx="4" fill="#0D1322" stroke="#1C2B4B" stroke-width="0.8" />
+        <text x="230" y="17" fill="#E6EDF3" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="middle">JavaScript</text>
 
-      <!-- Footnote -->
-      <text x="16" y="120" fill="#A8BCAF" font-family="'Fira Code', Consolas, monospace" font-size="8.5" letter-spacing="0.5">INDEXING • NORMALIZATION • CACHING</text>
+        <rect x="286" y="0" width="72" height="26" rx="4" fill="#0D1322" stroke="#1C2B4B" stroke-width="0.8" />
+        <text x="322" y="17" fill="#E6EDF3" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="middle">Python</text>
+
+        <rect x="366" y="0" width="56" height="26" rx="4" fill="#0D1322" stroke="#1C2B4B" stroke-width="0.8" />
+        <text x="394" y="17" fill="#E6EDF3" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="middle">SQL</text>
+      </g>
     </g>
-    <g transform="translate(414, 168)">
-      <rect x="0" y="0" width="372" height="138" rx="8" fill="#142E25" stroke="#315544" stroke-width="1" />
-      <line x1="8" y1="1" x2="60" y2="1" stroke="#68A786" stroke-width="1.2" />
 
-      <!-- Tag -->
-      <text x="16" y="24" fill="#68A786" font-family="'Fira Code', Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="1">05 SYSTEMS &amp; DSA</text>
+    <!-- Group 2: Frontend and 3D -->
+    <g transform="translate(0, 114)">
+      <text x="0" y="0" fill="#8B949E" font-family="'Fira Code', monospace" font-size="10" font-weight="700">02 / FRONTEND &amp; 3D REALMS</text>
+      <g transform="translate(0, 8)">
+        <rect x="0" y="0" width="82" height="26" rx="4" fill="#0D1322" stroke="#1C2B4B" stroke-width="0.8" />
+        <text x="41" y="17" fill="#E6EDF3" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="middle">React 19</text>
 
-      <!-- Primary Title -->
-      <text x="16" y="44" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700">Algorithms • Data Structures</text>
-      
+        <rect x="90" y="0" width="86" height="26" rx="4" fill="#0D1322" stroke="#1C2B4B" stroke-width="0.8" />
+        <text x="133" y="17" fill="#E6EDF3" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="middle">Next.js 16</text>
 
-      <!-- Line 2 -->
-      <text x="16" y="68" fill="#A8BCAF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">Dynamic Programming • Graphs</text>
+        <rect x="184" y="0" width="80" height="26" rx="4" fill="#0D1322" stroke="#1C2B4B" stroke-width="0.8" />
+        <text x="224" y="17" fill="#E6EDF3" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="middle">Three.js</text>
 
-      <!-- Line 3 -->
-      <text x="16" y="88" fill="#68A786" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="400">Segment Trees • Tree Traversals</text>
+        <rect x="272" y="0" width="56" height="26" rx="4" fill="#0D1322" stroke="#1C2B4B" stroke-width="0.8" />
+        <text x="300" y="17" fill="#E6EDF3" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="middle">R3F</text>
 
-      <!-- Divider -->
-      <line x1="16" y1="102" x2="356" y2="102" stroke="#315544" stroke-width="0.8" stroke-dasharray="2 3" />
+        <rect x="336" y="0" width="100" height="26" rx="4" fill="#0D1322" stroke="#1C2B4B" stroke-width="0.8" />
+        <text x="386" y="17" fill="#E6EDF3" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="middle">Tailwind CSS</text>
 
-      <!-- Footnote -->
-      <text x="16" y="120" fill="#A8BCAF" font-family="'Fira Code', Consolas, monospace" font-size="8.5" letter-spacing="0.5">LEETCODE &amp; CODEFORCES RIGOR</text>
+        <rect x="444" y="0" width="108" height="26" rx="4" fill="#0D1322" stroke="#1C2B4B" stroke-width="0.8" />
+        <text x="498" y="17" fill="#E6EDF3" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="middle">Monaco Editor</text>
+      </g>
     </g>
-    <g transform="translate(808, 168)">
-      <rect x="0" y="0" width="372" height="138" rx="8" fill="#142E25" stroke="#315544" stroke-width="1" />
-      <line x1="8" y1="1" x2="60" y2="1" stroke="#68A786" stroke-width="1.2" />
 
-      <!-- Tag -->
-      <text x="16" y="24" fill="#68A786" font-family="'Fira Code', Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="1">06 INFRA &amp; ENGINEERING</text>
+    <!-- Group 3: Backend and Cloud Persistence -->
+    <g transform="translate(0, 180)">
+      <text x="0" y="0" fill="#8B949E" font-family="'Fira Code', monospace" font-size="10" font-weight="700">03 / BACKEND &amp; CLOUD DATABASE</text>
+      <g transform="translate(0, 8)">
+        <rect x="0" y="0" width="76" height="26" rx="4" fill="#0D1322" stroke="#1C2B4B" stroke-width="0.8" />
+        <text x="38" y="17" fill="#E6EDF3" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="middle">Node.js</text>
 
-      <!-- Primary Title -->
-      <text x="16" y="44" fill="#E1EAE3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="700">Git • GitHub Actions</text>
-      
+        <rect x="84" y="0" width="86" height="26" rx="4" fill="#0D1322" stroke="#1C2B4B" stroke-width="0.8" />
+        <text x="127" y="17" fill="#E6EDF3" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="middle">Supabase</text>
 
-      <!-- Line 2 -->
-      <text x="16" y="68" fill="#A8BCAF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">Linux • Postman • Vite</text>
+        <rect x="178" y="0" width="96" height="26" rx="4" fill="#0D1322" stroke="#1C2B4B" stroke-width="0.8" />
+        <text x="226" y="17" fill="#E6EDF3" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="middle">PostgreSQL</text>
 
-      <!-- Line 3 -->
-      <text x="16" y="88" fill="#68A786" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="400">Docker Basics • Monorepo Workflows</text>
+        <rect x="282" y="0" width="96" height="26" rx="4" fill="#0D1322" stroke="#1C2B4B" stroke-width="0.8" />
+        <text x="330" y="17" fill="#E6EDF3" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="middle">RESTful APIs</text>
 
-      <!-- Divider -->
-      <line x1="16" y1="102" x2="356" y2="102" stroke="#315544" stroke-width="0.8" stroke-dasharray="2 3" />
-
-      <!-- Footnote -->
-      <text x="16" y="120" fill="#A8BCAF" font-family="'Fira Code', Consolas, monospace" font-size="8.5" letter-spacing="0.5">SYSTEM DESIGN • CI/CD AUTOMATION</text>
+        <rect x="386" y="0" width="112" height="26" rx="4" fill="#0D1322" stroke="#1C2B4B" stroke-width="0.8" />
+        <text x="442" y="17" fill="#E6EDF3" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="middle">Google GenAI</text>
+      </g>
     </g>
+
+    <!-- Group 4: Workflow and Engineering Tools -->
+    <g transform="translate(0, 246)">
+      <text x="0" y="0" fill="#8B949E" font-family="'Fira Code', monospace" font-size="10" font-weight="700">04 / WORKFLOW &amp; TOOLS</text>
+      <g transform="translate(0, 8)">
+        <rect x="0" y="0" width="56" height="26" rx="4" fill="#0D1322" stroke="#1C2B4B" stroke-width="0.8" />
+        <text x="28" y="17" fill="#E6EDF3" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="middle">Git</text>
+
+        <rect x="64" y="0" width="118" height="26" rx="4" fill="#0D1322" stroke="#1C2B4B" stroke-width="0.8" />
+        <text x="123" y="17" fill="#E6EDF3" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="middle">GitHub Actions</text>
+
+        <rect x="190" y="0" width="66" height="26" rx="4" fill="#0D1322" stroke="#1C2B4B" stroke-width="0.8" />
+        <text x="223" y="17" fill="#E6EDF3" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="middle">Linux</text>
+
+        <rect x="264" y="0" width="78" height="26" rx="4" fill="#0D1322" stroke="#1C2B4B" stroke-width="0.8" />
+        <text x="303" y="17" fill="#E6EDF3" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="middle">Postman</text>
+
+        <rect x="350" y="0" width="60" height="26" rx="4" fill="#0D1322" stroke="#1C2B4B" stroke-width="0.8" />
+        <text x="380" y="17" fill="#E6EDF3" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="middle">Vite</text>
+
+        <rect x="418" y="0" width="70" height="26" rx="4" fill="#0D1322" stroke="#1C2B4B" stroke-width="0.8" />
+        <text x="453" y="17" fill="#E6EDF3" font-family="'Fira Code', monospace" font-size="11" font-weight="600" text-anchor="middle">Docker</text>
+      </g>
+    </g>
+  </g>
 </svg>

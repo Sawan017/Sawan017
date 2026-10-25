@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360">
+  <defs>
+    <linearGradient id="about-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B16" />
+      <stop offset="100%" stop-color="#090F1E" />
+    </linearGradient>
+    <pattern id="dot-grid-about" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="1" fill="#1C2B4B" opacity="0.5" />
+    </pattern>
+
+    <style>
+      @keyframes slide1Anim {
+        0%, 30% { opacity: 1; transform: translateX(0); }
+        33.3%, 97% { opacity: 0; transform: translateX(-12px); }
+        100% { opacity: 1; transform: translateX(0); }
+      }
+      @keyframes slide2Anim {
+        0%, 30% { opacity: 0; transform: translateX(12px); }
+        33.3%, 63% { opacity: 1; transform: translateX(0); }
+        66.6%, 100% { opacity: 0; transform: translateX(-12px); }
+      }
+      @keyframes slide3Anim {
+        0%, 63% { opacity: 0; transform: translateX(12px); }
+        66.6%, 97% { opacity: 1; transform: translateX(0); }
+        100% { opacity: 0; transform: translateX(12px); }
+      }
+      .slide-1 { animation: slide1Anim 12s infinite; }
+      .slide-2 { animation: slide2Anim 12s infinite; }
+      .slide-3 { animation: slide3Anim 12s infinite; }
+
+      @keyframes prog1 {
+        0% { width: 0px; }
+        30% { width: 160px; }
+        33.3%, 100% { width: 160px; }
+      }
+      @keyframes prog2 {
+        0%, 33.3% { width: 0px; }
+        63% { width: 160px; }
+        66.6%, 100% { width: 160px; }
+      }
+      @keyframes prog3 {
+        0%, 66.6% { width: 0px; }
+        97% { width: 160px; }
+        100% { width: 160px; }
+      }
+      .prog-bar-1 { animation: prog1 12s infinite; }
+      .prog-bar-2 { animation: prog2 12s infinite; }
+      .prog-bar-3 { animation: prog3 12s infinite; }
+
+      @media (prefers-reduced-motion: reduce) {
+        .slide-1 { opacity: 1 !important; transform: none !important; animation: none !important; }
+        .slide-2, .slide-3 { display: none !important; }
+        .prog-bar-1, .prog-bar-2, .prog-bar-3 { animation: none !important; width: 160px !important; }
+      }
+    </style>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="16" fill="url(#about-bg)" stroke="#1C2B4B" stroke-width="1.2" />
+  <rect width="1200" height="360" fill="url(#dot-grid-about)" opacity="0.6" rx="16" />
+  <line x1="20" y1="1" x2="260" y2="1" stroke="#247BFF" stroke-width="2" />
+
+  <!-- LEFT: Core Capabilities -->
+  <g transform="translate(48, 36)">
+    <text x="0" y="0" fill="#247BFF" font-family="'Fira Code', Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.5">CAPABILITIES &amp; CORE DISCIPLINES</text>
+    <text x="0" y="28" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800">
+      Engineered for Resilience.
+    </text>
+
+    <g transform="translate(0, 52)">
+      <rect width="490" height="66" rx="8" fill="#0D1322" stroke="#1C2B4B" stroke-width="1" />
+      <text x="18" y="24" fill="#247BFF" font-family="'Fira Code', Consolas, monospace" font-size="10.5" font-weight="700">01 / SYSTEMS ARCHITECTURE</text>
+      <text x="18" y="46" fill="#E6EDF3" font-family="-apple-system, sans-serif" font-size="12.5" font-weight="600">Next.js 16 • React 19 • TypeScript • Supabase</text>
+      <text x="472" y="38" fill="#8B949E" font-family="'Fira Code', monospace" font-size="10" text-anchor="end">FULL-STACK</text>
+    </g>
+
+    <g transform="translate(0, 130)">
+      <rect width="490" height="66" rx="8" fill="#0D1322" stroke="#1C2B4B" stroke-width="1" />
+      <text x="18" y="24" fill="#FF354F" font-family="'Fira Code', Consolas, monospace" font-size="10.5" font-weight="700">02 / ASYMPTOTIC RIGOR</text>
+      <text x="18" y="46" fill="#E6EDF3" font-family="-apple-system, sans-serif" font-size="12.5" font-weight="600">C++20 Standard • Data Structures • Graph Algorithms</text>
+      <text x="472" y="38" fill="#8B949E" font-family="'Fira Code', monospace" font-size="10" text-anchor="end">DSA / CP</text>
+    </g>
+
+    <g transform="translate(0, 208)">
+      <rect width="490" height="66" rx="8" fill="#0D1322" stroke="#1C2B4B" stroke-width="1" />
+      <text x="18" y="24" fill="#247BFF" font-family="'Fira Code', Consolas, monospace" font-size="10.5" font-weight="700">03 / INTERACTIVE 3D WEB</text>
+      <text x="18" y="46" fill="#E6EDF3" font-family="-apple-system, sans-serif" font-size="12.5" font-weight="600">Three.js • React Three Fiber • Gamified Realms</text>
+      <text x="472" y="38" fill="#8B949E" font-family="'Fira Code', monospace" font-size="10" text-anchor="end">3D / UX</text>
+    </g>
+  </g>
+
+  <line x1="575" y1="36" x2="575" y2="320" stroke="#1C2B4B" stroke-width="1" stroke-dasharray="3 3" />
+
+  <!-- RIGHT: 3-Slide Interests Carousel -->
+  <g transform="translate(615, 36)">
+    <text x="0" y="0" fill="#247BFF" font-family="'Fira Code', Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.5">INTERESTS &amp; LEARNING PROGRESSION</text>
+
+    <g transform="translate(0, 16)">
+      <rect x="0" y="0" width="160" height="4" rx="2" fill="#1C2B4B" />
+      <rect x="0" y="0" width="0" height="4" rx="2" fill="#247BFF" class="prog-bar-1" />
+
+      <rect x="185" y="0" width="160" height="4" rx="2" fill="#1C2B4B" />
+      <rect x="185" y="0" width="0" height="4" rx="2" fill="#FF354F" class="prog-bar-2" />
+
+      <rect x="370" y="0" width="160" height="4" rx="2" fill="#1C2B4B" />
+      <rect x="370" y="0" width="0" height="4" rx="2" fill="#247BFF" class="prog-bar-3" />
+    </g>
+
+    <g transform="translate(0, 36)">
+      <rect width="536" height="236" rx="12" fill="#0D1322" stroke="#1C2B4B" stroke-width="1.2" />
+
+      <!-- Slide 1 -->
+      <g class="slide-1" transform="translate(24, 28)">
+        <text x="0" y="0" fill="#247BFF" font-family="'Fira Code', Consolas, monospace" font-size="11" font-weight="700">01 // ARCHITECTING FULL-STACK REALMS</text>
+        <text x="0" y="32" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="800">
+          Clean Code &amp; Scalable Schemas
+        </text>
+        <text x="0" y="66" fill="#8B949E" font-family="-apple-system, sans-serif" font-size="13.5">
+          <tspan x="0" dy="0">Designing production-grade platforms with strict typing, reactive state trees,</tspan>
+          <tspan x="0" dy="22">and defensive cloud database modeling with Row Level Security (RLS).</tspan>
+          <tspan x="0" dy="22">Focused on high-performance APIs and clean separation of concerns.</tspan>
+        </text>
+        
+        <g transform="translate(0, 140)">
+          <rect width="488" height="30" rx="4" fill="#070B16" stroke="#1C2B4B" stroke-width="0.8" />
+          <text x="14" y="19" fill="#247BFF" font-family="'Fira Code', monospace" font-size="10.5">FOCUS: Next.js App Router • Supabase SSR • Tailwind • REST</text>
+        </g>
+      </g>
+
+      <!-- Slide 2 -->
+      <g class="slide-2" transform="translate(24, 28)">
+        <text x="0" y="0" fill="#FF354F" font-family="'Fira Code', Consolas, monospace" font-size="11" font-weight="700">02 // ALGORITHMIC OPTIMIZATION &amp; DSA</text>
+        <text x="0" y="32" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="800">
+          Rigorous Asymptotics in C++20
+        </text>
+        <text x="0" y="66" fill="#8B949E" font-family="-apple-system, sans-serif" font-size="13.5">
+          <tspan x="0" dy="0">Practicing competitive problem-solving on LeetCode and Codeforces</tspan>
+          <tspan x="0" dy="22">with strict runtime and memory efficiency. Implementing advanced data</tspan>
+          <tspan x="0" dy="22">structures: segment trees, Fenwick trees, and graph algorithms.</tspan>
+        </text>
+
+        <g transform="translate(0, 140)">
+          <rect width="488" height="30" rx="4" fill="#070B16" stroke="#1C2B4B" stroke-width="0.8" />
+          <text x="14" y="19" fill="#FF354F" font-family="'Fira Code', monospace" font-size="10.5">FOCUS: C++20 STL • Graphs • Dynamic Programming • Math</text>
+        </g>
+      </g>
+
+      <!-- Slide 3 -->
+      <g class="slide-3" transform="translate(24, 28)">
+        <text x="0" y="0" fill="#247BFF" font-family="'Fira Code', Consolas, monospace" font-size="11" font-weight="700">03 // INTERACTIVE 3D &amp; DEVELOPER RPG</text>
+        <text x="0" y="32" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="800">
+          Gamified Progression &amp; 3D Web
+        </text>
+        <text x="0" y="66" fill="#8B949E" font-family="-apple-system, sans-serif" font-size="13.5">
+          <tspan x="0" dy="0">Exploring spatial developer UX using Three.js and React Three Fiber.</tspan>
+          <tspan x="0" dy="22">Architecting ARINOVA, an interactive 3D universe where real coding milestones,</tspan>
+          <tspan x="0" dy="22">in-browser Monaco IDE execution, and skill progression come alive.</tspan>
+        </text>
+
+        <g transform="translate(0, 140)">
+          <rect width="488" height="30" rx="4" fill="#070B16" stroke="#1C2B4B" stroke-width="0.8" />
+          <text x="14" y="19" fill="#247BFF" font-family="'Fira Code', monospace" font-size="10.5">FOCUS: Three.js • R3F • Monaco Code Sandboxing • Realtime</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

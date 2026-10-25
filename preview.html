@@ -6,13 +6,13 @@
   <title>GitHub Profile Preview — Sawan Sahani (@Sawan017)</title>
   <style>
     :root {
-      --bg-canvas: #0A0E17;
-      --bg-surface: #0F172A;
-      --fg-primary: #F8FAFC;
-      --fg-secondary: #94A3B8;
-      --accent: #2563EB;
-      --highlight: #38BDF8;
-      --border: #22304A;
+      --bg-canvas: #070B16;
+      --bg-surface: #0D1322;
+      --fg-primary: #F0F6FC;
+      --fg-secondary: #8B949E;
+      --accent-blue: #247BFF;
+      --accent-crimson: #FF354F;
+      --border: #1C2B4B;
     }
     * {
       box-sizing: border-box;
@@ -45,14 +45,14 @@
     }
     .preview-header .brand {
       color: var(--fg-primary);
-      font-weight: 600;
+      font-weight: 700;
       display: flex;
       align-items: center;
       gap: 10px;
     }
     .preview-header .tag {
-      background: #131B2E;
-      color: var(--highlight);
+      background: #070B16;
+      color: var(--accent-blue);
       padding: 2px 8px;
       border-radius: 4px;
       font-size: 11px;
@@ -70,8 +70,8 @@
     .markdown-body h2 {
       color: var(--fg-primary);
       font-size: 20px;
-      font-weight: 700;
-      margin: 28px 0 16px 0;
+      font-weight: 800;
+      margin: 32px 0 16px 0;
       padding-bottom: 8px;
       border-bottom: 1px solid var(--border);
       display: flex;
@@ -86,7 +86,7 @@
       color: var(--fg-primary);
     }
     .markdown-body a {
-      color: var(--highlight);
+      color: var(--accent-blue);
       text-decoration: none;
     }
     .markdown-body a:hover {
@@ -98,16 +98,43 @@
       display: inline-block;
       vertical-align: middle;
     }
+    hr {
+      border: 0;
+      border-top: 1px solid var(--border);
+      margin: 32px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 13.5px;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 12px 14px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background-color: var(--bg-surface);
+      color: var(--fg-primary);
+      font-weight: 700;
+    }
+    td code {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 1px 5px;
+      font-size: 11.5px;
+      color: var(--accent-blue);
+      font-family: 'Fira Code', Consolas, monospace;
+    }
     .button-row {
       display: flex;
       justify-content: center;
       gap: 12px;
       flex-wrap: wrap;
-      margin: 12px 0 20px 0;
-    }
-    .divider {
-      margin: 28px 0;
-      text-align: center;
+      margin: 16px 0;
     }
   </style>
 </head>
@@ -115,142 +142,139 @@
 
   <div class="preview-header">
     <div class="brand">
-      <span>👑</span>
-      <span>GitHub Profile Preview — Sawan Sahani (@Sawan017)</span>
-      <span class="tag">ROYAL DARK</span>
+      <span>⚡</span>
+      <span>GitHub Profile Playbook Preview — Sawan Sahani (@Sawan017)</span>
+      <span class="tag">PLAYBOOK EDITION</span>
     </div>
     <div style="color: var(--fg-secondary); font-size: 12px;">
-      Animated SVGs Active &bull; Zero Fabricated Metrics &bull; 100% Authentic
+      5 Core Animated SVGs &bull; Self-Contained Alpha Character &bull; True Data
     </div>
   </div>
 
   <div class="markdown-body">
     <!-- Hero Banner -->
     <div style="text-align: center;">
-      <img src="./assets/hero.svg" alt="Animated Hero Banner" width="100%" />
+      <img src="./assets/hero.svg?v=1" alt="Hero Banner" width="100%" />
+      
+      <div class="button-row">
+        <a href="https://github.com/Sawan017"><img src="https://img.shields.io/badge/GitHub-Sawan017-0D1322?style=for-the-badge&logo=github&logoColor=F0F6FC&labelColor=070B16" alt="GitHub" /></a>
+        <a href="https://leetcode.com/u/Sawan017/"><img src="https://img.shields.io/badge/LeetCode-Sawan017-0D1322?style=for-the-badge&logo=leetcode&logoColor=FFA116&labelColor=070B16" alt="LeetCode" /></a>
+        <a href="https://codeforces.com/profile/Sawan017"><img src="https://img.shields.io/badge/Codeforces-Sawan017-0D1322?style=for-the-badge&logo=codeforces&logoColor=247BFF&labelColor=070B16" alt="Codeforces" /></a>
+        <a href="mailto:sawansahani017@gmail.com"><img src="https://img.shields.io/badge/Email-sawansahani017%40gmail.com-0D1322?style=for-the-badge&logo=gmail&logoColor=FF354F&labelColor=070B16" alt="Email" /></a>
+      </div>
     </div>
 
-    <!-- Hero Buttons -->
-    <div class="button-row">
-      <a href="https://github.com/Sawan017"><img src="./assets/btn-hero-portfolio.svg" alt="GitHub Profile" height="32" /></a>
-      <a href="https://leetcode.com/u/Sawan017/"><img src="./assets/btn-hero-leetcode.svg" alt="LeetCode" height="32" /></a>
-      <a href="https://codeforces.com/profile/Sawan017"><img src="./assets/btn-hero-codeforces.svg" alt="Codeforces" height="32" /></a>
-      <a href="mailto:sawansahani017@gmail.com"><img src="./assets/btn-hero-email.svg" alt="Email" height="32" /></a>
-    </div>
-
-    <div class="divider">
-      <img src="./assets/divider.svg" alt="Divider" width="100%" />
-    </div>
+    <hr />
 
     <!-- 01 ABOUT -->
     <h2>👨‍💻 About Me</h2>
     <div style="text-align: center; margin-bottom: 16px;">
-      <img src="./assets/about.svg" alt="About Sawan Sahani" width="100%" />
+      <img src="./assets/about-life.svg?v=1" alt="About Me" width="100%" />
     </div>
     <p>
       Hello! I am <b>Sawan Sahani</b> (<a href="https://github.com/Sawan017">@Sawan017</a>), a Computer Science &amp; Engineering undergraduate focused on architecting resilient full-stack web platforms, interactive 3D web environments, and mastering asymptotic algorithmic problem-solving in <b>C++20</b>.
     </p>
 
-    <div class="divider">
-      <img src="./assets/divider.svg" alt="Divider" width="100%" />
-    </div>
+    <hr />
 
     <!-- 02 FEATURED PROJECTS -->
     <h2>🚀 Featured Projects</h2>
     <p>
-      Flagship software systems, architectural prototypes, and algorithmic solutions with verified repositories.
+      Production-ready systems, architectural prototypes, and algorithmic implementations.
     </p>
 
-    <!-- Project 1: ARINOVA -->
-    <div style="text-align: center; margin-bottom: 24px;">
-      <img src="./assets/project-1-arinova.svg" alt="ARINOVA" width="100%" />
-      <div class="button-row">
-        <a href="https://github.com/Sawan017/ARINOVA"><img src="./assets/btn-arinova-repo.svg" alt="ARINOVA Repository" height="30" /></a>
-        <a href="https://github.com/Sawan017/ARINOVA"><img src="./assets/btn-arinova-demo.svg" alt="ARINOVA Demo" height="30" /></a>
-      </div>
-    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Project</th>
+          <th>Description</th>
+          <th>Core Stack</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><b>ARINOVA</b></td>
+          <td><b>Gamified Developer Career RPG &amp; 3D Interactive Realm</b><br />An interactive 3D developer universe transforming real coding quests and progression milestones into an engaging journey.</td>
+          <td><code>React 19</code><br /><code>TypeScript</code><br /><code>Three.js / R3F</code><br /><code>Supabase</code><br /><code>Monaco Editor</code><br /><code>Tailwind CSS</code></td>
+          <td><a href="https://github.com/Sawan017/ARINOVA">📦 Repository</a><br /><a href="https://github.com/Sawan017/ARINOVA">🎮 Live Demo</a></td>
+        </tr>
+        <tr>
+          <td><b>SourCa</b></td>
+          <td><b>Developer Assessment &amp; AI Placement Engine</b><br />Intelligent technical evaluation engine that conducts automated coding interviews, contextual assessments, and recruiter analytics.</td>
+          <td><code>Next.js 16</code><br /><code>TypeScript</code><br /><code>Google GenAI</code><br /><code>Supabase SSR</code><br /><code>PostgreSQL</code><br /><code>Tailwind CSS v4</code></td>
+          <td><a href="https://github.com/Sawan017/SourCa">📦 Repository</a><br /><a href="https://github.com/Sawan017/SourCa">⚡ Live Engine</a></td>
+        </tr>
+        <tr>
+          <td><b>CodeAscend</b></td>
+          <td><b>Skill Roadmap &amp; Milestone Trajectory Tracker</b><br />A comprehensive skill roadmap and milestone tracking platform helping developers visualize learning curves and career velocity.</td>
+          <td><code>React</code><br /><code>TypeScript</code><br /><code>Supabase</code><br /><code>Tailwind CSS</code><br /><code>REST APIs</code><br /><code>Vite</code></td>
+          <td><a href="https://github.com/Sawan017/CodeAscend">📦 Repository</a></td>
+        </tr>
+        <tr>
+          <td><b>Algorithmic Solutions</b></td>
+          <td><b>High-Performance C++20 Core &amp; Competitive DSA</b><br />Rigorous problem-solving repository implementing advanced data structures, graph theory, and dynamic programming with strict asymptotic bounds.</td>
+          <td><code>C++20</code><br /><code>STL</code><br /><code>Data Structures</code><br /><code>Graph Algorithms</code><br /><code>Dynamic Programming</code></td>
+          <td><a href="https://github.com/Sawan017/DSA">📦 Repository</a></td>
+        </tr>
+      </tbody>
+    </table>
 
-    <!-- Project 2: SourCa -->
-    <div style="text-align: center; margin-bottom: 24px;">
-      <img src="./assets/project-2-sourca.svg" alt="SourCa" width="100%" />
-      <div class="button-row">
-        <a href="https://github.com/Sawan017/SourCa"><img src="./assets/btn-sourca-repo.svg" alt="SourCa Repository" height="30" /></a>
-        <a href="https://github.com/Sawan017/SourCa"><img src="./assets/btn-sourca-demo.svg" alt="SourCa Demo" height="30" /></a>
-      </div>
-    </div>
-
-    <!-- Project 3: CodeAscend -->
-    <div style="text-align: center; margin-bottom: 24px;">
-      <img src="./assets/project-3-codeascend.svg" alt="CodeAscend" width="100%" />
-      <div class="button-row">
-        <a href="https://github.com/Sawan017/CodeAscend"><img src="./assets/btn-codeascend-repo.svg" alt="CodeAscend Repository" height="30" /></a>
-      </div>
-    </div>
-
-    <!-- Project 4: Algorithmic Solutions -->
-    <div style="text-align: center; margin-bottom: 24px;">
-      <img src="./assets/project-4-dsa.svg" alt="Algorithmic Solutions" width="100%" />
-      <div class="button-row">
-        <a href="https://github.com/Sawan017/DSA"><img src="./assets/btn-dsa-repo.svg" alt="Algorithmic Solutions Repository" height="30" /></a>
-      </div>
-    </div>
-
-    <div class="divider">
-      <img src="./assets/divider.svg" alt="Divider" width="100%" />
-    </div>
+    <hr />
 
     <!-- 03 TECH STACK -->
     <h2>🛠️ Technology Stack</h2>
-    <div style="text-align: center; margin: 20px 0;">
+    <div style="text-align: center; margin-bottom: 20px;">
+      <img src="./assets/stack.svg?v=1" alt="Technology Stack" width="100%" />
+    </div>
+    <div style="text-align: center; margin: 16px 0;">
       <a href="https://skillicons.dev">
         <img src="https://skillicons.dev/icons?i=cpp,ts,js,react,nextjs,threejs,nodejs,postgres,supabase,tailwind,git,linux,postman,docker,python&theme=dark" alt="Technology Stack Icons" />
       </a>
     </div>
 
-    <div class="divider">
-      <img src="./assets/divider.svg" alt="Divider" width="100%" />
+    <hr />
+
+    <!-- 04 DEVELOPER ID -->
+    <h2>🪪 Developer Identity</h2>
+    <div style="text-align: center; margin-bottom: 20px;">
+      <img src="./assets/id-dashboard.svg?v=1" alt="Developer ID" width="100%" />
     </div>
 
-    <!-- 04 AUTHENTIC ACTIVITY -->
-    <h2>📊 Authentic GitHub Activity</h2>
+    <hr />
+
+    <!-- 05 AUTHENTIC ACTIVITY -->
+    <h2>📊 Authentic GitHub Activity &amp; Statistics</h2>
     <div style="text-align: center; margin: 20px 0;">
       <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/output/github-contribution-grid-snake-dark.svg" alt="Sawan Sahani's Authentic Contribution Snake" width="100%" />
     </div>
 
-    <div class="divider">
-      <img src="./assets/divider.svg" alt="Divider" width="100%" />
-    </div>
-
-    <!-- 05 GITHUB STATS -->
-    <h2>📈 GitHub Statistics</h2>
-    <div class="button-row" style="margin: 20px 0;">
+    <div class="button-row">
       <a href="https://github.com/Sawan017">
-        <img src="https://github-readme-stats.vercel.app/api?username=Sawan017&show_icons=true&bg_color=0F172A&title_color=F8FAFC&icon_color=38BDF8&text_color=94A3B8&border_color=22304A&hide_border=false" alt="Sawan Sahani's GitHub Stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=Sawan017&show_icons=true&bg_color=0D1322&title_color=F0F6FC&icon_color=247BFF&text_color=8B949E&border_color=1C2B4B&hide_border=false" alt="Sawan Sahani's GitHub Stats" />
       </a>
       <a href="https://github.com/Sawan017">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sawan017&background=0F172A&stroke=22304A&border=22304A&ring=2563EB&fire=38BDF8&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=94A3B8" alt="Sawan Sahani's Streak Stats" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sawan017&background=0D1322&stroke=1C2B4B&border=1C2B4B&ring=247BFF&fire=FF354F&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=FF354F&sideLabels=8B949E&dates=8B949E" alt="Sawan Sahani's Streak Stats" />
       </a>
     </div>
 
-    <div class="divider">
-      <img src="./assets/divider.svg" alt="Divider" width="100%" />
-    </div>
+    <hr />
 
-    <!-- 06 CONTACT -->
-    <h2>📬 Get in Touch</h2>
+    <!-- 06 CONNECT -->
+    <h2>📬 Let's Connect</h2>
     <div style="text-align: center; margin-bottom: 20px;">
-      <img src="./assets/footer.svg" alt="Get in Touch" width="100%" />
+      <img src="./assets/connect.svg?v=1" alt="Connect with Sawan Sahani" width="100%" />
     </div>
 
     <div class="button-row">
-      <a href="https://github.com/Sawan017"><img src="https://img.shields.io/badge/GitHub-Sawan017-131B2E?style=for-the-badge&logo=github&logoColor=F8FAFC&labelColor=0F172A" alt="GitHub" /></a>
-      <a href="https://leetcode.com/u/Sawan017/"><img src="https://img.shields.io/badge/LeetCode-Sawan017-131B2E?style=for-the-badge&logo=leetcode&logoColor=F8FAFC&labelColor=0F172A" alt="LeetCode" /></a>
-      <a href="https://codeforces.com/profile/Sawan017"><img src="https://img.shields.io/badge/Codeforces-Sawan017-131B2E?style=for-the-badge&logo=codeforces&logoColor=F8FAFC&labelColor=0F172A" alt="Codeforces" /></a>
-      <a href="mailto:sawansahani017@gmail.com"><img src="https://img.shields.io/badge/Email-sawansahani017%40gmail.com-131B2E?style=for-the-badge&logo=gmail&logoColor=F8FAFC&labelColor=0F172A" alt="Email" /></a>
+      <a href="https://github.com/Sawan017"><img src="https://img.shields.io/badge/GitHub-Sawan017-0D1322?style=for-the-badge&logo=github&logoColor=F0F6FC&labelColor=070B16" alt="GitHub" /></a>
+      <a href="https://leetcode.com/u/Sawan017/"><img src="https://img.shields.io/badge/LeetCode-Sawan017-0D1322?style=for-the-badge&logo=leetcode&logoColor=FFA116&labelColor=070B16" alt="LeetCode" /></a>
+      <a href="https://codeforces.com/profile/Sawan017"><img src="https://img.shields.io/badge/Codeforces-Sawan017-0D1322?style=for-the-badge&logo=codeforces&logoColor=247BFF&labelColor=070B16" alt="Codeforces" /></a>
+      <a href="mailto:sawansahani017@gmail.com"><img src="https://img.shields.io/badge/Email-sawansahani017%40gmail.com-0D1322?style=for-the-badge&logo=gmail&logoColor=FF354F&labelColor=070B16" alt="Email" /></a>
     </div>
 
     <div style="text-align: center; margin-top: 32px; color: var(--fg-secondary); font-size: 11px;">
-      &copy; 2026 Sawan Sahani &bull; Handcrafted Royal Dark Systems Architecture
+      &copy; 2026 Sawan Sahani &bull; Handcrafted Profile Architecture &bull; Built with The Profile Playbook
     </div>
   </div>
 

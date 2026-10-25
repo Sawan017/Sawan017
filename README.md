@@ -1,109 +1,53 @@
 <div align="center">
 
   <!-- ========================================== -->
-  <!-- 1. ANIMATED HERO & IDENTITY                -->
+  <!-- 01 HERO BANNER                             -->
   <!-- ========================================== -->
 
-  <p align="center">
-    <img src="./assets/hero.svg" alt="Sawan Sahani - Systems Architect &amp; Full-Stack Engineer" width="100%" />
-  </p>
+  ![Intro](./assets/hero.svg?v=1)
 
-  <!-- Quick Action Buttons -->
-  <p align="center">
-    <a href="https://github.com/Sawan017"><img src="./assets/btn-hero-portfolio.svg" alt="GitHub Profile" height="32" /></a>
-    &nbsp;
-    <a href="https://leetcode.com/u/Sawan017/"><img src="./assets/btn-hero-leetcode.svg" alt="LeetCode" height="32" /></a>
-    &nbsp;
-    <a href="https://codeforces.com/profile/Sawan017"><img src="./assets/btn-hero-codeforces.svg" alt="Codeforces" height="32" /></a>
-    &nbsp;
-    <a href="mailto:sawansahani017@gmail.com"><img src="./assets/btn-hero-email.svg" alt="Email" height="32" /></a>
-  </p>
+  <br />
 
   <p align="center">
-    <img src="./assets/divider.svg" alt="Divider" width="100%" />
+    <a href="https://github.com/Sawan017"><img src="https://img.shields.io/badge/GitHub-Sawan017-0D1322?style=for-the-badge&logo=github&logoColor=F0F6FC&labelColor=070B16" alt="GitHub" /></a>
+    &nbsp;
+    <a href="https://leetcode.com/u/Sawan017/"><img src="https://img.shields.io/badge/LeetCode-Sawan017-0D1322?style=for-the-badge&logo=leetcode&logoColor=FFA116&labelColor=070B16" alt="LeetCode" /></a>
+    &nbsp;
+    <a href="https://codeforces.com/profile/Sawan017"><img src="https://img.shields.io/badge/Codeforces-Sawan017-0D1322?style=for-the-badge&logo=codeforces&logoColor=247BFF&labelColor=070B16" alt="Codeforces" /></a>
+    &nbsp;
+    <a href="mailto:sawansahani017@gmail.com"><img src="https://img.shields.io/badge/Email-sawansahani017%40gmail.com-0D1322?style=for-the-badge&logo=gmail&logoColor=FF354F&labelColor=070B16" alt="Email" /></a>
   </p>
 
 </div>
 
-<!-- ========================================== -->
-<!-- 2. ABOUT ME                                -->
-<!-- ========================================== -->
+---
 
 ## 👨‍💻 About Me
 
-<p align="center">
-  <img src="./assets/about.svg" alt="About Sawan Sahani - Terminal Session &amp; Core Disciplines" width="100%" />
-</p>
+![About](./assets/about-life.svg?v=1)
 
 <p>
   Hello! I am <b>Sawan Sahani</b> (<a href="https://github.com/Sawan017">@Sawan017</a>), a Computer Science &amp; Engineering undergraduate focused on architecting resilient full-stack web platforms, interactive 3D web environments, and mastering asymptotic algorithmic problem-solving in <b>C++20</b>.
 </p>
 
-<p align="center">
-  <img src="./assets/divider.svg" alt="Divider" width="100%" />
-</p>
-
-<!-- ========================================== -->
-<!-- 3. FEATURED PROJECTS                       -->
-<!-- ========================================== -->
+---
 
 ## 🚀 Featured Projects
 
-<p>
-  Flagship software systems, architectural prototypes, and algorithmic solutions with verified repositories.
-</p>
+Production-ready systems, architectural prototypes, and algorithmic implementations.
 
-<!-- Project 1: ARINOVA -->
-<p align="center">
-  <img src="./assets/project-1-arinova.svg" alt="ARINOVA - Gamified Developer Career RPG" width="100%" />
-</p>
-<p align="center">
-  <a href="https://github.com/Sawan017/ARINOVA"><img src="./assets/btn-arinova-repo.svg" alt="ARINOVA Repository" height="30" /></a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/Sawan017/ARINOVA"><img src="./assets/btn-arinova-demo.svg" alt="ARINOVA Demo" height="30" /></a>
-</p>
+| Project | Description | Core Stack | Links |
+| :--- | :--- | :--- | :--- |
+| **ARINOVA** | **Gamified Developer Career RPG &amp; 3D Interactive Realm**<br />An interactive 3D developer universe transforming real coding quests and progression milestones into an engaging journey. | `React 19`<br />`TypeScript`<br />`Three.js / R3F`<br />`Supabase`<br />`Monaco Editor`<br />`Tailwind CSS` | [📦 Repository](https://github.com/Sawan017/ARINOVA)<br />[🎮 Live Demo](https://github.com/Sawan017/ARINOVA) |
+| **SourCa** | **Developer Assessment &amp; AI Placement Engine**<br />Intelligent technical evaluation engine that conducts automated coding interviews, contextual assessments, and recruiter analytics. | `Next.js 16`<br />`TypeScript`<br />`Google GenAI`<br />`Supabase SSR`<br />`PostgreSQL`<br />`Tailwind CSS v4` | [📦 Repository](https://github.com/Sawan017/SourCa)<br />[⚡ Live Engine](https://github.com/Sawan017/SourCa) |
+| **CodeAscend** | **Skill Roadmap &amp; Milestone Trajectory Tracker**<br />A comprehensive skill roadmap and milestone tracking platform helping developers visualize learning curves and career velocity. | `React`<br />`TypeScript`<br />`Supabase`<br />`Tailwind CSS`<br />`REST APIs`<br />`Vite` | [📦 Repository](https://github.com/Sawan017/CodeAscend) |
+| **Algorithmic Solutions** | **High-Performance C++20 Core &amp; Competitive DSA**<br />Rigorous problem-solving repository implementing advanced data structures, graph theory, and dynamic programming with strict asymptotic bounds. | `C++20`<br />`STL`<br />`Data Structures`<br />`Graph Algorithms`<br />`Dynamic Programming` | [📦 Repository](https://github.com/Sawan017/DSA) |
 
-<br />
-
-<!-- Project 2: SourCa -->
-<p align="center">
-  <img src="./assets/project-2-sourca.svg" alt="SourCa - AI Assessment &amp; Placement Engine" width="100%" />
-</p>
-<p align="center">
-  <a href="https://github.com/Sawan017/SourCa"><img src="./assets/btn-sourca-repo.svg" alt="SourCa Repository" height="30" /></a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/Sawan017/SourCa"><img src="./assets/btn-sourca-demo.svg" alt="SourCa Demo" height="30" /></a>
-</p>
-
-<br />
-
-<!-- Project 3: CodeAscend -->
-<p align="center">
-  <img src="./assets/project-3-codeascend.svg" alt="CodeAscend - Skill Roadmap &amp; Trajectory Tracker" width="100%" />
-</p>
-<p align="center">
-  <a href="https://github.com/Sawan017/CodeAscend"><img src="./assets/btn-codeascend-repo.svg" alt="CodeAscend Repository" height="30" /></a>
-</p>
-
-<br />
-
-<!-- Project 4: Algorithmic Solutions -->
-<p align="center">
-  <img src="./assets/project-4-dsa.svg" alt="Algorithmic Solutions - High-Performance C++20 Core" width="100%" />
-</p>
-<p align="center">
-  <a href="https://github.com/Sawan017/DSA"><img src="./assets/btn-dsa-repo.svg" alt="Algorithmic Solutions Repository" height="30" /></a>
-</p>
-
-<p align="center">
-  <img src="./assets/divider.svg" alt="Divider" width="100%" />
-</p>
-
-<!-- ========================================== -->
-<!-- 4. TECHNOLOGY STACK                        -->
-<!-- ========================================== -->
+---
 
 ## 🛠️ Technology Stack
+
+![Stack](./assets/stack.svg?v=1)
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -111,65 +55,47 @@
   </a>
 </p>
 
+---
+
+## 🪪 Developer Identity
+
+![ID](./assets/id-dashboard.svg?v=1)
+
+---
+
+## 📊 Authentic GitHub Activity &amp; Statistics
+
+<!-- Exactly ONE authentic contribution graph -->
 <p align="center">
-  <img src="./assets/divider.svg" alt="Divider" width="100%" />
-</p>
-
-<!-- ========================================== -->
-<!-- 5. AUTHENTIC GITHUB ACTIVITY               -->
-<!-- ========================================== -->
-
-## 📊 Authentic GitHub Activity
-
-<p align="center">
-  <!-- Exactly ONE Authentic Contribution Graph: Animated GitHub Snake eating real contributions -->
   <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/output/github-contribution-grid-snake-dark.svg" alt="Sawan Sahani's Authentic Contribution Snake" width="100%" />
 </p>
 
 <p align="center">
-  <img src="./assets/divider.svg" alt="Divider" width="100%" />
-</p>
-
-<!-- ========================================== -->
-<!-- 6. GITHUB STATISTICS                       -->
-<!-- ========================================== -->
-
-## 📈 GitHub Statistics
-
-<p align="center">
   <a href="https://github.com/Sawan017">
-    <img src="https://github-readme-stats.vercel.app/api?username=Sawan017&show_icons=true&bg_color=0F172A&title_color=F8FAFC&icon_color=38BDF8&text_color=94A3B8&border_color=22304A&hide_border=false" alt="Sawan Sahani's GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Sawan017&show_icons=true&bg_color=0D1322&title_color=F0F6FC&icon_color=247BFF&text_color=8B949E&border_color=1C2B4B&hide_border=false" alt="Sawan Sahani's GitHub Stats" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/Sawan017">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sawan017&background=0F172A&stroke=22304A&border=22304A&ring=2563EB&fire=38BDF8&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=94A3B8" alt="Sawan Sahani's Streak Stats" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sawan017&background=0D1322&stroke=1C2B4B&border=1C2B4B&ring=247BFF&fire=FF354F&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=FF354F&sideLabels=8B949E&dates=8B949E" alt="Sawan Sahani's Streak Stats" />
   </a>
 </p>
 
-<p align="center">
-  <img src="./assets/divider.svg" alt="Divider" width="100%" />
-</p>
+---
 
-<!-- ========================================== -->
-<!-- 7. GET IN TOUCH                            -->
-<!-- ========================================== -->
+## 📬 Let's Connect
 
-## 📬 Get in Touch
+![Connect](./assets/connect.svg?v=1)
 
 <p align="center">
-  <img src="./assets/footer.svg" alt="Get in Touch with Sawan Sahani" width="100%" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/Sawan017"><img src="https://img.shields.io/badge/GitHub-Sawan017-131B2E?style=for-the-badge&logo=github&logoColor=F8FAFC&labelColor=0F172A" alt="GitHub" /></a>
+  <a href="https://github.com/Sawan017"><img src="https://img.shields.io/badge/GitHub-Sawan017-0D1322?style=for-the-badge&logo=github&logoColor=F0F6FC&labelColor=070B16" alt="GitHub" /></a>
   &nbsp;
-  <a href="https://leetcode.com/u/Sawan017/"><img src="https://img.shields.io/badge/LeetCode-Sawan017-131B2E?style=for-the-badge&logo=leetcode&logoColor=F8FAFC&labelColor=0F172A" alt="LeetCode" /></a>
+  <a href="https://leetcode.com/u/Sawan017/"><img src="https://img.shields.io/badge/LeetCode-Sawan017-0D1322?style=for-the-badge&logo=leetcode&logoColor=FFA116&labelColor=070B16" alt="LeetCode" /></a>
   &nbsp;
-  <a href="https://codeforces.com/profile/Sawan017"><img src="https://img.shields.io/badge/Codeforces-Sawan017-131B2E?style=for-the-badge&logo=codeforces&logoColor=F8FAFC&labelColor=0F172A" alt="Codeforces" /></a>
+  <a href="https://codeforces.com/profile/Sawan017"><img src="https://img.shields.io/badge/Codeforces-Sawan017-0D1322?style=for-the-badge&logo=codeforces&logoColor=247BFF&labelColor=070B16" alt="Codeforces" /></a>
   &nbsp;
-  <a href="mailto:sawansahani017@gmail.com"><img src="https://img.shields.io/badge/Email-sawansahani017%40gmail.com-131B2E?style=for-the-badge&logo=gmail&logoColor=F8FAFC&labelColor=0F172A" alt="Email" /></a>
+  <a href="mailto:sawansahani017@gmail.com"><img src="https://img.shields.io/badge/Email-sawansahani017%40gmail.com-0D1322?style=for-the-badge&logo=gmail&logoColor=FF354F&labelColor=070B16" alt="Email" /></a>
 </p>
 
-<p align="center">
-  <sub>© 2026 Sawan Sahani • Handcrafted Royal Dark Systems Architecture</sub>
-</p>
+<div align="center">
+  <sub>© 2026 Sawan Sahani • Handcrafted Profile Architecture • Built with The Profile Playbook</sub>
+</div>

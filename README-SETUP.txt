@@ -1,45 +1,80 @@
 ================================================================================
-ROYAL DARK GITHUB PROFILE README SYSTEM — DOCUMENTATION
+SAWAN017 / THE PROFILE PLAYBOOK — SETUP & PUBLISH GUIDE
 Developer: Sawan Sahani (@Sawan017)
-Systems Architect • Full-Stack Engineer • C++20 Algorithmic Specialist
-System Palette:
-  CANVAS BACKGROUND:     #0A0E17 (Deep Imperial Obsidian)
-  SECTION / HERO:        #0F172A (Royal Twilight Navy)
-  CARD SURFACES:
-    - ARINOVA:           #11182B (Astral Indigo)
-    - SourCa:            #0E1929 (Midnight Cobalt)
-    - CodeAscend:        #121927 (Imperial Slate)
-    - Algorithmic Sol:   #0E131E (Charcoal Obsidian)
-  PRIMARY ACCENT:        #2563EB / #3B82F6 (Royal Sapphire / Azure)
-  HIGHLIGHT / BEACON:    #38BDF8 / #60A5FA (Luminous Sky Blue)
-  PRIMARY TEXT:          #F8FAFC (High-Contrast Platinum Silver)
-  SECONDARY TEXT:        #94A3B8 (Readable Slate)
-  HAIRLINE BORDERS:      #22304A / #253553
+Art Direction: Deep Navy (#070B16), Electric Blue (#247BFF), Crimson (#FF354F)
 ================================================================================
 
-1. ARCHITECTURAL FOUNDATION & USER SPECIFICATIONS
-- Genuine Markdown headings (## 👨‍💻 About Me, ## 🚀 Featured Projects, etc.) for accessibility,
-  SEO, and native GitHub navigation outline.
-- Zero fabricated dashboards or mock contribution squares.
-- Exactly ONE authentic contribution graph powered by Platane's snake workflow reading genuine
-  commits on push and daily schedule.
-- Pure SVG animations:
-  - Hero: Rotating orbital radar (spinSlow), sweeping radar sector beam, and pulsing telemetry beacon.
-  - ARINOVA: Floating levitation of 3D crystal node with rotating celestial orbit ring.
-  - SourCa: Animated pulsed data packets traveling through the evaluation pipeline.
-  - CodeAscend: Ascending trajectory light sweep across the 4-milestone roadmap.
-  - Algorithmic Solutions: Traversal ping pulses through the binary search tree topology.
-  - Accessible @media (prefers-reduced-motion) overrides built into every SVG.
+TABLE OF CONTENTS
+1. Overview & Playbook Architecture
+2. Five Core Animated SVGs
+3. Character Assets (True Alpha PNGs)
+4. Local Preview (preview.html)
+5. Publishing Instructions (GitHub Profile)
+6. Upload-Ready ZIP Package
 
-2. VERIFIED REPOSITORY & PROFILE LINKS
-- GitHub Profile: https://github.com/Sawan017
-- ARINOVA:        https://github.com/Sawan017/ARINOVA
-- SourCa:         https://github.com/Sawan017/SourCa
-- CodeAscend:     https://github.com/Sawan017/CodeAscend
-- DSA (C++20):    https://github.com/Sawan017/DSA
-- LeetCode:       https://leetcode.com/u/Sawan017/
-- Codeforces:     https://codeforces.com/profile/Sawan017
-- Email:          mailto:sawansahani017@gmail.com
+--------------------------------------------------------------------------------
+1. OVERVIEW & PLAYBOOK ARCHITECTURE
+--------------------------------------------------------------------------------
+This profile is built directly from "The GitHub Profile Playbook" for Sawan017.
+It uses oversized display typography, generous spacing, rounded cards, subtle
+dot texture, gradient hairline borders, and clear hierarchy.
 
-3. LOCAL PREVIEW
-Open preview.html in any modern browser to verify full layout and SVG animations.
+No fake commit dashboards, no duplicate graphs, and no invented metrics.
+All five custom SVGs are 100% self-contained with base64 embedded character
+PNGs, ensuring they render flawlessly on GitHub camo without sub-resource drops.
+
+--------------------------------------------------------------------------------
+2. FIVE CORE ANIMATED SVGs
+--------------------------------------------------------------------------------
+1. assets/hero.svg
+   - Typed greeting: ~ /sawan $ echo $GREETING
+   - Large rising-mask name reveal: Sawan Sahani
+   - Four cycling roles (12s loop, 3s each):
+     * CSE Undergraduate & Systems Developer
+     * Full-Stack Software Engineer
+     * C++20 Algorithmic & DSA Specialist
+     * Interactive 3D & Web Realm Architect
+   - Concise pitch and verified role/location row
+   - Stylized character portrait framed with electric-blue & crimson rim
+
+2. assets/about-life.svg
+   - Capabilities & Core Disciplines on the left
+   - 3-slide interests carousel on the right with segment progress bars (12s cycle, 4s per slide)
+
+3. assets/stack.svg
+   - Three tilted elliptical orbits at distinct harmonic speeds (26s, 18s, 12s)
+   - Labels counter-rotate to remain upright, aligned, and readable
+   - Grouped stack chips: Languages, Frontend & 3D, Backend & DB, Workflow & Tools
+
+4. assets/id-dashboard.svg
+   - Hanging lanyard ID card with metal clasp and neck cords
+   - Initial drop-in with damped pendulum settling, then gentle +/- 1.7° swing
+   - Barcode, chip, and subtle light sweep sheen across the card surface
+
+5. assets/connect.svg
+   - Right-pointing character on the left (true alpha PNG)
+   - Spacious social cards on the right with restrained nudging arrows
+
+--------------------------------------------------------------------------------
+3. CHARACTER ASSETS
+--------------------------------------------------------------------------------
+- assets/id.png: High-resolution stylized chest-up portrait crop with true alpha transparency.
+- assets/right_pointing.png: High-resolution waist-up pointing character with true alpha transparency.
+
+--------------------------------------------------------------------------------
+4. LOCAL PREVIEW
+--------------------------------------------------------------------------------
+Open preview.html directly in any browser:
+  start preview.html
+
+--------------------------------------------------------------------------------
+5. PUBLISHING INSTRUCTIONS
+--------------------------------------------------------------------------------
+1. Ensure files are committed to the repository root for username Sawan017.
+2. The image references in README.md use:
+   ![Intro](./assets/hero.svg?v=1)
+   ![About](./assets/about-life.svg?v=1)
+   ![Stack](./assets/stack.svg?v=1)
+   ![ID](./assets/id-dashboard.svg?v=1)
+   ![Connect](./assets/connect.svg?v=1)
+3. Visit https://github.com/Sawan017 to view your live profile!
