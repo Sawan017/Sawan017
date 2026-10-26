@@ -15,7 +15,7 @@
     &nbsp;
     <a href="https://codeforces.com/profile/sawan_sahani"><img src="https://img.shields.io/badge/Codeforces-sawan_sahani-0D1322?style=for-the-badge&logo=codeforces&logoColor=247BFF&labelColor=070B16" alt="Codeforces" /></a>
     &nbsp;
-    <a href="mailto:sunnysahny21@gmail.com"><img src="https://img.shields.io/badge/Email-sawansahani017%40gmail.com-0D1322?style=for-the-badge&logo=gmail&logoColor=FF354F&labelColor=070B16" alt="Email" /></a>
+    <a href="mailto:sunnysahny21@gmail.com"><img src="https://img.shields.io/badge/Email-sunnysahny21%40gmail.com-0D1322?style=for-the-badge&logo=gmail&logoColor=FF354F&labelColor=070B16" alt="Email" /></a>
   </p>
 
 </div>
