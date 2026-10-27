@@ -2,3 +2,7 @@
 *.tmp
 Thumbs.db
 .DS_Store
+.opencode/
+.profile-xml-check.html
+.profile-renders/
+.profile-server.log

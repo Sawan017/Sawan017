@@ -1,101 +1,128 @@
 <div align="center">
 
-  <!-- ========================================== -->
-  <!-- 01 HERO BANNER                             -->
-  <!-- ========================================== -->
+![Intro](./assets/hero.svg?v=2)
 
-  ![Intro](./assets/hero.svg?v=1)
-
-  <br />
-
-  <p align="center">
-    <a href="https://github.com/Sawan017"><img src="https://img.shields.io/badge/GitHub-Sawan017-0D1322?style=for-the-badge&logo=github&logoColor=F0F6FC&labelColor=070B16" alt="GitHub" /></a>
-    &nbsp;
-    <a href="https://leetcode.com/u/Sawan017/"><img src="https://img.shields.io/badge/LeetCode-Sawan017-0D1322?style=for-the-badge&logo=leetcode&logoColor=FFA116&labelColor=070B16" alt="LeetCode" /></a>
-    &nbsp;
-    <a href="https://codeforces.com/profile/Sawan017"><img src="https://img.shields.io/badge/Codeforces-Sawan017-0D1322?style=for-the-badge&logo=codeforces&logoColor=247BFF&labelColor=070B16" alt="Codeforces" /></a>
-    &nbsp;
-    <a href="mailto:sawansahani017@gmail.com"><img src="https://img.shields.io/badge/Email-sawansahani017%40gmail.com-0D1322?style=for-the-badge&logo=gmail&logoColor=FF354F&labelColor=070B16" alt="Email" /></a>
-  </p>
+<p>
+  <a href="https://github.com/Sawan017">GitHub / @Sawan017</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://leetcode.com/u/Sawan017/">LeetCode / Sawan017</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://codeforces.com/profile/Sawan017">Codeforces / Sawan017</a>
+</p>
 
 </div>
 
----
+## 01 / ABOUT
 
-## 👨‍💻 About Me
+![About](./assets/about-life.svg?v=2)
 
-![About](./assets/about-life.svg?v=1)
+I am **Sawan Sahani** — a Computer Science &amp; Engineering undergraduate and developer building useful software, strengthening DSA, and learning full-stack engineering. I care about readable systems, honest constraints, and interfaces that make the underlying work easier to understand.
 
-<p>
-  Hello! I am <b>Sawan Sahani</b> (<a href="https://github.com/Sawan017">@Sawan017</a>), a Computer Science &amp; Engineering undergraduate focused on architecting resilient full-stack web platforms, interactive 3D web environments, and mastering asymptotic algorithmic problem-solving in <b>C++20</b>.
-</p>
+## 02 / RECOGNITION
 
----
+> **Verified only.** No public awards, certifications, or formal recognitions are exposed by the current profile and repository set, so this section intentionally stays quiet instead of filling the space with invented claims.
 
-## 🚀 Featured Projects
+## 03 / PROJECT RADAR
 
-Production-ready systems, architectural prototypes, and algorithmic implementations.
+The four cards below keep the playbook's intended project lineup while separating public evidence from ideas that still need a public URL. The details were checked against the public GitHub profile on **October 26, 2026**.
 
-| Project | Description | Core Stack | Links |
-| :--- | :--- | :--- | :--- |
-| **ARINOVA** | **Gamified Developer Career RPG &amp; 3D Interactive Realm**<br />An interactive 3D developer universe transforming real coding quests and progression milestones into an engaging journey. | `React 19`<br />`TypeScript`<br />`Three.js / R3F`<br />`Supabase`<br />`Monaco Editor`<br />`Tailwind CSS` | [📦 Repository](https://github.com/Sawan017/ARINOVA)<br />[🎮 Live Demo](https://github.com/Sawan017/ARINOVA) |
-| **SourCa** | **Developer Assessment &amp; AI Placement Engine**<br />Intelligent technical evaluation engine that conducts automated coding interviews, contextual assessments, and recruiter analytics. | `Next.js 16`<br />`TypeScript`<br />`Google GenAI`<br />`Supabase SSR`<br />`PostgreSQL`<br />`Tailwind CSS v4` | [📦 Repository](https://github.com/Sawan017/SourCa)<br />[⚡ Live Engine](https://github.com/Sawan017/SourCa) |
-| **CodeAscend** | **Skill Roadmap &amp; Milestone Trajectory Tracker**<br />A comprehensive skill roadmap and milestone tracking platform helping developers visualize learning curves and career velocity. | `React`<br />`TypeScript`<br />`Supabase`<br />`Tailwind CSS`<br />`REST APIs`<br />`Vite` | [📦 Repository](https://github.com/Sawan017/CodeAscend) |
-| **Algorithmic Solutions** | **High-Performance C++20 Core &amp; Competitive DSA**<br />Rigorous problem-solving repository implementing advanced data structures, graph theory, and dynamic programming with strict asymptotic bounds. | `C++20`<br />`STL`<br />`Data Structures`<br />`Graph Algorithms`<br />`Dynamic Programming` | [📦 Repository](https://github.com/Sawan017/DSA) |
+<table>
+  <thead>
+    <tr>
+      <th align="left">Project</th>
+      <th align="left">Public evidence</th>
+      <th align="left">Verified stack / scope</th>
+      <th align="left">Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>01 / ARINOVA</strong><br /><sub>developer career RPG</sub></td>
+      <td>The public <code>CodeAscend</code> repository currently documents ARINOVA as an interactive developer career RPG with progression, social features, GitHub integration, and a 3D experience.</td>
+      <td><code>React</code> · <code>TypeScript</code> · <code>Vite</code> · <code>Three.js</code> · <code>R3F</code> · <code>Supabase</code></td>
+      <td><a href="https://github.com/Sawan017/CodeAscend">public repo</a></td>
+    </tr>
+    <tr>
+      <td><strong>02 / SourCa</strong><br /><sub>assessment / placement concept</sub></td>
+      <td>No public repository named <code>SourCa</code> was found under <code>@Sawan017</code> during the October 26, 2026 check. No product details or URL are claimed here.</td>
+      <td><em>Awaiting a public repository or verified project brief.</em></td>
+      <td>—</td>
+    </tr>
+    <tr>
+      <td><strong>03 / CodeAscend</strong><br /><sub>developer growth platform</sub></td>
+      <td>GitHub describes it as “A personal developer growth and learning progress platform.” It is the largest public repository in the current profile snapshot.</td>
+      <td><code>TypeScript</code> · <code>PL/pgSQL</code> · <code>CSS</code> · <code>JavaScript</code> · <code>HTML</code> · <code>PowerShell</code></td>
+      <td><a href="https://github.com/Sawan017/CodeAscend">repository</a></td>
+    </tr>
+    <tr>
+      <td><strong>04 / Algorithmic Solutions</strong><br /><sub>competitive programming</sub></td>
+      <td>The public work is split into <code>leetcode-solutions</code> and <code>codeforces-solutions</code>, with visible C++ and C solution files.</td>
+      <td><code>C++</code> · <code>C</code> · problem solving</td>
+      <td><a href="https://github.com/Sawan017/leetcode-solutions">LeetCode</a><br /><a href="https://github.com/Sawan017/codeforces-solutions">Codeforces</a></td>
+    </tr>
+  </tbody>
+</table>
 
----
+## 04 / STACK
 
-## 🛠️ Technology Stack
+![Stack](./assets/stack.svg?v=2)
 
-![Stack](./assets/stack.svg?v=1)
+The graphic above is deliberately self-contained: no external icon pack, font request, JavaScript, or foreign object is required for it to render.
 
+## 05 / DEVELOPER ID
+
+![Developer identity card](./assets/id-dashboard.svg?v=2)
+
+## 06 / GITHUB SIGNAL
+
+Snapshot checked on **October 26, 2026** from the public profile:
+
+<table>
+  <thead>
+    <tr>
+      <th align="left">Signal</th>
+      <th align="left">Value</th>
+      <th align="left">Source</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Public repositories</td><td><strong>6</strong></td><td><a href="https://github.com/Sawan017?tab=repositories">GitHub profile</a></td></tr>
+    <tr><td>Followers</td><td><strong>1</strong></td><td><a href="https://github.com/Sawan017">GitHub profile</a></td></tr>
+    <tr><td>Following</td><td><strong>0</strong></td><td><a href="https://github.com/Sawan017">GitHub profile</a></td></tr>
+    <tr><td>Profile created</td><td><strong>April 3, 2026</strong></td><td><a href="https://github.com/Sawan017">GitHub profile</a></td></tr>
+  </tbody>
+</table>
+
+<!-- Exactly one contribution visualization. The repository workflow refreshes this image. -->
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cpp,ts,js,react,nextjs,threejs,nodejs,postgres,supabase,tailwind,git,linux,postman,docker,python&theme=dark" alt="Technology Stack Icons" />
-  </a>
+  <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/output/github-contribution-grid-snake-dark.svg?v=2" alt="Sawan017 GitHub contribution activity" width="100%" />
 </p>
 
----
+## 07 / CONNECT
 
-## 🪪 Developer Identity
+![Connect](./assets/connect.svg?v=2)
 
-![ID](./assets/id-dashboard.svg?v=1)
-
----
-
-## 📊 Authentic GitHub Activity &amp; Statistics
-
-<!-- Exactly ONE authentic contribution graph -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/output/github-contribution-grid-snake-dark.svg" alt="Sawan Sahani's Authentic Contribution Snake" width="100%" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/Sawan017">
-    <img src="https://github-readme-stats.vercel.app/api?username=Sawan017&show_icons=true&bg_color=0D1322&title_color=F0F6FC&icon_color=247BFF&text_color=8B949E&border_color=1C2B4B&hide_border=false" alt="Sawan Sahani's GitHub Stats" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/Sawan017">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sawan017&background=0D1322&stroke=1C2B4B&border=1C2B4B&ring=247BFF&fire=FF354F&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=FF354F&sideLabels=8B949E&dates=8B949E" alt="Sawan Sahani's Streak Stats" />
-  </a>
-</p>
-
----
-
-## 📬 Let's Connect
-
-![Connect](./assets/connect.svg?v=1)
-
-<p align="center">
-  <a href="https://github.com/Sawan017"><img src="https://img.shields.io/badge/GitHub-Sawan017-0D1322?style=for-the-badge&logo=github&logoColor=F0F6FC&labelColor=070B16" alt="GitHub" /></a>
-  &nbsp;
-  <a href="https://leetcode.com/u/Sawan017/"><img src="https://img.shields.io/badge/LeetCode-Sawan017-0D1322?style=for-the-badge&logo=leetcode&logoColor=FFA116&labelColor=070B16" alt="LeetCode" /></a>
-  &nbsp;
-  <a href="https://codeforces.com/profile/Sawan017"><img src="https://img.shields.io/badge/Codeforces-Sawan017-0D1322?style=for-the-badge&logo=codeforces&logoColor=247BFF&labelColor=070B16" alt="Codeforces" /></a>
-  &nbsp;
-  <a href="mailto:sawansahani017@gmail.com"><img src="https://img.shields.io/badge/Email-sawansahani017%40gmail.com-0D1322?style=for-the-badge&logo=gmail&logoColor=FF354F&labelColor=070B16" alt="Email" /></a>
-</p>
+<table>
+  <thead>
+    <tr>
+      <th align="left">Channel</th>
+      <th align="left">Open</th>
+      <th align="left">Use it for</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>GitHub</strong></td><td><a href="https://github.com/Sawan017">github.com/Sawan017</a></td><td>repositories, profile README, and open-source work</td></tr>
+    <tr><td><strong>LeetCode</strong></td><td><a href="https://leetcode.com/u/Sawan017/">leetcode.com/u/Sawan017</a></td><td>algorithm practice</td></tr>
+    <tr><td><strong>Codeforces</strong></td><td><a href="https://codeforces.com/profile/Sawan017">codeforces.com/profile/Sawan017</a></td><td>contests and problem solving</td></tr>
+  </tbody>
+</table>
 
 <div align="center">
-  <sub>© 2026 Sawan Sahani • Handcrafted Profile Architecture • Built with The Profile Playbook</sub>
+
+---
+
+### BUILD. SHARE. IMPROVE.
+
+<sub>A profile README built from the supplied Profile Playbook — with public facts separated from future work.</sub>
+
 </div>

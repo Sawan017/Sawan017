@@ -1,282 +1,217 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GitHub Profile Preview — Sawan Sahani (@Sawan017)</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sawan017 — GitHub Profile Preview</title>
   <style>
     :root {
-      --bg-canvas: #070B16;
-      --bg-surface: #0D1322;
-      --fg-primary: #F0F6FC;
-      --fg-secondary: #8B949E;
-      --accent-blue: #247BFF;
-      --accent-crimson: #FF354F;
-      --border: #1C2B4B;
+      color-scheme: dark;
+      --navy: #070b16;
+      --surface: #0d1322;
+      --surface-2: #111b2e;
+      --line: #1c2b4b;
+      --blue: #247bff;
+      --crimson: #ff354f;
+      --text: #f8fafc;
+      --muted: #a7b2c4;
     }
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+
+    * { box-sizing: border-box; }
+
     body {
-      background-color: var(--bg-canvas);
-      color: var(--fg-primary);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
-      font-size: 14.5px;
-      line-height: 1.6;
-      padding: 32px 16px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      margin: 0;
+      background: var(--navy);
+      color: var(--text);
+      font: 15px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
-    .preview-header {
-      width: 100%;
-      max-width: 980px;
-      background: var(--bg-surface);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 14px 20px;
-      margin-bottom: 24px;
+
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .shell {
+      width: min(1120px, calc(100% - 32px));
+      margin: 24px auto 80px;
+    }
+
+    .preview-bar {
       display: flex;
       justify-content: space-between;
+      gap: 16px;
       align-items: center;
-      font-size: 13px;
+      margin-bottom: 18px;
+      padding: 12px 16px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: var(--surface);
+      color: var(--muted);
+      font: 12px/1.4 "Fira Code", Consolas, monospace;
     }
-    .preview-header .brand {
-      color: var(--fg-primary);
-      font-weight: 700;
+
+    .preview-bar strong { color: var(--text); }
+    .tag { color: var(--blue); }
+
+    main {
+      padding: 26px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(7, 11, 22, .94);
+      box-shadow: 0 24px 80px rgba(0, 0, 0, .25);
+    }
+
+    .hero, .art { width: 100%; display: block; height: auto; }
+    .hero { margin-bottom: 14px; }
+    .art { margin: 12px 0 26px; }
+
+    .links {
       display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    .preview-header .tag {
-      background: #070B16;
-      color: var(--accent-blue);
-      padding: 2px 8px;
-      border-radius: 4px;
-      font-size: 11px;
-      font-family: monospace;
-      border: 1px solid var(--border);
-    }
-    .markdown-body {
-      width: 100%;
-      max-width: 980px;
-      background: var(--bg-canvas);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 36px 32px;
-    }
-    .markdown-body h2 {
-      color: var(--fg-primary);
-      font-size: 20px;
-      font-weight: 800;
-      margin: 32px 0 16px 0;
-      padding-bottom: 8px;
-      border-bottom: 1px solid var(--border);
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .markdown-body p {
-      color: var(--fg-secondary);
-      margin-bottom: 16px;
-    }
-    .markdown-body b {
-      color: var(--fg-primary);
-    }
-    .markdown-body a {
-      color: var(--accent-blue);
-      text-decoration: none;
-    }
-    .markdown-body a:hover {
-      text-decoration: underline;
-    }
-    .markdown-body img {
-      max-width: 100%;
-      height: auto;
-      display: inline-block;
-      vertical-align: middle;
-    }
-    hr {
-      border: 0;
-      border-top: 1px solid var(--border);
-      margin: 32px 0;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 20px 0;
-      font-size: 13.5px;
-    }
-    th, td {
-      border: 1px solid var(--border);
-      padding: 12px 14px;
-      text-align: left;
-      vertical-align: top;
-    }
-    th {
-      background-color: var(--bg-surface);
-      color: var(--fg-primary);
-      font-weight: 700;
-    }
-    td code {
-      background: var(--bg-surface);
-      border: 1px solid var(--border);
-      border-radius: 4px;
-      padding: 1px 5px;
-      font-size: 11.5px;
-      color: var(--accent-blue);
-      font-family: 'Fira Code', Consolas, monospace;
-    }
-    .button-row {
-      display: flex;
-      justify-content: center;
-      gap: 12px;
       flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px 18px;
+      margin: 10px 0 34px;
+      font: 12px/1.4 "Fira Code", Consolas, monospace;
+    }
+
+    h2 {
+      margin: 36px 0 12px;
+      padding-top: 18px;
+      border-top: 1px solid var(--line);
+      color: var(--text);
+      font: 800 21px/1.2 "Fira Code", Consolas, monospace;
+      letter-spacing: .05em;
+    }
+
+    p { color: var(--muted); }
+    code {
+      padding: 2px 5px;
+      border: 1px solid var(--line);
+      border-radius: 5px;
+      background: var(--surface);
+      color: var(--blue);
+      font: 12px/1.2 "Fira Code", Consolas, monospace;
+    }
+
+    .note {
       margin: 16px 0;
+      padding: 14px 18px;
+      border-left: 3px solid var(--crimson);
+      background: var(--surface);
+      color: var(--muted);
+    }
+
+    .table-wrap { overflow-x: auto; margin: 14px 0 24px; }
+    table { width: 100%; min-width: 760px; border-collapse: collapse; font-size: 13px; }
+    th, td { padding: 12px 13px; border: 1px solid var(--line); vertical-align: top; text-align: left; }
+    th { background: var(--surface-2); color: var(--text); font: 800 11px/1.4 "Fira Code", Consolas, monospace; letter-spacing: .06em; }
+    td { color: var(--muted); }
+    td strong { color: var(--text); }
+
+    .snake {
+      width: 100%;
+      min-height: 70px;
+      object-fit: contain;
+      margin: 14px 0 26px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: var(--surface);
+    }
+
+    .footer {
+      margin-top: 38px;
+      padding: 24px 0 4px;
+      border-top: 1px solid var(--line);
+      text-align: center;
+      color: var(--muted);
+    }
+
+    .footer strong { display: block; color: var(--text); font: 900 20px/1.2 "Fira Code", Consolas, monospace; }
+    .footer small { display: block; margin-top: 8px; }
+
+    @media (max-width: 720px) {
+      .shell { width: min(100% - 18px, 1120px); margin-top: 9px; }
+      main { padding: 12px; border-radius: 12px; }
+      .preview-bar { align-items: flex-start; flex-direction: column; }
+      h2 { font-size: 17px; }
+      p { font-size: 14px; }
     }
   </style>
 </head>
 <body>
-
-  <div class="preview-header">
-    <div class="brand">
-      <span>⚡</span>
-      <span>GitHub Profile Playbook Preview — Sawan Sahani (@Sawan017)</span>
-      <span class="tag">PLAYBOOK EDITION</span>
+  <div class="shell">
+    <div class="preview-bar">
+      <span><strong>SAWAN017</strong> / local profile preview</span>
+      <span class="tag">5 self-contained SVGs · one live contribution visualization</span>
     </div>
-    <div style="color: var(--fg-secondary); font-size: 12px;">
-      5 Core Animated SVGs &bull; Self-Contained Alpha Character &bull; True Data
-    </div>
-  </div>
 
-  <div class="markdown-body">
-    <!-- Hero Banner -->
-    <div style="text-align: center;">
-      <img src="./assets/hero.svg?v=1" alt="Hero Banner" width="100%" />
-      
-      <div class="button-row">
-        <a href="https://github.com/Sawan017"><img src="https://img.shields.io/badge/GitHub-Sawan017-0D1322?style=for-the-badge&logo=github&logoColor=F0F6FC&labelColor=070B16" alt="GitHub" /></a>
-        <a href="https://leetcode.com/u/Sawan017/"><img src="https://img.shields.io/badge/LeetCode-Sawan017-0D1322?style=for-the-badge&logo=leetcode&logoColor=FFA116&labelColor=070B16" alt="LeetCode" /></a>
-        <a href="https://codeforces.com/profile/Sawan017"><img src="https://img.shields.io/badge/Codeforces-Sawan017-0D1322?style=for-the-badge&logo=codeforces&logoColor=247BFF&labelColor=070B16" alt="Codeforces" /></a>
-        <a href="mailto:sawansahani017@gmail.com"><img src="https://img.shields.io/badge/Email-sawansahani017%40gmail.com-0D1322?style=for-the-badge&logo=gmail&logoColor=FF354F&labelColor=070B16" alt="Email" /></a>
+    <main>
+      <img class="hero" src="./assets/hero.svg?v=2" alt="Animated Sawan Sahani profile introduction" />
+
+      <div class="links">
+        <a href="https://github.com/Sawan017">GitHub / @Sawan017</a>
+        <a href="https://leetcode.com/u/Sawan017/">LeetCode / Sawan017</a>
+        <a href="https://codeforces.com/profile/Sawan017">Codeforces / Sawan017</a>
       </div>
-    </div>
 
-    <hr />
+      <h2>01 / ABOUT</h2>
+      <img class="art" src="./assets/about-life.svg?v=2" alt="About Sawan Sahani" />
+      <p>I am <strong>Sawan Sahani</strong> — a Computer Science &amp; Engineering undergraduate and developer building useful software, strengthening DSA, and learning full-stack engineering.</p>
 
-    <!-- 01 ABOUT -->
-    <h2>👨‍💻 About Me</h2>
-    <div style="text-align: center; margin-bottom: 16px;">
-      <img src="./assets/about-life.svg?v=1" alt="About Me" width="100%" />
-    </div>
-    <p>
-      Hello! I am <b>Sawan Sahani</b> (<a href="https://github.com/Sawan017">@Sawan017</a>), a Computer Science &amp; Engineering undergraduate focused on architecting resilient full-stack web platforms, interactive 3D web environments, and mastering asymptotic algorithmic problem-solving in <b>C++20</b>.
-    </p>
+      <h2>02 / RECOGNITION</h2>
+      <div class="note"><strong>Verified only.</strong> No public awards, certifications, or formal recognitions are exposed by the current profile and repository set, so this preview does not invent any.</div>
 
-    <hr />
+      <h2>03 / PROJECT RADAR</h2>
+      <p>Public evidence is kept separate from work that still needs a public URL.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Project</th><th>Public evidence</th><th>Verified stack / scope</th><th>Links</th></tr></thead>
+          <tbody>
+            <tr><td><strong>01 / ARINOVA</strong><br /><small>developer career RPG</small></td><td>The public <code>CodeAscend</code> repository currently documents ARINOVA as an interactive developer career RPG.</td><td><code>React</code> · <code>TypeScript</code> · <code>Vite</code> · <code>Three.js</code> · <code>R3F</code> · <code>Supabase</code></td><td><a href="https://github.com/Sawan017/CodeAscend">public repo</a></td></tr>
+            <tr><td><strong>02 / SourCa</strong><br /><small>assessment / placement concept</small></td><td>No public repository named <code>SourCa</code> was found under <code>@Sawan017</code> during the October 26, 2026 check.</td><td><em>Awaiting a public repository or verified project brief.</em></td><td>—</td></tr>
+            <tr><td><strong>03 / CodeAscend</strong><br /><small>developer growth platform</small></td><td>GitHub describes it as “A personal developer growth and learning progress platform.”</td><td><code>TypeScript</code> · <code>PL/pgSQL</code> · <code>CSS</code> · <code>JavaScript</code> · <code>HTML</code> · <code>PowerShell</code></td><td><a href="https://github.com/Sawan017/CodeAscend">repository</a></td></tr>
+            <tr><td><strong>04 / Algorithmic Solutions</strong><br /><small>competitive programming</small></td><td>Public work is split into <code>leetcode-solutions</code> and <code>codeforces-solutions</code>, with visible C++ and C files.</td><td><code>C++</code> · <code>C</code> · problem solving</td><td><a href="https://github.com/Sawan017/leetcode-solutions">LeetCode</a><br /><a href="https://github.com/Sawan017/codeforces-solutions">Codeforces</a></td></tr>
+          </tbody>
+        </table>
+      </div>
 
-    <!-- 02 FEATURED PROJECTS -->
-    <h2>🚀 Featured Projects</h2>
-    <p>
-      Production-ready systems, architectural prototypes, and algorithmic implementations.
-    </p>
+      <h2>04 / STACK</h2>
+      <img class="art" src="./assets/stack.svg?v=2" alt="Technology stack with orbital layouts" />
 
-    <table>
-      <thead>
-        <tr>
-          <th>Project</th>
-          <th>Description</th>
-          <th>Core Stack</th>
-          <th>Links</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><b>ARINOVA</b></td>
-          <td><b>Gamified Developer Career RPG &amp; 3D Interactive Realm</b><br />An interactive 3D developer universe transforming real coding quests and progression milestones into an engaging journey.</td>
-          <td><code>React 19</code><br /><code>TypeScript</code><br /><code>Three.js / R3F</code><br /><code>Supabase</code><br /><code>Monaco Editor</code><br /><code>Tailwind CSS</code></td>
-          <td><a href="https://github.com/Sawan017/ARINOVA">📦 Repository</a><br /><a href="https://github.com/Sawan017/ARINOVA">🎮 Live Demo</a></td>
-        </tr>
-        <tr>
-          <td><b>SourCa</b></td>
-          <td><b>Developer Assessment &amp; AI Placement Engine</b><br />Intelligent technical evaluation engine that conducts automated coding interviews, contextual assessments, and recruiter analytics.</td>
-          <td><code>Next.js 16</code><br /><code>TypeScript</code><br /><code>Google GenAI</code><br /><code>Supabase SSR</code><br /><code>PostgreSQL</code><br /><code>Tailwind CSS v4</code></td>
-          <td><a href="https://github.com/Sawan017/SourCa">📦 Repository</a><br /><a href="https://github.com/Sawan017/SourCa">⚡ Live Engine</a></td>
-        </tr>
-        <tr>
-          <td><b>CodeAscend</b></td>
-          <td><b>Skill Roadmap &amp; Milestone Trajectory Tracker</b><br />A comprehensive skill roadmap and milestone tracking platform helping developers visualize learning curves and career velocity.</td>
-          <td><code>React</code><br /><code>TypeScript</code><br /><code>Supabase</code><br /><code>Tailwind CSS</code><br /><code>REST APIs</code><br /><code>Vite</code></td>
-          <td><a href="https://github.com/Sawan017/CodeAscend">📦 Repository</a></td>
-        </tr>
-        <tr>
-          <td><b>Algorithmic Solutions</b></td>
-          <td><b>High-Performance C++20 Core &amp; Competitive DSA</b><br />Rigorous problem-solving repository implementing advanced data structures, graph theory, and dynamic programming with strict asymptotic bounds.</td>
-          <td><code>C++20</code><br /><code>STL</code><br /><code>Data Structures</code><br /><code>Graph Algorithms</code><br /><code>Dynamic Programming</code></td>
-          <td><a href="https://github.com/Sawan017/DSA">📦 Repository</a></td>
-        </tr>
-      </tbody>
-    </table>
+      <h2>05 / DEVELOPER ID</h2>
+      <img class="art" src="./assets/id-dashboard.svg?v=2" alt="Hanging developer identity card" />
 
-    <hr />
+      <h2>06 / GITHUB SIGNAL</h2>
+      <p>Snapshot checked on <strong>October 26, 2026</strong> from the public profile.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Signal</th><th>Value</th><th>Source</th></tr></thead>
+          <tbody>
+            <tr><td>Public repositories</td><td><strong>6</strong></td><td><a href="https://github.com/Sawan017?tab=repositories">GitHub profile</a></td></tr>
+            <tr><td>Followers</td><td><strong>1</strong></td><td><a href="https://github.com/Sawan017">GitHub profile</a></td></tr>
+            <tr><td>Following</td><td><strong>0</strong></td><td><a href="https://github.com/Sawan017">GitHub profile</a></td></tr>
+            <tr><td>Profile created</td><td><strong>April 3, 2026</strong></td><td><a href="https://github.com/Sawan017">GitHub profile</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <img class="snake" src="https://raw.githubusercontent.com/Sawan017/Sawan017/output/github-contribution-grid-snake-dark.svg?v=2" alt="Sawan017 GitHub contribution activity" />
 
-    <!-- 03 TECH STACK -->
-    <h2>🛠️ Technology Stack</h2>
-    <div style="text-align: center; margin-bottom: 20px;">
-      <img src="./assets/stack.svg?v=1" alt="Technology Stack" width="100%" />
-    </div>
-    <div style="text-align: center; margin: 16px 0;">
-      <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=cpp,ts,js,react,nextjs,threejs,nodejs,postgres,supabase,tailwind,git,linux,postman,docker,python&theme=dark" alt="Technology Stack Icons" />
-      </a>
-    </div>
+      <h2>07 / CONNECT</h2>
+      <img class="art" src="./assets/connect.svg?v=2" alt="Connect with Sawan017" />
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Channel</th><th>Open</th><th>Use it for</th></tr></thead>
+          <tbody>
+            <tr><td><strong>GitHub</strong></td><td><a href="https://github.com/Sawan017">github.com/Sawan017</a></td><td>repositories, profile README, and open-source work</td></tr>
+            <tr><td><strong>LeetCode</strong></td><td><a href="https://leetcode.com/u/Sawan017/">leetcode.com/u/Sawan017</a></td><td>algorithm practice</td></tr>
+            <tr><td><strong>Codeforces</strong></td><td><a href="https://codeforces.com/profile/Sawan017">codeforces.com/profile/Sawan017</a></td><td>contests and problem solving</td></tr>
+          </tbody>
+        </table>
+      </div>
 
-    <hr />
-
-    <!-- 04 DEVELOPER ID -->
-    <h2>🪪 Developer Identity</h2>
-    <div style="text-align: center; margin-bottom: 20px;">
-      <img src="./assets/id-dashboard.svg?v=1" alt="Developer ID" width="100%" />
-    </div>
-
-    <hr />
-
-    <!-- 05 AUTHENTIC ACTIVITY -->
-    <h2>📊 Authentic GitHub Activity &amp; Statistics</h2>
-    <div style="text-align: center; margin: 20px 0;">
-      <img src="https://raw.githubusercontent.com/Sawan017/Sawan017/output/github-contribution-grid-snake-dark.svg" alt="Sawan Sahani's Authentic Contribution Snake" width="100%" />
-    </div>
-
-    <div class="button-row">
-      <a href="https://github.com/Sawan017">
-        <img src="https://github-readme-stats.vercel.app/api?username=Sawan017&show_icons=true&bg_color=0D1322&title_color=F0F6FC&icon_color=247BFF&text_color=8B949E&border_color=1C2B4B&hide_border=false" alt="Sawan Sahani's GitHub Stats" />
-      </a>
-      <a href="https://github.com/Sawan017">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sawan017&background=0D1322&stroke=1C2B4B&border=1C2B4B&ring=247BFF&fire=FF354F&currStreakNum=F0F6FC&sideNums=F0F6FC&currStreakLabel=FF354F&sideLabels=8B949E&dates=8B949E" alt="Sawan Sahani's Streak Stats" />
-      </a>
-    </div>
-
-    <hr />
-
-    <!-- 06 CONNECT -->
-    <h2>📬 Let's Connect</h2>
-    <div style="text-align: center; margin-bottom: 20px;">
-      <img src="./assets/connect.svg?v=1" alt="Connect with Sawan Sahani" width="100%" />
-    </div>
-
-    <div class="button-row">
-      <a href="https://github.com/Sawan017"><img src="https://img.shields.io/badge/GitHub-Sawan017-0D1322?style=for-the-badge&logo=github&logoColor=F0F6FC&labelColor=070B16" alt="GitHub" /></a>
-      <a href="https://leetcode.com/u/Sawan017/"><img src="https://img.shields.io/badge/LeetCode-Sawan017-0D1322?style=for-the-badge&logo=leetcode&logoColor=FFA116&labelColor=070B16" alt="LeetCode" /></a>
-      <a href="https://codeforces.com/profile/Sawan017"><img src="https://img.shields.io/badge/Codeforces-Sawan017-0D1322?style=for-the-badge&logo=codeforces&logoColor=247BFF&labelColor=070B16" alt="Codeforces" /></a>
-      <a href="mailto:sawansahani017@gmail.com"><img src="https://img.shields.io/badge/Email-sawansahani017%40gmail.com-0D1322?style=for-the-badge&logo=gmail&logoColor=FF354F&labelColor=070B16" alt="Email" /></a>
-    </div>
-
-    <div style="text-align: center; margin-top: 32px; color: var(--fg-secondary); font-size: 11px;">
-      &copy; 2026 Sawan Sahani &bull; Handcrafted Profile Architecture &bull; Built with The Profile Playbook
-    </div>
+      <div class="footer">
+        <strong>BUILD. SHARE. IMPROVE.</strong>
+        <small>A Profile Playbook build for Sawan017 — public facts separated from future work.</small>
+      </div>
+    </main>
   </div>
-
 </body>
 </html>

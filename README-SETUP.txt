@@ -1,80 +1,113 @@
 ================================================================================
-SAWAN017 / THE PROFILE PLAYBOOK — SETUP & PUBLISH GUIDE
-Developer: Sawan Sahani (@Sawan017)
-Art Direction: Deep Navy (#070B16), Electric Blue (#247BFF), Crimson (#FF354F)
+SAWAN017 / PROFILE README — SETUP & PUBLISH GUIDE
 ================================================================================
 
-TABLE OF CONTENTS
-1. Overview & Playbook Architecture
-2. Five Core Animated SVGs
-3. Character Assets (True Alpha PNGs)
-4. Local Preview (preview.html)
-5. Publishing Instructions (GitHub Profile)
-6. Upload-Ready ZIP Package
+This package is a GitHub profile README, not a separate website. It follows the
+attached Profile Playbook: deep navy, electric blue, crimson accents, large type,
+rounded cards, five custom SVG sections, a real-alpha portrait pair, and one
+contribution visualization.
 
---------------------------------------------------------------------------------
-1. OVERVIEW & PLAYBOOK ARCHITECTURE
---------------------------------------------------------------------------------
-This profile is built directly from "The GitHub Profile Playbook" for Sawan017.
-It uses oversized display typography, generous spacing, rounded cards, subtle
-dot texture, gradient hairline borders, and clear hierarchy.
+PACKAGE CONTENTS
+----------------
+README.md
+assets/hero.svg
+assets/about-life.svg
+assets/stack.svg
+assets/id-dashboard.svg
+assets/connect.svg
+assets/id.png
+assets/right_pointing.png
+preview.html
+README-SETUP.txt
+.github/workflows/snake.yml
 
-No fake commit dashboards, no duplicate graphs, and no invented metrics.
-All five custom SVGs are 100% self-contained with base64 embedded character
-PNGs, ensuring they render flawlessly on GitHub camo without sub-resource drops.
+The two PNG files are true-alpha character assets. The SVGs embed the required
+PNG data directly, so the five profile graphics do not request external image
+files when GitHub renders them.
 
---------------------------------------------------------------------------------
-2. FIVE CORE ANIMATED SVGs
---------------------------------------------------------------------------------
-1. assets/hero.svg
-   - Typed greeting: ~ /sawan $ echo $GREETING
-   - Large rising-mask name reveal: Sawan Sahani
-   - Four cycling roles (12s loop, 3s each):
-     * CSE Undergraduate & Systems Developer
-     * Full-Stack Software Engineer
-     * C++20 Algorithmic & DSA Specialist
-     * Interactive 3D & Web Realm Architect
-   - Concise pitch and verified role/location row
-   - Stylized character portrait framed with electric-blue & crimson rim
+FACT-CHECKING RULE
+------------------
+The public GitHub profile was checked on October 26, 2026. The README uses:
 
-2. assets/about-life.svg
-   - Capabilities & Core Disciplines on the left
-   - 3-slide interests carousel on the right with segment progress bars (12s cycle, 4s per slide)
+- Sawan Sahani / @Sawan017, from the public profile.
+- 6 public repositories, 1 follower, 0 following, and an April 3, 2026 profile
+  creation date, from the public profile snapshot.
+- CodeAscend, leetcode-solutions, and codeforces-solutions, because those public
+  repositories are present under @Sawan017.
+- ARINOVA only as the project documented inside the public CodeAscend README.
+- SourCa as unverified because no public repository with that name was found.
 
-3. assets/stack.svg
-   - Three tilted elliptical orbits at distinct harmonic speeds (26s, 18s, 12s)
-   - Labels counter-rotate to remain upright, aligned, and readable
-   - Grouped stack chips: Languages, Frontend & 3D, Backend & DB, Workflow & Tools
+No awards, certifications, commit totals, streaks, project metrics, or private
+email address were invented. LeetCode and Codeforces links are retained from the
+existing profile links, but those platforms returned anti-bot challenge pages in
+the local HTTP check; review those links after publishing.
 
-4. assets/id-dashboard.svg
-   - Hanging lanyard ID card with metal clasp and neck cords
-   - Initial drop-in with damped pendulum settling, then gentle +/- 1.7° swing
-   - Barcode, chip, and subtle light sweep sheen across the card surface
+LOCAL PREVIEW
+-------------
+Open preview.html in a browser. For a local HTTP preview, run a static server
+from this repository root, then open /preview.html. The file is intentionally
+dependency-free and responsive.
 
-5. assets/connect.svg
-   - Right-pointing character on the left (true alpha PNG)
-   - Spacious social cards on the right with restrained nudging arrows
+This workspace also includes a tiny local preview server:
 
---------------------------------------------------------------------------------
-3. CHARACTER ASSETS
---------------------------------------------------------------------------------
-- assets/id.png: High-resolution stylized chest-up portrait crop with true alpha transparency.
-- assets/right_pointing.png: High-resolution waist-up pointing character with true alpha transparency.
+  node preview-server.js
 
---------------------------------------------------------------------------------
-4. LOCAL PREVIEW
---------------------------------------------------------------------------------
-Open preview.html directly in any browser:
-  start preview.html
+Then open http://127.0.0.1:4173/preview.html. It serves only the local preview
+files and is not part of the GitHub profile or upload ZIP.
 
---------------------------------------------------------------------------------
-5. PUBLISHING INSTRUCTIONS
---------------------------------------------------------------------------------
-1. Ensure files are committed to the repository root for username Sawan017.
-2. The image references in README.md use:
-   ![Intro](./assets/hero.svg?v=1)
-   ![About](./assets/about-life.svg?v=1)
-   ![Stack](./assets/stack.svg?v=1)
-   ![ID](./assets/id-dashboard.svg?v=1)
-   ![Connect](./assets/connect.svg?v=1)
-3. Visit https://github.com/Sawan017 to view your live profile!
+REBUILD THE FIVE SVGs
+---------------------
+The reproducible generator is build-profile.js. It reads assets/id.png and
+assets/right_pointing.png, embeds them as data URIs, and writes:
+
+  node build-profile.js
+
+The generated SVGs use CSS animations with readable default states and a
+prefers-reduced-motion fallback. They contain no JavaScript, foreignObject, or
+external asset request.
+
+VERIFY BEFORE UPLOAD
+--------------------
+Run the focused audit:
+
+  node verify-profile.js
+
+The audit checks required files, local README wiring, embedded image data,
+transparent PNG corners, SVG structure, unsupported external image references,
+and duplicate contribution visualizations.
+
+The intended render checks are:
+
+  - hero.svg, about-life.svg, stack.svg, id-dashboard.svg, connect.svg
+  - 0s, 2s, 5s, 9s, and 13s animation snapshots
+  - reduced-motion / static fallback state
+  - an img-element render, not only an inline-SVG preview
+  - mobile-width readability and clipping
+
+The browser preview is evidence for local rendering only. GitHub may sanitize
+some SVG features, so the final check must still be done on the live profile.
+
+PUBLISH TO THE PROFILE REPOSITORY
+---------------------------------
+1. Open https://github.com/Sawan017/Sawan017.
+2. Replace the old README.md with the new README.md.
+3. Upload the complete assets/ folder, preserving filenames and case.
+4. Keep .github/workflows/snake.yml if the contribution snake should refresh.
+5. Commit with a clear message such as “Build animated profile README”.
+6. Visit https://github.com/Sawan017 and check all five graphics, project links,
+   transparency, mobile width, and the contribution image.
+
+Do not upload only the ZIP archive. GitHub needs README.md and the actual
+assets/ files in the profile repository.
+
+UPLOAD-READY ZIP
+----------------
+The repository-level archive is:
+
+  sawan-github-profile-upload.zip
+
+It contains the README, five SVGs, both PNG character assets, preview.html,
+README-SETUP.txt, and the contribution workflow. It intentionally excludes the
+local build and audit scripts.
+
+No push or publish action was performed by this build.
