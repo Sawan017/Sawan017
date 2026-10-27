@@ -7,7 +7,9 @@
   &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="https://leetcode.com/u/Sawan017/">LeetCode / Sawan017</a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://codeforces.com/profile/Sawan017">Codeforces / Sawan017</a>
+  <a href="https://codeforces.com/profile/sawan_sahani">Codeforces / sawan_sahani</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:sunnysahny21@gmail.com">Email / sunnysahny21@gmail.com</a>
 </p>
 
 </div>
@@ -113,7 +115,8 @@ Snapshot checked on **October 26, 2026** from the public profile:
   <tbody>
     <tr><td><strong>GitHub</strong></td><td><a href="https://github.com/Sawan017">github.com/Sawan017</a></td><td>repositories, profile README, and open-source work</td></tr>
     <tr><td><strong>LeetCode</strong></td><td><a href="https://leetcode.com/u/Sawan017/">leetcode.com/u/Sawan017</a></td><td>algorithm practice</td></tr>
-    <tr><td><strong>Codeforces</strong></td><td><a href="https://codeforces.com/profile/Sawan017">codeforces.com/profile/Sawan017</a></td><td>contests and problem solving</td></tr>
+    <tr><td><strong>Codeforces</strong></td><td><a href="https://codeforces.com/profile/sawan_sahani">codeforces.com/profile/sawan_sahani</a></td><td>contests and problem solving</td></tr>
+    <tr><td><strong>Email</strong></td><td><a href="mailto:sunnysahny21@gmail.com">sunnysahny21@gmail.com</a></td><td>direct contact</td></tr>
   </tbody>
 </table>
 
